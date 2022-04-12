@@ -1,9 +1,9 @@
 # https://www.youtube.com/watch?v=9N6a-VLBa2I
 
+''' Javascript Object notation'''
 import json
 
 people_string = '''
-
 {
     "people": [
         {
@@ -21,3 +21,7 @@ people_string = '''
     ]
 }
 '''
+
+data = json.loads(people_string)
+
+print(data)
