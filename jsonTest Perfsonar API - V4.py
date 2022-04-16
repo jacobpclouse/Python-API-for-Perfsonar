@@ -44,7 +44,7 @@ def defang_datetime():
     return current_datetime
 
 
-#function to write out to file
+# function to write out to file
 def writeOutToFile(outgoingData,currentDatetime,filenamePrefix):
     with open(f'{filenamePrefix}{currentDatetime}.json', 'a') as z:
         json.dump(outgoingData,z,indent=2)
