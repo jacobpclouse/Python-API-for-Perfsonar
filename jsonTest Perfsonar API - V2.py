@@ -21,9 +21,25 @@ data = json.loads(source)
 # add formatting
 print(json.dumps(data, indent=2))
 
-# create and write out server data
-with open('My_Perfsonar_Server_jake_sorted.json', 'w') as z:
+
+for item in data:
+    # will print originating perfsonar node for the item
+    print(item['input-destination'])
+
+    # will print the unique uri for the originating perfsonar node
+    print(item['metadata-key'])
+
+    # print space seperator
+    print(' ')
+    print('-=-=-=-=-=-=-=-=-=-=-=-')
+    print(' ')
+
+
+# create and write out server data 
+
+with open('My_Perfsonar_Server_jake_sorted_2.json', 'w') as z:
     json.dump(data, z, indent=2,sort_keys=True)
+''''''
 
 ## THIS is how you grab data from the api, format it as a json and then output it with the correct info
 
