@@ -1,0 +1,43 @@
+{
+  "url": "http://192.168.50.190/esmond/perfsonar/archive/01dc42b87a854227b2cb5b7380efd8c7/?format=json",
+  "metadata-key": "01dc42b87a854227b2cb5b7380efd8c7",
+  "subject-type": "point-to-point",
+  "event-types": [
+    {
+      "base-uri": "/esmond/perfsonar/archive/01dc42b87a854227b2cb5b7380efd8c7/failures/base",
+      "event-type": "failures",
+      "time-updated": null,
+      "summaries": []
+    },
+    {
+      "base-uri": "/esmond/perfsonar/archive/01dc42b87a854227b2cb5b7380efd8c7/packet-trace/base",
+      "event-type": "packet-trace",
+      "time-updated": 1649571992,
+      "summaries": []
+    },
+    {
+      "base-uri": "/esmond/perfsonar/archive/01dc42b87a854227b2cb5b7380efd8c7/path-mtu/base",
+      "event-type": "path-mtu",
+      "time-updated": null,
+      "summaries": []
+    },
+    {
+      "base-uri": "/esmond/perfsonar/archive/01dc42b87a854227b2cb5b7380efd8c7/pscheduler-run-href/base",
+      "event-type": "pscheduler-run-href",
+      "time-updated": 1649571992,
+      "summaries": []
+    }
+  ],
+  "source": "192.168.50.190",
+  "destination": "212.111.192.61",
+  "measurement-agent": "192.168.50.190",
+  "tool-name": "pscheduler/traceroute",
+  "input-source": "192.168.50.190",
+  "input-destination": "kv-core-ps1-v4.uran.net.ua",
+  "ip-packet-size": "40",
+  "pscheduler-reference-psconfig-created-by-user-agent": "psconfig-pscheduler-agent",
+  "pscheduler-reference-psconfig-created-by-uuid": "3CB744B0-A6B9-11EC-BE86-943044AEC145",
+  "pscheduler-test-type": "trace",
+  "time-duration": "8.0",
+  "uri": "/esmond/perfsonar/archive/01dc42b87a854227b2cb5b7380efd8c7/"
+}
