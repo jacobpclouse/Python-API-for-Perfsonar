@@ -61,8 +61,8 @@ with urlopen("http://192.168.50.190/esmond/perfsonar/archive/") as response:
 # take source data, load as json and move to data var
 data = json.loads(source)
 
-# add formatting
-print(json.dumps(data, indent=2))
+# print out and add formatting
+#print(json.dumps(data, indent=2))
 
 '''
 # grabbing name and key of data
@@ -87,6 +87,10 @@ for item in data:
 for item in data:
     # incriment count
     count = count + 1
+
+    # print out base uri
+    print(item['event-types'])
+    print(' ')
 
     # will print originating perfsonar node for the item
     origin = item['input-destination']
