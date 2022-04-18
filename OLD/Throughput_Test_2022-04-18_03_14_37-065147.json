@@ -1,0 +1,501 @@
+[
+  {
+    "url": "http://192.168.50.190/esmond/perfsonar/archive/1d904157253a4609ad80f340937dcc5e/",
+    "metadata-key": "1d904157253a4609ad80f340937dcc5e",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/1d904157253a4609ad80f340937dcc5e/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/1d904157253a4609ad80f340937dcc5e/packet-retransmits/base",
+        "event-type": "packet-retransmits",
+        "time-updated": 1650213839,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/1d904157253a4609ad80f340937dcc5e/packet-retransmits-subintervals/base",
+        "event-type": "packet-retransmits-subintervals",
+        "time-updated": 1650213839,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/1d904157253a4609ad80f340937dcc5e/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1650213839,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/1d904157253a4609ad80f340937dcc5e/throughput/base",
+        "event-type": "throughput",
+        "time-updated": 1650213839,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/1d904157253a4609ad80f340937dcc5e/throughput/averages/86400",
+            "summary-type": "average",
+            "summary-window": "86400",
+            "time-updated": 1650213839
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/1d904157253a4609ad80f340937dcc5e/throughput-subintervals/base",
+        "event-type": "throughput-subintervals",
+        "time-updated": 1650213839,
+        "summaries": []
+      }
+    ],
+    "source": "192.168.50.190",
+    "destination": "212.111.192.61",
+    "measurement-agent": "192.168.50.190",
+    "tool-name": "pscheduler/iperf3",
+    "input-source": "192.168.50.190",
+    "input-destination": "kv-core-ps1-v4.uran.net.ua",
+    "ip-transport-protocol": "tcp",
+    "pscheduler-reference-psconfig-created-by-user-agent": "psconfig-pscheduler-agent",
+    "pscheduler-reference-psconfig-created-by-uuid": "3CB744B0-A6B9-11EC-BE86-943044AEC145",
+    "pscheduler-test-type": "throughput",
+    "time-duration": "29.0",
+    "uri": "/esmond/perfsonar/archive/1d904157253a4609ad80f340937dcc5e/",
+    "metadata-count-total": 8,
+    "metadata-previous-page": null,
+    "metadata-next-page": null
+  },
+  {
+    "url": "http://192.168.50.190/esmond/perfsonar/archive/1e21668ecf94497dac4568c8031e79df/",
+    "metadata-key": "1e21668ecf94497dac4568c8031e79df",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/1e21668ecf94497dac4568c8031e79df/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/1e21668ecf94497dac4568c8031e79df/packet-retransmits/base",
+        "event-type": "packet-retransmits",
+        "time-updated": 1650257319,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/1e21668ecf94497dac4568c8031e79df/packet-retransmits-subintervals/base",
+        "event-type": "packet-retransmits-subintervals",
+        "time-updated": 1650257319,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/1e21668ecf94497dac4568c8031e79df/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1650257319,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/1e21668ecf94497dac4568c8031e79df/throughput/base",
+        "event-type": "throughput",
+        "time-updated": 1650257319,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/1e21668ecf94497dac4568c8031e79df/throughput/averages/86400",
+            "summary-type": "average",
+            "summary-window": "86400",
+            "time-updated": 1650257319
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/1e21668ecf94497dac4568c8031e79df/throughput-subintervals/base",
+        "event-type": "throughput-subintervals",
+        "time-updated": 1650257319,
+        "summaries": []
+      }
+    ],
+    "source": "192.168.50.190",
+    "destination": "146.83.188.9",
+    "measurement-agent": "192.168.50.190",
+    "tool-name": "pscheduler/iperf3",
+    "input-source": "192.168.50.190",
+    "input-destination": "perfsonar.reuna.cl",
+    "ip-transport-protocol": "tcp",
+    "pscheduler-reference-psconfig-created-by-user-agent": "psconfig-pscheduler-agent",
+    "pscheduler-reference-psconfig-created-by-uuid": "3CB744B0-A6B9-11EC-BE86-943044AEC145",
+    "pscheduler-test-type": "throughput",
+    "time-duration": "29.0",
+    "uri": "/esmond/perfsonar/archive/1e21668ecf94497dac4568c8031e79df/"
+  },
+  {
+    "url": "http://192.168.50.190/esmond/perfsonar/archive/270d4db54c394cfdb264eabf7ed161f1/",
+    "metadata-key": "270d4db54c394cfdb264eabf7ed161f1",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/270d4db54c394cfdb264eabf7ed161f1/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/270d4db54c394cfdb264eabf7ed161f1/packet-retransmits/base",
+        "event-type": "packet-retransmits",
+        "time-updated": 1650265619,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/270d4db54c394cfdb264eabf7ed161f1/packet-retransmits-subintervals/base",
+        "event-type": "packet-retransmits-subintervals",
+        "time-updated": 1650265619,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/270d4db54c394cfdb264eabf7ed161f1/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1650265619,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/270d4db54c394cfdb264eabf7ed161f1/throughput/base",
+        "event-type": "throughput",
+        "time-updated": 1650265619,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/270d4db54c394cfdb264eabf7ed161f1/throughput/averages/86400",
+            "summary-type": "average",
+            "summary-window": "86400",
+            "time-updated": 1650265619
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/270d4db54c394cfdb264eabf7ed161f1/throughput-subintervals/base",
+        "event-type": "throughput-subintervals",
+        "time-updated": 1650265619,
+        "summaries": []
+      }
+    ],
+    "source": "192.168.50.190",
+    "destination": "128.114.109.66",
+    "measurement-agent": "192.168.50.190",
+    "tool-name": "pscheduler/iperf3",
+    "input-source": "192.168.50.190",
+    "input-destination": "dps10.ucsc.edu",
+    "ip-transport-protocol": "tcp",
+    "pscheduler-reference-psconfig-created-by-user-agent": "psconfig-pscheduler-agent",
+    "pscheduler-reference-psconfig-created-by-uuid": "3CB744B0-A6B9-11EC-BE86-943044AEC145",
+    "pscheduler-test-type": "throughput",
+    "time-duration": "29.0",
+    "uri": "/esmond/perfsonar/archive/270d4db54c394cfdb264eabf7ed161f1/"
+  },
+  {
+    "url": "http://192.168.50.190/esmond/perfsonar/archive/74591c2e24a64c3cb5945c48178f4c17/",
+    "metadata-key": "74591c2e24a64c3cb5945c48178f4c17",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/74591c2e24a64c3cb5945c48178f4c17/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/74591c2e24a64c3cb5945c48178f4c17/packet-retransmits/base",
+        "event-type": "packet-retransmits",
+        "time-updated": 1650259599,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/74591c2e24a64c3cb5945c48178f4c17/packet-retransmits-subintervals/base",
+        "event-type": "packet-retransmits-subintervals",
+        "time-updated": 1650259599,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/74591c2e24a64c3cb5945c48178f4c17/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1650259599,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/74591c2e24a64c3cb5945c48178f4c17/throughput/base",
+        "event-type": "throughput",
+        "time-updated": 1650259599,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/74591c2e24a64c3cb5945c48178f4c17/throughput/averages/86400",
+            "summary-type": "average",
+            "summary-window": "86400",
+            "time-updated": 1650259599
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/74591c2e24a64c3cb5945c48178f4c17/throughput-subintervals/base",
+        "event-type": "throughput-subintervals",
+        "time-updated": 1650259599,
+        "summaries": []
+      }
+    ],
+    "source": "192.168.50.190",
+    "destination": "196.200.160.9",
+    "measurement-agent": "192.168.50.190",
+    "tool-name": "pscheduler/iperf3",
+    "input-source": "192.168.50.190",
+    "input-destination": "ps.wan.noc.rabat.marwan.ma",
+    "ip-transport-protocol": "tcp",
+    "pscheduler-reference-psconfig-created-by-user-agent": "psconfig-pscheduler-agent",
+    "pscheduler-reference-psconfig-created-by-uuid": "3CB744B0-A6B9-11EC-BE86-943044AEC145",
+    "pscheduler-test-type": "throughput",
+    "time-duration": "29.0",
+    "uri": "/esmond/perfsonar/archive/74591c2e24a64c3cb5945c48178f4c17/"
+  },
+  {
+    "url": "http://192.168.50.190/esmond/perfsonar/archive/7ce7bd0610b64c9cad4007c55b36f515/",
+    "metadata-key": "7ce7bd0610b64c9cad4007c55b36f515",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/7ce7bd0610b64c9cad4007c55b36f515/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/7ce7bd0610b64c9cad4007c55b36f515/packet-retransmits/base",
+        "event-type": "packet-retransmits",
+        "time-updated": 1649403131,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/7ce7bd0610b64c9cad4007c55b36f515/packet-retransmits-subintervals/base",
+        "event-type": "packet-retransmits-subintervals",
+        "time-updated": 1649403131,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/7ce7bd0610b64c9cad4007c55b36f515/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1649403131,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/7ce7bd0610b64c9cad4007c55b36f515/throughput/base",
+        "event-type": "throughput",
+        "time-updated": 1649403131,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/7ce7bd0610b64c9cad4007c55b36f515/throughput/averages/86400",
+            "summary-type": "average",
+            "summary-window": "86400",
+            "time-updated": 1649403131
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/7ce7bd0610b64c9cad4007c55b36f515/throughput-subintervals/base",
+        "event-type": "throughput-subintervals",
+        "time-updated": 1649403131,
+        "summaries": []
+      }
+    ],
+    "source": "192.168.50.190",
+    "destination": "212.111.199.33",
+    "measurement-agent": "192.168.50.190",
+    "tool-name": "pscheduler/iperf3",
+    "input-source": "192.168.50.190",
+    "input-destination": "kharkiv-ps.uran.net.ua",
+    "ip-transport-protocol": "tcp",
+    "pscheduler-reference-psconfig-created-by-user-agent": "psconfig-pscheduler-agent",
+    "pscheduler-reference-psconfig-created-by-uuid": "3CB744B0-A6B9-11EC-BE86-943044AEC145",
+    "pscheduler-test-type": "throughput",
+    "time-duration": "29.0",
+    "uri": "/esmond/perfsonar/archive/7ce7bd0610b64c9cad4007c55b36f515/"
+  },
+  {
+    "url": "http://192.168.50.190/esmond/perfsonar/archive/cd75913943b94d75bdd95d9f9f747290/",
+    "metadata-key": "cd75913943b94d75bdd95d9f9f747290",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/cd75913943b94d75bdd95d9f9f747290/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/cd75913943b94d75bdd95d9f9f747290/packet-retransmits/base",
+        "event-type": "packet-retransmits",
+        "time-updated": 1650253501,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/cd75913943b94d75bdd95d9f9f747290/packet-retransmits-subintervals/base",
+        "event-type": "packet-retransmits-subintervals",
+        "time-updated": 1650253501,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/cd75913943b94d75bdd95d9f9f747290/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1650253501,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/cd75913943b94d75bdd95d9f9f747290/throughput/base",
+        "event-type": "throughput",
+        "time-updated": 1650253501,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/cd75913943b94d75bdd95d9f9f747290/throughput/averages/86400",
+            "summary-type": "average",
+            "summary-window": "86400",
+            "time-updated": 1650253501
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/cd75913943b94d75bdd95d9f9f747290/throughput-subintervals/base",
+        "event-type": "throughput-subintervals",
+        "time-updated": 1650253501,
+        "summaries": []
+      }
+    ],
+    "source": "192.168.50.190",
+    "destination": "118.138.254.213",
+    "measurement-agent": "192.168.50.190",
+    "tool-name": "pscheduler/iperf3",
+    "input-source": "192.168.50.190",
+    "input-destination": "vm-118-138-254-213.erc.monash.edu.au",
+    "ip-transport-protocol": "tcp",
+    "pscheduler-reference-psconfig-created-by-user-agent": "psconfig-pscheduler-agent",
+    "pscheduler-reference-psconfig-created-by-uuid": "3CB744B0-A6B9-11EC-BE86-943044AEC145",
+    "pscheduler-test-type": "throughput",
+    "time-duration": "29.0",
+    "uri": "/esmond/perfsonar/archive/cd75913943b94d75bdd95d9f9f747290/"
+  },
+  {
+    "url": "http://192.168.50.190/esmond/perfsonar/archive/d8e1ea7e2f96402199689e67c3e42c63/",
+    "metadata-key": "d8e1ea7e2f96402199689e67c3e42c63",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/d8e1ea7e2f96402199689e67c3e42c63/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/d8e1ea7e2f96402199689e67c3e42c63/packet-retransmits/base",
+        "event-type": "packet-retransmits",
+        "time-updated": 1650262995,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/d8e1ea7e2f96402199689e67c3e42c63/packet-retransmits-subintervals/base",
+        "event-type": "packet-retransmits-subintervals",
+        "time-updated": 1650262995,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/d8e1ea7e2f96402199689e67c3e42c63/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1650262995,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/d8e1ea7e2f96402199689e67c3e42c63/throughput/base",
+        "event-type": "throughput",
+        "time-updated": 1650262995,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/d8e1ea7e2f96402199689e67c3e42c63/throughput/averages/86400",
+            "summary-type": "average",
+            "summary-window": "86400",
+            "time-updated": 1650262995
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/d8e1ea7e2f96402199689e67c3e42c63/throughput-subintervals/base",
+        "event-type": "throughput-subintervals",
+        "time-updated": 1650262995,
+        "summaries": []
+      }
+    ],
+    "source": "192.168.50.190",
+    "destination": "185.147.24.228",
+    "measurement-agent": "192.168.50.190",
+    "tool-name": "pscheduler/iperf3",
+    "input-source": "192.168.50.190",
+    "input-destination": "perfsonar.physics.science.az",
+    "ip-transport-protocol": "tcp",
+    "pscheduler-reference-psconfig-created-by-user-agent": "psconfig-pscheduler-agent",
+    "pscheduler-reference-psconfig-created-by-uuid": "3CB744B0-A6B9-11EC-BE86-943044AEC145",
+    "pscheduler-test-type": "throughput",
+    "time-duration": "29.0",
+    "uri": "/esmond/perfsonar/archive/d8e1ea7e2f96402199689e67c3e42c63/"
+  },
+  {
+    "url": "http://192.168.50.190/esmond/perfsonar/archive/df598b50ca064ff9bcb425a4cb7d3cce/",
+    "metadata-key": "df598b50ca064ff9bcb425a4cb7d3cce",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/df598b50ca064ff9bcb425a4cb7d3cce/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/df598b50ca064ff9bcb425a4cb7d3cce/packet-retransmits/base",
+        "event-type": "packet-retransmits",
+        "time-updated": 1650264623,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/df598b50ca064ff9bcb425a4cb7d3cce/packet-retransmits-subintervals/base",
+        "event-type": "packet-retransmits-subintervals",
+        "time-updated": 1650264624,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/df598b50ca064ff9bcb425a4cb7d3cce/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1650264624,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/df598b50ca064ff9bcb425a4cb7d3cce/throughput/base",
+        "event-type": "throughput",
+        "time-updated": 1650264623,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/df598b50ca064ff9bcb425a4cb7d3cce/throughput/averages/86400",
+            "summary-type": "average",
+            "summary-window": "86400",
+            "time-updated": 1650264623
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/df598b50ca064ff9bcb425a4cb7d3cce/throughput-subintervals/base",
+        "event-type": "throughput-subintervals",
+        "time-updated": 1650264624,
+        "summaries": []
+      }
+    ],
+    "source": "192.168.50.190",
+    "destination": "62.44.108.27",
+    "measurement-agent": "192.168.50.190",
+    "tool-name": "pscheduler/iperf3",
+    "input-source": "192.168.50.190",
+    "input-destination": "cloud.prjinr.fmi.uni-sofia.bg",
+    "ip-transport-protocol": "tcp",
+    "pscheduler-reference-psconfig-created-by-user-agent": "psconfig-pscheduler-agent",
+    "pscheduler-reference-psconfig-created-by-uuid": "3CB744B0-A6B9-11EC-BE86-943044AEC145",
+    "pscheduler-test-type": "throughput",
+    "time-duration": "29.0",
+    "uri": "/esmond/perfsonar/archive/df598b50ca064ff9bcb425a4cb7d3cce/"
+  }
+]
