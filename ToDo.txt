@@ -1,0 +1,13 @@
+To do:
+
+1) What tests do you want to graph? (WRITE THEM ALL OUT HERE)
+    a) Can you grab this data from your local server and from outside servers?
+
+2) Grab the JSON objects with Exploratory software
+    a) if you can, try and graph them with python as well
+
+3) write up the rest of the overview (your story with perfsonar)
+
+4) write up the rest of the documentation for Dr. Z
+
+5) submit draft to Dr. Z
