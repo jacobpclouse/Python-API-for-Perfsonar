@@ -28,8 +28,10 @@ outside_nodes = {
 # ----------
 
 import json
+from msilib.schema import Directory
 from urllib.request import urlopen
 import datetime
+import os
 
 # ----------
 # Functions:
@@ -47,8 +49,8 @@ def defang_datetime():
 
 
 # function to write out to file
-def writeOutToFile(outgoingData,currentDatetime,filenamePrefix):
-    with open(f'{filenamePrefix}{currentDatetime}.json', 'w') as z:
+def writeOutToFile(outgoingData,currentDatetime,filenamePrefix,outputDirectory):
+    with open(f'./{outputDirectory}/{filenamePrefix}{currentDatetime}.json', 'a') as z:
         json.dump(outgoingData,z,indent=2)
 
 
@@ -62,6 +64,27 @@ def openApiUri(sourced_server_IP,target_test_URI):
     outbound_data = json.loads(outbound_source)
 
     return outbound_data
+
+
+# make folder function
+# source: https://www.geeksforgeeks.org/create-a-directory-in-python/
+def makeFolder(directory):
+    
+    # Parent Directory path
+    parent_dir = "./"
+    
+    # Path
+    path = os.path.join(parent_dir, directory)
+    
+    # Create the directory
+    # 'GeeksForGeeks' in
+    # '/home / User / Documents'
+    os.mkdir(path)
+    print("Directory '% s' created" % directory)
+    
+    return directory
+
+
 
 
 # ----------
@@ -109,9 +132,16 @@ MAIN
 # Grab current date & time from function & store in variable
 use_this_datetime = defang_datetime()
 
+# iterate through and make folder ahead of time
+# use function to iterthe though dictionary and use each key name as a folder name
+
 
 # Itterating through the dictionary to get all the data
 for key in outside_nodes:
+
+    # Make output folder name and create new directory to store json files
+    newDirectory = f"_{key}_{use_this_datetime}"
+    makeFolder(newDirectory)
 
     # Itterating through all the test for each individual node
     for test in test_data_URIs:
@@ -132,7 +162,10 @@ for key in outside_nodes:
 
 
         # write out to file - event types 
-        writeOutToFile(data,use_this_datetime,current_server_prefix)
+        writeOutToFile(data,use_this_datetime,current_server_prefix,newDirectory)
+
+        # clear out uri
+        current_URI = ''
 
 
 
