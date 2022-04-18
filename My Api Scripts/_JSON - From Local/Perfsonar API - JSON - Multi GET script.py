@@ -48,7 +48,7 @@ def defang_datetime():
 
 # function to write out to file
 def writeOutToFile(outgoingData,currentDatetime,filenamePrefix):
-    with open(f'{filenamePrefix}{currentDatetime}.json', 'a') as z:
+    with open(f'{filenamePrefix}{currentDatetime}.json', 'w') as z:
         json.dump(outgoingData,z,indent=2)
 
 
@@ -92,8 +92,8 @@ test_data_URIs = {
     'Throughput_All':'/throughput/base',
     'Delay_All':'/histogram-rtt/base',
     'OWDelay_Base_All':'/histogram-owdelay/base',
-    'OWDelay_Aggregation_All':'/histogram-owdelay/aggregations',
-    'OWDelay_Statistics_All':'/histogram-owdelay/statistics/0',
+#    'OWDelay_Aggregation_All':'/histogram-owdelay/aggregations',
+#    'OWDelay_Statistics_All':'/histogram-owdelay/statistics',
     'Packet_Loss_All':'/packet-loss-rate/base',
     'Packet_Traces_All':'/packet-trace/base',
     'Subinterval_Data_All':'/packet-retransmits-subintervals/base'
@@ -119,13 +119,12 @@ for key in outside_nodes:
         # Current Request URI (ex: '/esmond/perfsonar/archive/' or '/esmond/perfsonar/archive/?event-type=throughput' )
         current_URI = f'{base_uri}{meta_key}{test_data_URIs[test]}'   
         print(current_URI)
-        
-    print("-=-=-=-=-")
-'''        
-        # This is the current test data being scraped:
-        current_scrap = 'Throughput_All_'
+
+        print("-=-=-=-=-")
+       
+
         # Current Prefix for this file
-        current_server_prefix = f'{current_scrap}_{key}_'
+        current_server_prefix = f'{test}_{key}_'
 
 
         # load data from api
@@ -134,7 +133,7 @@ for key in outside_nodes:
 
         # write out to file - event types 
         writeOutToFile(data,use_this_datetime,current_server_prefix)
-'''
+
 
 
 
