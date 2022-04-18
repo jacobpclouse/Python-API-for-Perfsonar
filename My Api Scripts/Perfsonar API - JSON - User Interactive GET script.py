@@ -6,6 +6,8 @@
 
 
 ''' Javascript Object notation '''
+
+# OUTSIDE NODES that we got the data from
 outside_nodes = {
   "kv-core-ps1-v4.uran.net.ua": "f967831a91d548369d4c1af50789c048",
   "kharkiv-ps.uran.net.ua": "f4944621ceff4e76905d28f6f5e77925",
@@ -18,6 +20,7 @@ outside_nodes = {
   "vm-118-138-254-213.erc.monash.edu.au": "d5da4cf79d1a4b798d19b49052a7b1a4",
   "perfsonar.physics.science.az": "d8e1ea7e2f96402199689e67c3e42c63"
 }
+
 
 
 # ----------
@@ -72,38 +75,70 @@ meta_key= outside_nodes["perfsonar.physics.science.az"]
 current_server_IP = '192.168.50.190'
 
 
-# Current Request URI (ex: '/esmond/perfsonar/archive/' or '/esmond/perfsonar/archive/?event-type=throughput' )
-current_URI = f'/esmond/perfsonar/archive/{meta_key}/throughput/base'
 # URI Throughput:           /esmond/perfsonar/archive/{meta_key}/throughput/base
 # URI Delay/One-way Delay:  /esmond/perfsonar/archive/{meta_key}/histogram-rtt/base
-#                           /esmond/perfsonar/archive/{meta_key}/histogram-owdelay/base
-# URI Packet Loss:          /esmond/perfsonar/archive/{meta_key}/
-# URI Packet Traces:        /esmond/perfsonar/archive/{meta_key}/
-# URISubinterval Data:      /esmond/perfsonar/archive/{meta_key}/
+# URI OWDelay Base:         /esmond/perfsonar/archive/{meta_key}/histogram-owdelay/base
+# URI OWDelay Aggregation:  /esmond/perfsonar/archive/{meta_key}/histogram-owdelay/aggregations
+# URI OWDelay Statistics:   /esmond/perfsonar/archive/{meta_key}/histogram-owdelay/statistics/0
+# URI Packet Loss:          /esmond/perfsonar/archive/{meta_key}/packet-loss-rate/base
+# URI Packet Traces:        /esmond/perfsonar/archive/{meta_key}/packet-trace/base
+# URI Subinterval Data:     /esmond/perfsonar/archive/{meta_key}/packet-retransmits-subintervals/base
 
+# Base URI to put before meta Key var
+base_uri = '/esmond/perfsonar/archive/'
 
+# Dictionary of all the test key and uri pairs to look at
+test_data_URIs = {
+    'Throughput_All':'/throughput/base',
+    'Delay_All':'/histogram-rtt/base',
+    'OWDelay_Base_All':'/histogram-owdelay/base',
+    'OWDelay_Aggregation_All':'/histogram-owdelay/aggregations',
+    'OWDelay_Statistics_All':'/histogram-owdelay/statistics/0',
+    'Packet_Loss_All':'/packet-loss-rate/base',
+    'Packet_Traces_All':'/packet-trace/base',
+    'Subinterval_Data_All':'/packet-retransmits-subintervals/base'
+}
 
+# Current Request URI (ex: '/esmond/perfsonar/archive/' or '/esmond/perfsonar/archive/?event-type=throughput' )
+#current_URI = f'{base_uri}{meta_key}/throughput/base'
 
 
 '''
 MAIN
 '''
-
-for key in outside_nodes:
-    
-    # Current Prefix for this file
-    current_server_prefix = f'{key}_'
-
-
-'''
 # Grab current date & time from function & store in variable
 use_this_datetime = defang_datetime()
 
 
-# load data from api
-data = openApiUri(current_server_IP,current_URI)
+# Itterating through the dictionary to get all the data
+for key in outside_nodes:
+
+    # Itterating through all the test for each individual node
+    for test in test_data_URIs:
+
+        # Current Request URI (ex: '/esmond/perfsonar/archive/' or '/esmond/perfsonar/archive/?event-type=throughput' )
+        current_URI = f'{base_uri}{meta_key}{test_data_URIs[test]}'   
+        print(current_URI)
+        
+    print("-=-=-=-=-")
+'''        
+        # This is the current test data being scraped:
+        current_scrap = 'Throughput_All_'
+        # Current Prefix for this file
+        current_server_prefix = f'{current_scrap}_{key}_'
 
 
-# write out to file - event types 
-writeOutToFile(data,use_this_datetime,current_server_prefix)
+        # load data from api
+        data = openApiUri(current_server_IP,current_URI)
+
+
+        # write out to file - event types 
+        writeOutToFile(data,use_this_datetime,current_server_prefix)
 '''
+
+
+
+
+
+
+
