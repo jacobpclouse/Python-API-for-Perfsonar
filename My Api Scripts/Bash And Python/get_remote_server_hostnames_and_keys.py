@@ -99,7 +99,7 @@ data = json.loads(source)
 
 for item in data:
     # will print originating perfsonar node for the item
-    print(item['input-destination'])
+    #print(item['input-destination'])
 
     # will print the unique uri for the originating perfsonar node
     print(item['metadata-key'])
