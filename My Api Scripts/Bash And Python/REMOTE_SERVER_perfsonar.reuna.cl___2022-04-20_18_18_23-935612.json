@@ -1,0 +1,4625 @@
+[
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/024fb652d69b4f8a9b8974143dc3f0cb/",
+    "metadata-key": "024fb652d69b4f8a9b8974143dc3f0cb",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/024fb652d69b4f8a9b8974143dc3f0cb/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/024fb652d69b4f8a9b8974143dc3f0cb/histogram-rtt/base",
+        "event-type": "histogram-rtt",
+        "time-updated": 1527632977,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/024fb652d69b4f8a9b8974143dc3f0cb/histogram-rtt/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1527632977
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/024fb652d69b4f8a9b8974143dc3f0cb/histogram-rtt/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1527632977
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/024fb652d69b4f8a9b8974143dc3f0cb/histogram-rtt/statistics/0",
+            "summary-type": "statistics",
+            "summary-window": "0",
+            "time-updated": 1527632977
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/024fb652d69b4f8a9b8974143dc3f0cb/histogram-rtt/statistics/3600",
+            "summary-type": "statistics",
+            "summary-window": "3600",
+            "time-updated": 1527632977
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/024fb652d69b4f8a9b8974143dc3f0cb/histogram-rtt/statistics/86400",
+            "summary-type": "statistics",
+            "summary-window": "86400",
+            "time-updated": 1527632977
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/024fb652d69b4f8a9b8974143dc3f0cb/histogram-ttl-reverse/base",
+        "event-type": "histogram-ttl-reverse",
+        "time-updated": 1527632977,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/024fb652d69b4f8a9b8974143dc3f0cb/packet-count-lost-bidir/base",
+        "event-type": "packet-count-lost-bidir",
+        "time-updated": 1527632977,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/024fb652d69b4f8a9b8974143dc3f0cb/packet-count-lost-bidir/aggregations/300",
+            "summary-type": "aggregation",
+            "summary-window": "300",
+            "time-updated": 1527632977
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/024fb652d69b4f8a9b8974143dc3f0cb/packet-count-lost-bidir/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1527632977
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/024fb652d69b4f8a9b8974143dc3f0cb/packet-count-lost-bidir/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1527632977
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/024fb652d69b4f8a9b8974143dc3f0cb/packet-count-sent/base",
+        "event-type": "packet-count-sent",
+        "time-updated": 1527632977,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/024fb652d69b4f8a9b8974143dc3f0cb/packet-count-sent/aggregations/300",
+            "summary-type": "aggregation",
+            "summary-window": "300",
+            "time-updated": 1527632977
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/024fb652d69b4f8a9b8974143dc3f0cb/packet-count-sent/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1527632977
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/024fb652d69b4f8a9b8974143dc3f0cb/packet-count-sent/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1527632977
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/024fb652d69b4f8a9b8974143dc3f0cb/packet-duplicates-bidir/base",
+        "event-type": "packet-duplicates-bidir",
+        "time-updated": 1527632977,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/024fb652d69b4f8a9b8974143dc3f0cb/packet-loss-rate-bidir/base",
+        "event-type": "packet-loss-rate-bidir",
+        "time-updated": 1527632977,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/024fb652d69b4f8a9b8974143dc3f0cb/packet-loss-rate-bidir/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1527632977
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/024fb652d69b4f8a9b8974143dc3f0cb/packet-loss-rate-bidir/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1527632977
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/024fb652d69b4f8a9b8974143dc3f0cb/packet-reorders-bidir/base",
+        "event-type": "packet-reorders-bidir",
+        "time-updated": 1527632977,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "198.129.254.22",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/ping",
+    "input-source": "146.83.188.9",
+    "input-destination": "198.129.254.22",
+    "ip-packet-size": "1000",
+    "ip-ttl": "255",
+    "pscheduler-test-type": "rtt",
+    "sample-size": "10",
+    "time-duration": "16.0",
+    "time-probe-interval": "1.0",
+    "uri": "/esmond/perfsonar/archive/024fb652d69b4f8a9b8974143dc3f0cb/",
+    "metadata-count-total": 70,
+    "metadata-previous-page": null,
+    "metadata-next-page": null
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/0284e8b16df14144b8fd6d5b3a72dd43/",
+    "metadata-key": "0284e8b16df14144b8fd6d5b3a72dd43",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/0284e8b16df14144b8fd6d5b3a72dd43/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/0284e8b16df14144b8fd6d5b3a72dd43/packet-retransmits/base",
+        "event-type": "packet-retransmits",
+        "time-updated": 1537037616,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/0284e8b16df14144b8fd6d5b3a72dd43/packet-retransmits-subintervals/base",
+        "event-type": "packet-retransmits-subintervals",
+        "time-updated": 1537037616,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/0284e8b16df14144b8fd6d5b3a72dd43/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1537037616,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/0284e8b16df14144b8fd6d5b3a72dd43/throughput/base",
+        "event-type": "throughput",
+        "time-updated": 1537037616,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/0284e8b16df14144b8fd6d5b3a72dd43/throughput/averages/86400",
+            "summary-type": "average",
+            "summary-window": "86400",
+            "time-updated": 1537037616
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/0284e8b16df14144b8fd6d5b3a72dd43/throughput-subintervals/base",
+        "event-type": "throughput-subintervals",
+        "time-updated": 1537037616,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "146.83.182.3",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/iperf3",
+    "input-source": "146.83.188.9",
+    "input-destination": "146.83.182.3",
+    "ip-transport-protocol": "tcp",
+    "pscheduler-reference-psconfig-created-by-user-agent": "psconfig-pscheduler-agent",
+    "pscheduler-reference-psconfig-created-by-uuid": "A58C3D20-9425-11E7-A1C8-A644737D27C9",
+    "pscheduler-test-type": "throughput",
+    "time-duration": "19.0",
+    "uri": "/esmond/perfsonar/archive/0284e8b16df14144b8fd6d5b3a72dd43/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/033cbfc277e4420cb5e4fe4b09caea4d/",
+    "metadata-key": "033cbfc277e4420cb5e4fe4b09caea4d",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/033cbfc277e4420cb5e4fe4b09caea4d/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/033cbfc277e4420cb5e4fe4b09caea4d/histogram-rtt/base",
+        "event-type": "histogram-rtt",
+        "time-updated": 1534459129,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/033cbfc277e4420cb5e4fe4b09caea4d/histogram-rtt/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1534459129
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/033cbfc277e4420cb5e4fe4b09caea4d/histogram-rtt/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1534459129
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/033cbfc277e4420cb5e4fe4b09caea4d/histogram-rtt/statistics/0",
+            "summary-type": "statistics",
+            "summary-window": "0",
+            "time-updated": 1534459129
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/033cbfc277e4420cb5e4fe4b09caea4d/histogram-rtt/statistics/3600",
+            "summary-type": "statistics",
+            "summary-window": "3600",
+            "time-updated": 1534459129
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/033cbfc277e4420cb5e4fe4b09caea4d/histogram-rtt/statistics/86400",
+            "summary-type": "statistics",
+            "summary-window": "86400",
+            "time-updated": 1534459129
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/033cbfc277e4420cb5e4fe4b09caea4d/histogram-ttl-reverse/base",
+        "event-type": "histogram-ttl-reverse",
+        "time-updated": 1534459129,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/033cbfc277e4420cb5e4fe4b09caea4d/packet-count-lost-bidir/base",
+        "event-type": "packet-count-lost-bidir",
+        "time-updated": 1534459129,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/033cbfc277e4420cb5e4fe4b09caea4d/packet-count-lost-bidir/aggregations/300",
+            "summary-type": "aggregation",
+            "summary-window": "300",
+            "time-updated": 1534459129
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/033cbfc277e4420cb5e4fe4b09caea4d/packet-count-lost-bidir/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1534459129
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/033cbfc277e4420cb5e4fe4b09caea4d/packet-count-lost-bidir/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1534459129
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/033cbfc277e4420cb5e4fe4b09caea4d/packet-count-sent/base",
+        "event-type": "packet-count-sent",
+        "time-updated": 1534459129,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/033cbfc277e4420cb5e4fe4b09caea4d/packet-count-sent/aggregations/300",
+            "summary-type": "aggregation",
+            "summary-window": "300",
+            "time-updated": 1534459129
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/033cbfc277e4420cb5e4fe4b09caea4d/packet-count-sent/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1534459129
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/033cbfc277e4420cb5e4fe4b09caea4d/packet-count-sent/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1534459129
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/033cbfc277e4420cb5e4fe4b09caea4d/packet-duplicates-bidir/base",
+        "event-type": "packet-duplicates-bidir",
+        "time-updated": 1534459129,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/033cbfc277e4420cb5e4fe4b09caea4d/packet-loss-rate-bidir/base",
+        "event-type": "packet-loss-rate-bidir",
+        "time-updated": 1534459129,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/033cbfc277e4420cb5e4fe4b09caea4d/packet-loss-rate-bidir/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1534459129
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/033cbfc277e4420cb5e4fe4b09caea4d/packet-loss-rate-bidir/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1534459129
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/033cbfc277e4420cb5e4fe4b09caea4d/packet-reorders-bidir/base",
+        "event-type": "packet-reorders-bidir",
+        "time-updated": 1534459129,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/033cbfc277e4420cb5e4fe4b09caea4d/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1534459129,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "198.129.254.22",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/ping",
+    "input-source": "146.83.188.9",
+    "input-destination": "198.129.254.22",
+    "ip-packet-size": "1000",
+    "ip-ttl": "255",
+    "pscheduler-test-type": "rtt",
+    "sample-size": "10",
+    "time-duration": "16.0",
+    "time-probe-interval": "1.0",
+    "uri": "/esmond/perfsonar/archive/033cbfc277e4420cb5e4fe4b09caea4d/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/0d328cdc64874b40a0fd7d30d3eb04c6/",
+    "metadata-key": "0d328cdc64874b40a0fd7d30d3eb04c6",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/0d328cdc64874b40a0fd7d30d3eb04c6/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/0d328cdc64874b40a0fd7d30d3eb04c6/packet-retransmits/base",
+        "event-type": "packet-retransmits",
+        "time-updated": 1535136826,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/0d328cdc64874b40a0fd7d30d3eb04c6/packet-retransmits-subintervals/base",
+        "event-type": "packet-retransmits-subintervals",
+        "time-updated": 1535136826,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/0d328cdc64874b40a0fd7d30d3eb04c6/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1535136826,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/0d328cdc64874b40a0fd7d30d3eb04c6/throughput/base",
+        "event-type": "throughput",
+        "time-updated": 1535136826,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/0d328cdc64874b40a0fd7d30d3eb04c6/throughput/averages/86400",
+            "summary-type": "average",
+            "summary-window": "86400",
+            "time-updated": 1535136826
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/0d328cdc64874b40a0fd7d30d3eb04c6/throughput-subintervals/base",
+        "event-type": "throughput-subintervals",
+        "time-updated": 1535136826,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "200.17.29.243",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/iperf3",
+    "input-source": "146.83.188.9",
+    "input-destination": "ps-bw.sciencedmz.usp.br",
+    "ip-transport-protocol": "tcp",
+    "pscheduler-reference-psconfig-created-by-user-agent": "psconfig-pscheduler-agent",
+    "pscheduler-reference-psconfig-created-by-uuid": "A58C3D20-9425-11E7-A1C8-A644737D27C9",
+    "pscheduler-test-type": "throughput",
+    "time-duration": "29.0",
+    "uri": "/esmond/perfsonar/archive/0d328cdc64874b40a0fd7d30d3eb04c6/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/147788d5e6b8462d8a8a1995ffced873/",
+    "metadata-key": "147788d5e6b8462d8a8a1995ffced873",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/147788d5e6b8462d8a8a1995ffced873/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/147788d5e6b8462d8a8a1995ffced873/histogram-rtt/base",
+        "event-type": "histogram-rtt",
+        "time-updated": 1525371950,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/147788d5e6b8462d8a8a1995ffced873/histogram-rtt/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1525371950
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/147788d5e6b8462d8a8a1995ffced873/histogram-rtt/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1525371950
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/147788d5e6b8462d8a8a1995ffced873/histogram-rtt/statistics/0",
+            "summary-type": "statistics",
+            "summary-window": "0",
+            "time-updated": 1525371950
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/147788d5e6b8462d8a8a1995ffced873/histogram-rtt/statistics/3600",
+            "summary-type": "statistics",
+            "summary-window": "3600",
+            "time-updated": 1525371950
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/147788d5e6b8462d8a8a1995ffced873/histogram-rtt/statistics/86400",
+            "summary-type": "statistics",
+            "summary-window": "86400",
+            "time-updated": 1525371950
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/147788d5e6b8462d8a8a1995ffced873/histogram-ttl-reverse/base",
+        "event-type": "histogram-ttl-reverse",
+        "time-updated": 1525371950,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/147788d5e6b8462d8a8a1995ffced873/packet-count-lost-bidir/base",
+        "event-type": "packet-count-lost-bidir",
+        "time-updated": 1525371950,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/147788d5e6b8462d8a8a1995ffced873/packet-count-lost-bidir/aggregations/300",
+            "summary-type": "aggregation",
+            "summary-window": "300",
+            "time-updated": 1525371950
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/147788d5e6b8462d8a8a1995ffced873/packet-count-lost-bidir/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1525371950
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/147788d5e6b8462d8a8a1995ffced873/packet-count-lost-bidir/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1525371950
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/147788d5e6b8462d8a8a1995ffced873/packet-count-sent/base",
+        "event-type": "packet-count-sent",
+        "time-updated": 1525371950,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/147788d5e6b8462d8a8a1995ffced873/packet-count-sent/aggregations/300",
+            "summary-type": "aggregation",
+            "summary-window": "300",
+            "time-updated": 1525371950
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/147788d5e6b8462d8a8a1995ffced873/packet-count-sent/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1525371950
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/147788d5e6b8462d8a8a1995ffced873/packet-count-sent/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1525371950
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/147788d5e6b8462d8a8a1995ffced873/packet-duplicates-bidir/base",
+        "event-type": "packet-duplicates-bidir",
+        "time-updated": 1525371950,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/147788d5e6b8462d8a8a1995ffced873/packet-loss-rate-bidir/base",
+        "event-type": "packet-loss-rate-bidir",
+        "time-updated": 1525371950,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/147788d5e6b8462d8a8a1995ffced873/packet-loss-rate-bidir/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1525371950
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/147788d5e6b8462d8a8a1995ffced873/packet-loss-rate-bidir/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1525371950
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/147788d5e6b8462d8a8a1995ffced873/packet-reorders-bidir/base",
+        "event-type": "packet-reorders-bidir",
+        "time-updated": 1525371950,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "146.83.182.3",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/ping",
+    "input-source": "146.83.188.9",
+    "input-destination": "146.83.182.3",
+    "ip-packet-size": "1000",
+    "ip-ttl": "255",
+    "pscheduler-test-type": "rtt",
+    "sample-size": "10",
+    "time-duration": "16.0",
+    "time-probe-interval": "1.0",
+    "uri": "/esmond/perfsonar/archive/147788d5e6b8462d8a8a1995ffced873/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/14d24db0d8884162a878c21d503592df/",
+    "metadata-key": "14d24db0d8884162a878c21d503592df",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/14d24db0d8884162a878c21d503592df/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/14d24db0d8884162a878c21d503592df/packet-retransmits/base",
+        "event-type": "packet-retransmits",
+        "time-updated": 1527609856,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/14d24db0d8884162a878c21d503592df/packet-retransmits-subintervals/base",
+        "event-type": "packet-retransmits-subintervals",
+        "time-updated": 1527609856,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/14d24db0d8884162a878c21d503592df/throughput/base",
+        "event-type": "throughput",
+        "time-updated": 1527609856,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/14d24db0d8884162a878c21d503592df/throughput/averages/86400",
+            "summary-type": "average",
+            "summary-window": "86400",
+            "time-updated": 1527609856
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/14d24db0d8884162a878c21d503592df/throughput-subintervals/base",
+        "event-type": "throughput-subintervals",
+        "time-updated": 1527609856,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "146.83.182.3",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/iperf3",
+    "input-source": "146.83.188.9",
+    "input-destination": "146.83.182.3",
+    "bw-parallel-streams": "1",
+    "ip-transport-protocol": "tcp",
+    "pscheduler-test-type": "throughput",
+    "time-duration": "19.0",
+    "uri": "/esmond/perfsonar/archive/14d24db0d8884162a878c21d503592df/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/17916c11203e4b27b80857aeb608d34f/",
+    "metadata-key": "17916c11203e4b27b80857aeb608d34f",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/17916c11203e4b27b80857aeb608d34f/failures/base",
+        "event-type": "failures",
+        "time-updated": 1527200628,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/17916c11203e4b27b80857aeb608d34f/packet-trace/base",
+        "event-type": "packet-trace",
+        "time-updated": 1527632457,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/17916c11203e4b27b80857aeb608d34f/path-mtu/base",
+        "event-type": "path-mtu",
+        "time-updated": null,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "5.53.3.75",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/traceroute",
+    "input-source": "146.83.188.9",
+    "input-destination": "5.53.3.75",
+    "pscheduler-test-type": "trace",
+    "time-duration": "8.0",
+    "uri": "/esmond/perfsonar/archive/17916c11203e4b27b80857aeb608d34f/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/1d3ac99c07db47ea9fd7930245d16c0d/",
+    "metadata-key": "1d3ac99c07db47ea9fd7930245d16c0d",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/1d3ac99c07db47ea9fd7930245d16c0d/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/1d3ac99c07db47ea9fd7930245d16c0d/histogram-rtt/base",
+        "event-type": "histogram-rtt",
+        "time-updated": 1525373509,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/1d3ac99c07db47ea9fd7930245d16c0d/histogram-rtt/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1525373509
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/1d3ac99c07db47ea9fd7930245d16c0d/histogram-rtt/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1525373509
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/1d3ac99c07db47ea9fd7930245d16c0d/histogram-rtt/statistics/0",
+            "summary-type": "statistics",
+            "summary-window": "0",
+            "time-updated": 1525373509
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/1d3ac99c07db47ea9fd7930245d16c0d/histogram-rtt/statistics/3600",
+            "summary-type": "statistics",
+            "summary-window": "3600",
+            "time-updated": 1525373509
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/1d3ac99c07db47ea9fd7930245d16c0d/histogram-rtt/statistics/86400",
+            "summary-type": "statistics",
+            "summary-window": "86400",
+            "time-updated": 1525373509
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/1d3ac99c07db47ea9fd7930245d16c0d/histogram-ttl-reverse/base",
+        "event-type": "histogram-ttl-reverse",
+        "time-updated": 1525373509,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/1d3ac99c07db47ea9fd7930245d16c0d/packet-count-lost-bidir/base",
+        "event-type": "packet-count-lost-bidir",
+        "time-updated": 1525373509,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/1d3ac99c07db47ea9fd7930245d16c0d/packet-count-lost-bidir/aggregations/300",
+            "summary-type": "aggregation",
+            "summary-window": "300",
+            "time-updated": 1525373509
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/1d3ac99c07db47ea9fd7930245d16c0d/packet-count-lost-bidir/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1525373509
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/1d3ac99c07db47ea9fd7930245d16c0d/packet-count-lost-bidir/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1525373509
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/1d3ac99c07db47ea9fd7930245d16c0d/packet-count-sent/base",
+        "event-type": "packet-count-sent",
+        "time-updated": 1525373509,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/1d3ac99c07db47ea9fd7930245d16c0d/packet-count-sent/aggregations/300",
+            "summary-type": "aggregation",
+            "summary-window": "300",
+            "time-updated": 1525373509
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/1d3ac99c07db47ea9fd7930245d16c0d/packet-count-sent/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1525373509
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/1d3ac99c07db47ea9fd7930245d16c0d/packet-count-sent/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1525373509
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/1d3ac99c07db47ea9fd7930245d16c0d/packet-duplicates-bidir/base",
+        "event-type": "packet-duplicates-bidir",
+        "time-updated": 1525373509,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/1d3ac99c07db47ea9fd7930245d16c0d/packet-loss-rate-bidir/base",
+        "event-type": "packet-loss-rate-bidir",
+        "time-updated": 1525373509,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/1d3ac99c07db47ea9fd7930245d16c0d/packet-loss-rate-bidir/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1525373509
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/1d3ac99c07db47ea9fd7930245d16c0d/packet-loss-rate-bidir/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1525373509
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/1d3ac99c07db47ea9fd7930245d16c0d/packet-reorders-bidir/base",
+        "event-type": "packet-reorders-bidir",
+        "time-updated": 1525373509,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "200.0.207.49",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/ping",
+    "input-source": "146.83.188.9",
+    "input-destination": "200.0.207.49",
+    "ip-packet-size": "1000",
+    "ip-ttl": "255",
+    "pscheduler-test-type": "rtt",
+    "sample-size": "10",
+    "time-duration": "16.0",
+    "time-probe-interval": "1.0",
+    "uri": "/esmond/perfsonar/archive/1d3ac99c07db47ea9fd7930245d16c0d/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/1fe70040e30b4d64a9e26cb63bf9b074/",
+    "metadata-key": "1fe70040e30b4d64a9e26cb63bf9b074",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/1fe70040e30b4d64a9e26cb63bf9b074/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/1fe70040e30b4d64a9e26cb63bf9b074/packet-trace/base",
+        "event-type": "packet-trace",
+        "time-updated": 1525371634,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/1fe70040e30b4d64a9e26cb63bf9b074/path-mtu/base",
+        "event-type": "path-mtu",
+        "time-updated": null,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "198.129.254.22",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/traceroute",
+    "input-source": "146.83.188.9",
+    "input-destination": "198.129.254.22",
+    "ip-packet-size": "40",
+    "pscheduler-test-type": "trace",
+    "time-duration": "8.0",
+    "uri": "/esmond/perfsonar/archive/1fe70040e30b4d64a9e26cb63bf9b074/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/1fe97b7895fa4be69a81ab0821476a48/",
+    "metadata-key": "1fe97b7895fa4be69a81ab0821476a48",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/1fe97b7895fa4be69a81ab0821476a48/failures/base",
+        "event-type": "failures",
+        "time-updated": 1526539146,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/1fe97b7895fa4be69a81ab0821476a48/packet-trace/base",
+        "event-type": "packet-trace",
+        "time-updated": 1527632848,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/1fe97b7895fa4be69a81ab0821476a48/path-mtu/base",
+        "event-type": "path-mtu",
+        "time-updated": null,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "200.0.207.49",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/traceroute",
+    "input-source": "146.83.188.9",
+    "input-destination": "200.0.207.49",
+    "pscheduler-test-type": "trace",
+    "time-duration": "8.0",
+    "uri": "/esmond/perfsonar/archive/1fe97b7895fa4be69a81ab0821476a48/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/21714f7ce35a49d1ae73fd5be39bbdc3/",
+    "metadata-key": "21714f7ce35a49d1ae73fd5be39bbdc3",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/21714f7ce35a49d1ae73fd5be39bbdc3/failures/base",
+        "event-type": "failures",
+        "time-updated": 1526561865,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/21714f7ce35a49d1ae73fd5be39bbdc3/packet-trace/base",
+        "event-type": "packet-trace",
+        "time-updated": 1527632942,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/21714f7ce35a49d1ae73fd5be39bbdc3/path-mtu/base",
+        "event-type": "path-mtu",
+        "time-updated": null,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "200.17.29.243",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/traceroute",
+    "input-source": "146.83.188.9",
+    "input-destination": "ps-bw.sciencedmz.usp.br",
+    "pscheduler-test-type": "trace",
+    "time-duration": "8.0",
+    "uri": "/esmond/perfsonar/archive/21714f7ce35a49d1ae73fd5be39bbdc3/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/25a03396ff4548a1867e2e2d421e4ca0/",
+    "metadata-key": "25a03396ff4548a1867e2e2d421e4ca0",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/25a03396ff4548a1867e2e2d421e4ca0/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/25a03396ff4548a1867e2e2d421e4ca0/packet-retransmits/base",
+        "event-type": "packet-retransmits",
+        "time-updated": 1524750303,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/25a03396ff4548a1867e2e2d421e4ca0/packet-retransmits-subintervals/base",
+        "event-type": "packet-retransmits-subintervals",
+        "time-updated": 1524750303,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/25a03396ff4548a1867e2e2d421e4ca0/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/25a03396ff4548a1867e2e2d421e4ca0/throughput/base",
+        "event-type": "throughput",
+        "time-updated": 1524750303,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/25a03396ff4548a1867e2e2d421e4ca0/throughput/averages/86400",
+            "summary-type": "average",
+            "summary-window": "86400",
+            "time-updated": 1524750303
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/25a03396ff4548a1867e2e2d421e4ca0/throughput-subintervals/base",
+        "event-type": "throughput-subintervals",
+        "time-updated": 1524750303,
+        "summaries": []
+      }
+    ],
+    "source": "200.0.207.49",
+    "destination": "146.83.188.9",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/iperf3",
+    "input-source": "200.0.207.49",
+    "input-destination": "146.83.188.9",
+    "bw-parallel-streams": "1",
+    "ip-transport-protocol": "tcp",
+    "pscheduler-test-type": "throughput",
+    "time-duration": "19.0",
+    "uri": "/esmond/perfsonar/archive/25a03396ff4548a1867e2e2d421e4ca0/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/2709ac7e6f6c4e80b2ec9e72526a2207/",
+    "metadata-key": "2709ac7e6f6c4e80b2ec9e72526a2207",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/2709ac7e6f6c4e80b2ec9e72526a2207/failures/base",
+        "event-type": "failures",
+        "time-updated": 1535742206,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/2709ac7e6f6c4e80b2ec9e72526a2207/packet-trace/base",
+        "event-type": "packet-trace",
+        "time-updated": 1537083803,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/2709ac7e6f6c4e80b2ec9e72526a2207/path-mtu/base",
+        "event-type": "path-mtu",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/2709ac7e6f6c4e80b2ec9e72526a2207/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1537083803,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "159.226.224.54",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/traceroute",
+    "input-source": "146.83.188.9",
+    "input-destination": "159.226.224.54",
+    "ip-packet-size": "40",
+    "pscheduler-reference-psconfig-created-by-user-agent": "psconfig-pscheduler-agent",
+    "pscheduler-reference-psconfig-created-by-uuid": "A58C3D20-9425-11E7-A1C8-A644737D27C9",
+    "pscheduler-test-type": "trace",
+    "time-duration": "8.0",
+    "uri": "/esmond/perfsonar/archive/2709ac7e6f6c4e80b2ec9e72526a2207/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/27d5ad51d1554db48a27e0a2ecd59342/",
+    "metadata-key": "27d5ad51d1554db48a27e0a2ecd59342",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/27d5ad51d1554db48a27e0a2ecd59342/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/27d5ad51d1554db48a27e0a2ecd59342/packet-trace/base",
+        "event-type": "packet-trace",
+        "time-updated": 1534458826,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/27d5ad51d1554db48a27e0a2ecd59342/path-mtu/base",
+        "event-type": "path-mtu",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/27d5ad51d1554db48a27e0a2ecd59342/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1534458826,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "200.0.207.49",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/traceroute",
+    "input-source": "146.83.188.9",
+    "input-destination": "200.0.207.49",
+    "pscheduler-test-type": "trace",
+    "time-duration": "8.0",
+    "uri": "/esmond/perfsonar/archive/27d5ad51d1554db48a27e0a2ecd59342/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/3265b145892c4b86bf795bfff4791c27/",
+    "metadata-key": "3265b145892c4b86bf795bfff4791c27",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/3265b145892c4b86bf795bfff4791c27/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/3265b145892c4b86bf795bfff4791c27/packet-retransmits/base",
+        "event-type": "packet-retransmits",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/3265b145892c4b86bf795bfff4791c27/packet-retransmits-subintervals/base",
+        "event-type": "packet-retransmits-subintervals",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/3265b145892c4b86bf795bfff4791c27/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/3265b145892c4b86bf795bfff4791c27/throughput/base",
+        "event-type": "throughput",
+        "time-updated": null,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/3265b145892c4b86bf795bfff4791c27/throughput/averages/86400",
+            "summary-type": "average",
+            "summary-window": "86400",
+            "time-updated": null
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/3265b145892c4b86bf795bfff4791c27/throughput-subintervals/base",
+        "event-type": "throughput-subintervals",
+        "time-updated": null,
+        "summaries": []
+      }
+    ],
+    "source": "128.55.199.18",
+    "destination": "146.83.188.9",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/iperf3",
+    "input-source": "perfsonar.nersc.gov",
+    "input-destination": "146.83.188.9",
+    "ip-transport-protocol": "tcp",
+    "pscheduler-reference-psconfig-created-by-user-agent": "psconfig-pscheduler-agent",
+    "pscheduler-reference-psconfig-created-by-uuid": "A58C3D20-9425-11E7-A1C8-A644737D27C9",
+    "pscheduler-test-type": "throughput",
+    "time-duration": "29.0",
+    "uri": "/esmond/perfsonar/archive/3265b145892c4b86bf795bfff4791c27/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/331c9faf32aa4c7d8c3837f942dbdeae/",
+    "metadata-key": "331c9faf32aa4c7d8c3837f942dbdeae",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/331c9faf32aa4c7d8c3837f942dbdeae/failures/base",
+        "event-type": "failures",
+        "time-updated": 1526540719,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/331c9faf32aa4c7d8c3837f942dbdeae/packet-retransmits/base",
+        "event-type": "packet-retransmits",
+        "time-updated": 1526511487,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/331c9faf32aa4c7d8c3837f942dbdeae/packet-retransmits-subintervals/base",
+        "event-type": "packet-retransmits-subintervals",
+        "time-updated": 1526511487,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/331c9faf32aa4c7d8c3837f942dbdeae/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1526540719,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/331c9faf32aa4c7d8c3837f942dbdeae/throughput/base",
+        "event-type": "throughput",
+        "time-updated": 1526511487,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/331c9faf32aa4c7d8c3837f942dbdeae/throughput/averages/86400",
+            "summary-type": "average",
+            "summary-window": "86400",
+            "time-updated": 1526511487
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/331c9faf32aa4c7d8c3837f942dbdeae/throughput-subintervals/base",
+        "event-type": "throughput-subintervals",
+        "time-updated": 1526511487,
+        "summaries": []
+      }
+    ],
+    "source": "200.0.207.49",
+    "destination": "146.83.188.9",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/iperf3",
+    "input-source": "200.0.207.49",
+    "input-destination": "146.83.188.9",
+    "bw-parallel-streams": "1",
+    "ip-transport-protocol": "tcp",
+    "pscheduler-test-type": "throughput",
+    "time-duration": "29.0",
+    "uri": "/esmond/perfsonar/archive/331c9faf32aa4c7d8c3837f942dbdeae/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/3357d97e26614bc6b6e63a4bd847a25d/",
+    "metadata-key": "3357d97e26614bc6b6e63a4bd847a25d",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/3357d97e26614bc6b6e63a4bd847a25d/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/3357d97e26614bc6b6e63a4bd847a25d/packet-retransmits/base",
+        "event-type": "packet-retransmits",
+        "time-updated": 1536965617,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/3357d97e26614bc6b6e63a4bd847a25d/packet-retransmits-subintervals/base",
+        "event-type": "packet-retransmits-subintervals",
+        "time-updated": 1536965617,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/3357d97e26614bc6b6e63a4bd847a25d/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1536965617,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/3357d97e26614bc6b6e63a4bd847a25d/throughput/base",
+        "event-type": "throughput",
+        "time-updated": 1536965616,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/3357d97e26614bc6b6e63a4bd847a25d/throughput/averages/86400",
+            "summary-type": "average",
+            "summary-window": "86400",
+            "time-updated": 1536965616
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/3357d97e26614bc6b6e63a4bd847a25d/throughput-subintervals/base",
+        "event-type": "throughput-subintervals",
+        "time-updated": 1536965617,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.182.3",
+    "destination": "146.83.188.9",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/iperf3",
+    "input-source": "146.83.182.3",
+    "input-destination": "146.83.188.9",
+    "ip-transport-protocol": "tcp",
+    "pscheduler-reference-psconfig-created-by-user-agent": "psconfig-pscheduler-agent",
+    "pscheduler-reference-psconfig-created-by-uuid": "A58C3D20-9425-11E7-A1C8-A644737D27C9",
+    "pscheduler-test-type": "throughput",
+    "time-duration": "19.0",
+    "uri": "/esmond/perfsonar/archive/3357d97e26614bc6b6e63a4bd847a25d/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/3aa2cbbec8974b38bf27ada9179c910b/",
+    "metadata-key": "3aa2cbbec8974b38bf27ada9179c910b",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/3aa2cbbec8974b38bf27ada9179c910b/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/3aa2cbbec8974b38bf27ada9179c910b/packet-retransmits/base",
+        "event-type": "packet-retransmits",
+        "time-updated": 1525799143,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/3aa2cbbec8974b38bf27ada9179c910b/packet-retransmits-subintervals/base",
+        "event-type": "packet-retransmits-subintervals",
+        "time-updated": 1525799143,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/3aa2cbbec8974b38bf27ada9179c910b/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/3aa2cbbec8974b38bf27ada9179c910b/throughput/base",
+        "event-type": "throughput",
+        "time-updated": 1525799143,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/3aa2cbbec8974b38bf27ada9179c910b/throughput/averages/86400",
+            "summary-type": "average",
+            "summary-window": "86400",
+            "time-updated": 1525799143
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/3aa2cbbec8974b38bf27ada9179c910b/throughput-subintervals/base",
+        "event-type": "throughput-subintervals",
+        "time-updated": 1525799143,
+        "summaries": []
+      }
+    ],
+    "source": "198.129.254.22",
+    "destination": "146.83.188.9",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/iperf3",
+    "input-source": "198.129.254.22",
+    "input-destination": "146.83.188.9",
+    "bw-parallel-streams": "1",
+    "ip-transport-protocol": "tcp",
+    "pscheduler-test-type": "throughput",
+    "time-duration": "19.0",
+    "uri": "/esmond/perfsonar/archive/3aa2cbbec8974b38bf27ada9179c910b/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/3ac818fe3fd54c269745cb9d3367721b/",
+    "metadata-key": "3ac818fe3fd54c269745cb9d3367721b",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/3ac818fe3fd54c269745cb9d3367721b/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/3ac818fe3fd54c269745cb9d3367721b/histogram-rtt/base",
+        "event-type": "histogram-rtt",
+        "time-updated": 1534459062,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/3ac818fe3fd54c269745cb9d3367721b/histogram-rtt/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1534459062
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/3ac818fe3fd54c269745cb9d3367721b/histogram-rtt/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1534459062
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/3ac818fe3fd54c269745cb9d3367721b/histogram-rtt/statistics/0",
+            "summary-type": "statistics",
+            "summary-window": "0",
+            "time-updated": 1534459062
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/3ac818fe3fd54c269745cb9d3367721b/histogram-rtt/statistics/3600",
+            "summary-type": "statistics",
+            "summary-window": "3600",
+            "time-updated": 1534459062
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/3ac818fe3fd54c269745cb9d3367721b/histogram-rtt/statistics/86400",
+            "summary-type": "statistics",
+            "summary-window": "86400",
+            "time-updated": 1534459062
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/3ac818fe3fd54c269745cb9d3367721b/histogram-ttl-reverse/base",
+        "event-type": "histogram-ttl-reverse",
+        "time-updated": 1534459062,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/3ac818fe3fd54c269745cb9d3367721b/packet-count-lost-bidir/base",
+        "event-type": "packet-count-lost-bidir",
+        "time-updated": 1534459061,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/3ac818fe3fd54c269745cb9d3367721b/packet-count-lost-bidir/aggregations/300",
+            "summary-type": "aggregation",
+            "summary-window": "300",
+            "time-updated": 1534459061
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/3ac818fe3fd54c269745cb9d3367721b/packet-count-lost-bidir/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1534459061
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/3ac818fe3fd54c269745cb9d3367721b/packet-count-lost-bidir/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1534459061
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/3ac818fe3fd54c269745cb9d3367721b/packet-count-sent/base",
+        "event-type": "packet-count-sent",
+        "time-updated": 1534459062,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/3ac818fe3fd54c269745cb9d3367721b/packet-count-sent/aggregations/300",
+            "summary-type": "aggregation",
+            "summary-window": "300",
+            "time-updated": 1534459062
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/3ac818fe3fd54c269745cb9d3367721b/packet-count-sent/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1534459062
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/3ac818fe3fd54c269745cb9d3367721b/packet-count-sent/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1534459062
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/3ac818fe3fd54c269745cb9d3367721b/packet-duplicates-bidir/base",
+        "event-type": "packet-duplicates-bidir",
+        "time-updated": 1534459061,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/3ac818fe3fd54c269745cb9d3367721b/packet-loss-rate-bidir/base",
+        "event-type": "packet-loss-rate-bidir",
+        "time-updated": 1534459062,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/3ac818fe3fd54c269745cb9d3367721b/packet-loss-rate-bidir/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1534459062
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/3ac818fe3fd54c269745cb9d3367721b/packet-loss-rate-bidir/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1534459062
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/3ac818fe3fd54c269745cb9d3367721b/packet-reorders-bidir/base",
+        "event-type": "packet-reorders-bidir",
+        "time-updated": 1534459061,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/3ac818fe3fd54c269745cb9d3367721b/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1534459062,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "5.53.3.75",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/ping",
+    "input-source": "146.83.188.9",
+    "input-destination": "5.53.3.75",
+    "ip-packet-size": "1000",
+    "ip-ttl": "255",
+    "pscheduler-test-type": "rtt",
+    "sample-size": "20",
+    "time-duration": "26.0",
+    "time-probe-interval": "1.0",
+    "uri": "/esmond/perfsonar/archive/3ac818fe3fd54c269745cb9d3367721b/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/3acf3ef8fef24185baf15d510ba213d8/",
+    "metadata-key": "3acf3ef8fef24185baf15d510ba213d8",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/3acf3ef8fef24185baf15d510ba213d8/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/3acf3ef8fef24185baf15d510ba213d8/histogram-rtt/base",
+        "event-type": "histogram-rtt",
+        "time-updated": 1537050217,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/3acf3ef8fef24185baf15d510ba213d8/histogram-rtt/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1537050217
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/3acf3ef8fef24185baf15d510ba213d8/histogram-rtt/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1537050217
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/3acf3ef8fef24185baf15d510ba213d8/histogram-rtt/statistics/0",
+            "summary-type": "statistics",
+            "summary-window": "0",
+            "time-updated": 1537050217
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/3acf3ef8fef24185baf15d510ba213d8/histogram-rtt/statistics/3600",
+            "summary-type": "statistics",
+            "summary-window": "3600",
+            "time-updated": 1537050217
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/3acf3ef8fef24185baf15d510ba213d8/histogram-rtt/statistics/86400",
+            "summary-type": "statistics",
+            "summary-window": "86400",
+            "time-updated": 1537050217
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/3acf3ef8fef24185baf15d510ba213d8/histogram-ttl-reverse/base",
+        "event-type": "histogram-ttl-reverse",
+        "time-updated": 1537050217,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/3acf3ef8fef24185baf15d510ba213d8/packet-count-lost-bidir/base",
+        "event-type": "packet-count-lost-bidir",
+        "time-updated": 1537053217,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/3acf3ef8fef24185baf15d510ba213d8/packet-count-lost-bidir/aggregations/300",
+            "summary-type": "aggregation",
+            "summary-window": "300",
+            "time-updated": 1537053217
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/3acf3ef8fef24185baf15d510ba213d8/packet-count-lost-bidir/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1537053217
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/3acf3ef8fef24185baf15d510ba213d8/packet-count-lost-bidir/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1537053217
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/3acf3ef8fef24185baf15d510ba213d8/packet-count-sent/base",
+        "event-type": "packet-count-sent",
+        "time-updated": 1537053217,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/3acf3ef8fef24185baf15d510ba213d8/packet-count-sent/aggregations/300",
+            "summary-type": "aggregation",
+            "summary-window": "300",
+            "time-updated": 1537053217
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/3acf3ef8fef24185baf15d510ba213d8/packet-count-sent/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1537053217
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/3acf3ef8fef24185baf15d510ba213d8/packet-count-sent/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1537053217
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/3acf3ef8fef24185baf15d510ba213d8/packet-duplicates-bidir/base",
+        "event-type": "packet-duplicates-bidir",
+        "time-updated": 1537053217,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/3acf3ef8fef24185baf15d510ba213d8/packet-loss-rate-bidir/base",
+        "event-type": "packet-loss-rate-bidir",
+        "time-updated": 1537050217,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/3acf3ef8fef24185baf15d510ba213d8/packet-loss-rate-bidir/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1537050217
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/3acf3ef8fef24185baf15d510ba213d8/packet-loss-rate-bidir/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1537050217
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/3acf3ef8fef24185baf15d510ba213d8/packet-reorders-bidir/base",
+        "event-type": "packet-reorders-bidir",
+        "time-updated": 1537053217,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/3acf3ef8fef24185baf15d510ba213d8/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1537050217,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "159.226.224.54",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/ping",
+    "input-source": "146.83.188.9",
+    "input-destination": "159.226.224.54",
+    "ip-ttl": "255",
+    "pscheduler-reference-psconfig-created-by-user-agent": "psconfig-pscheduler-agent",
+    "pscheduler-reference-psconfig-created-by-uuid": "A58C3D20-9425-11E7-A1C8-A644737D27C9",
+    "pscheduler-test-type": "rtt",
+    "sample-size": "20",
+    "time-duration": "26.0",
+    "uri": "/esmond/perfsonar/archive/3acf3ef8fef24185baf15d510ba213d8/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/3e2c5b9398494ed8acfddee635d25859/",
+    "metadata-key": "3e2c5b9398494ed8acfddee635d25859",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/3e2c5b9398494ed8acfddee635d25859/failures/base",
+        "event-type": "failures",
+        "time-updated": 1534237808,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/3e2c5b9398494ed8acfddee635d25859/packet-trace/base",
+        "event-type": "packet-trace",
+        "time-updated": 1534459062,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/3e2c5b9398494ed8acfddee635d25859/path-mtu/base",
+        "event-type": "path-mtu",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/3e2c5b9398494ed8acfddee635d25859/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1534459062,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "159.226.224.54",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/traceroute",
+    "input-source": "146.83.188.9",
+    "input-destination": "159.226.224.54",
+    "ip-packet-size": "40",
+    "pscheduler-test-type": "trace",
+    "time-duration": "8.0",
+    "uri": "/esmond/perfsonar/archive/3e2c5b9398494ed8acfddee635d25859/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/4319ecbe7c754ce48628288f4ce66a76/",
+    "metadata-key": "4319ecbe7c754ce48628288f4ce66a76",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/4319ecbe7c754ce48628288f4ce66a76/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/4319ecbe7c754ce48628288f4ce66a76/packet-trace/base",
+        "event-type": "packet-trace",
+        "time-updated": 1537083798,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/4319ecbe7c754ce48628288f4ce66a76/path-mtu/base",
+        "event-type": "path-mtu",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/4319ecbe7c754ce48628288f4ce66a76/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1537083798,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "200.0.207.49",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/traceroute",
+    "input-source": "146.83.188.9",
+    "input-destination": "200.0.207.49",
+    "pscheduler-reference-psconfig-created-by-user-agent": "psconfig-pscheduler-agent",
+    "pscheduler-reference-psconfig-created-by-uuid": "A58C3D20-9425-11E7-A1C8-A644737D27C9",
+    "pscheduler-test-type": "trace",
+    "time-duration": "8.0",
+    "uri": "/esmond/perfsonar/archive/4319ecbe7c754ce48628288f4ce66a76/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/436d865e41eb466ebd6dfc4944eccf1f/",
+    "metadata-key": "436d865e41eb466ebd6dfc4944eccf1f",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/436d865e41eb466ebd6dfc4944eccf1f/failures/base",
+        "event-type": "failures",
+        "time-updated": 1537062806,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/436d865e41eb466ebd6dfc4944eccf1f/packet-trace/base",
+        "event-type": "packet-trace",
+        "time-updated": 1537083803,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/436d865e41eb466ebd6dfc4944eccf1f/path-mtu/base",
+        "event-type": "path-mtu",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/436d865e41eb466ebd6dfc4944eccf1f/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1537083803,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "5.53.3.75",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/traceroute",
+    "input-source": "146.83.188.9",
+    "input-destination": "5.53.3.75",
+    "pscheduler-reference-psconfig-created-by-user-agent": "psconfig-pscheduler-agent",
+    "pscheduler-reference-psconfig-created-by-uuid": "A58C3D20-9425-11E7-A1C8-A644737D27C9",
+    "pscheduler-test-type": "trace",
+    "time-duration": "8.0",
+    "uri": "/esmond/perfsonar/archive/436d865e41eb466ebd6dfc4944eccf1f/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/45e117f539554b379f652a18a7bb5c0c/",
+    "metadata-key": "45e117f539554b379f652a18a7bb5c0c",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/45e117f539554b379f652a18a7bb5c0c/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/45e117f539554b379f652a18a7bb5c0c/packet-trace/base",
+        "event-type": "packet-trace",
+        "time-updated": 1537083798,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/45e117f539554b379f652a18a7bb5c0c/path-mtu/base",
+        "event-type": "path-mtu",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/45e117f539554b379f652a18a7bb5c0c/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1537083798,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "200.17.29.243",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/traceroute",
+    "input-source": "146.83.188.9",
+    "input-destination": "ps-bw.sciencedmz.usp.br",
+    "pscheduler-reference-psconfig-created-by-user-agent": "psconfig-pscheduler-agent",
+    "pscheduler-reference-psconfig-created-by-uuid": "A58C3D20-9425-11E7-A1C8-A644737D27C9",
+    "pscheduler-test-type": "trace",
+    "time-duration": "8.0",
+    "uri": "/esmond/perfsonar/archive/45e117f539554b379f652a18a7bb5c0c/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/4daea21d287c4fb69b1f5d0cb32a3894/",
+    "metadata-key": "4daea21d287c4fb69b1f5d0cb32a3894",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/4daea21d287c4fb69b1f5d0cb32a3894/failures/base",
+        "event-type": "failures",
+        "time-updated": 1534416883,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/4daea21d287c4fb69b1f5d0cb32a3894/packet-retransmits/base",
+        "event-type": "packet-retransmits",
+        "time-updated": 1537039841,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/4daea21d287c4fb69b1f5d0cb32a3894/packet-retransmits-subintervals/base",
+        "event-type": "packet-retransmits-subintervals",
+        "time-updated": 1537039841,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/4daea21d287c4fb69b1f5d0cb32a3894/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1537039841,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/4daea21d287c4fb69b1f5d0cb32a3894/throughput/base",
+        "event-type": "throughput",
+        "time-updated": 1537039841,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/4daea21d287c4fb69b1f5d0cb32a3894/throughput/averages/86400",
+            "summary-type": "average",
+            "summary-window": "86400",
+            "time-updated": 1537039841
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/4daea21d287c4fb69b1f5d0cb32a3894/throughput-subintervals/base",
+        "event-type": "throughput-subintervals",
+        "time-updated": 1537039841,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "128.55.199.18",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/iperf3",
+    "input-source": "146.83.188.9",
+    "input-destination": "perfsonar.nersc.gov",
+    "ip-transport-protocol": "tcp",
+    "pscheduler-reference-psconfig-created-by-user-agent": "psconfig-pscheduler-agent",
+    "pscheduler-reference-psconfig-created-by-uuid": "A58C3D20-9425-11E7-A1C8-A644737D27C9",
+    "pscheduler-test-type": "throughput",
+    "time-duration": "29.0",
+    "uri": "/esmond/perfsonar/archive/4daea21d287c4fb69b1f5d0cb32a3894/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/59c8f1323168483d9de49282150ce29e/",
+    "metadata-key": "59c8f1323168483d9de49282150ce29e",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/59c8f1323168483d9de49282150ce29e/failures/base",
+        "event-type": "failures",
+        "time-updated": 1536319842,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/59c8f1323168483d9de49282150ce29e/packet-retransmits/base",
+        "event-type": "packet-retransmits",
+        "time-updated": 1536535844,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/59c8f1323168483d9de49282150ce29e/packet-retransmits-subintervals/base",
+        "event-type": "packet-retransmits-subintervals",
+        "time-updated": 1536535844,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/59c8f1323168483d9de49282150ce29e/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1536535844,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/59c8f1323168483d9de49282150ce29e/throughput/base",
+        "event-type": "throughput",
+        "time-updated": 1536535844,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/59c8f1323168483d9de49282150ce29e/throughput/averages/86400",
+            "summary-type": "average",
+            "summary-window": "86400",
+            "time-updated": 1536535844
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/59c8f1323168483d9de49282150ce29e/throughput-subintervals/base",
+        "event-type": "throughput-subintervals",
+        "time-updated": 1536535844,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "128.55.199.18",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/bwctliperf3",
+    "input-source": "146.83.188.9",
+    "input-destination": "perfsonar.nersc.gov",
+    "ip-transport-protocol": "tcp",
+    "pscheduler-reference-psconfig-created-by-user-agent": "psconfig-pscheduler-agent",
+    "pscheduler-reference-psconfig-created-by-uuid": "A58C3D20-9425-11E7-A1C8-A644737D27C9",
+    "pscheduler-test-type": "throughput",
+    "time-duration": "81.0",
+    "uri": "/esmond/perfsonar/archive/59c8f1323168483d9de49282150ce29e/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/5b3576b47e2c4a46af057a3f4db79bca/",
+    "metadata-key": "5b3576b47e2c4a46af057a3f4db79bca",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/5b3576b47e2c4a46af057a3f4db79bca/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/5b3576b47e2c4a46af057a3f4db79bca/packet-trace/base",
+        "event-type": "packet-trace",
+        "time-updated": 1525802482,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/5b3576b47e2c4a46af057a3f4db79bca/path-mtu/base",
+        "event-type": "path-mtu",
+        "time-updated": null,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "138.59.12.112",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/traceroute",
+    "input-source": "146.83.188.9",
+    "input-destination": "138.59.12.112",
+    "pscheduler-test-type": "trace",
+    "time-duration": "8.0",
+    "uri": "/esmond/perfsonar/archive/5b3576b47e2c4a46af057a3f4db79bca/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/5b71d76defd743b2993b44e68245fcb9/",
+    "metadata-key": "5b71d76defd743b2993b44e68245fcb9",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/5b71d76defd743b2993b44e68245fcb9/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/5b71d76defd743b2993b44e68245fcb9/packet-retransmits/base",
+        "event-type": "packet-retransmits",
+        "time-updated": 1525799796,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/5b71d76defd743b2993b44e68245fcb9/packet-retransmits-subintervals/base",
+        "event-type": "packet-retransmits-subintervals",
+        "time-updated": 1525799796,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/5b71d76defd743b2993b44e68245fcb9/throughput/base",
+        "event-type": "throughput",
+        "time-updated": 1525799796,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/5b71d76defd743b2993b44e68245fcb9/throughput/averages/86400",
+            "summary-type": "average",
+            "summary-window": "86400",
+            "time-updated": 1525799796
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/5b71d76defd743b2993b44e68245fcb9/throughput-subintervals/base",
+        "event-type": "throughput-subintervals",
+        "time-updated": 1525799796,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "198.129.254.22",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/iperf3",
+    "input-source": "146.83.188.9",
+    "input-destination": "198.129.254.22",
+    "bw-parallel-streams": "1",
+    "ip-transport-protocol": "tcp",
+    "pscheduler-test-type": "throughput",
+    "time-duration": "19.0",
+    "uri": "/esmond/perfsonar/archive/5b71d76defd743b2993b44e68245fcb9/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/655c314c59f94a71aadf36a4a3603858/",
+    "metadata-key": "655c314c59f94a71aadf36a4a3603858",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/655c314c59f94a71aadf36a4a3603858/failures/base",
+        "event-type": "failures",
+        "time-updated": 1526752654,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/655c314c59f94a71aadf36a4a3603858/packet-retransmits/base",
+        "event-type": "packet-retransmits",
+        "time-updated": 1526732179,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/655c314c59f94a71aadf36a4a3603858/packet-retransmits-subintervals/base",
+        "event-type": "packet-retransmits-subintervals",
+        "time-updated": 1526732179,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/655c314c59f94a71aadf36a4a3603858/throughput/base",
+        "event-type": "throughput",
+        "time-updated": 1526732179,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/655c314c59f94a71aadf36a4a3603858/throughput/averages/86400",
+            "summary-type": "average",
+            "summary-window": "86400",
+            "time-updated": 1526732179
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/655c314c59f94a71aadf36a4a3603858/throughput-subintervals/base",
+        "event-type": "throughput-subintervals",
+        "time-updated": 1526732179,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "200.17.29.243",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/bwctliperf3",
+    "input-source": "146.83.188.9",
+    "input-destination": "ps-bw.sciencedmz.usp.br",
+    "bw-parallel-streams": "1",
+    "ip-transport-protocol": "tcp",
+    "pscheduler-test-type": "throughput",
+    "time-duration": "81.0",
+    "uri": "/esmond/perfsonar/archive/655c314c59f94a71aadf36a4a3603858/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/6787b5a1c52145dfa8cb509c22f1a31b/",
+    "metadata-key": "6787b5a1c52145dfa8cb509c22f1a31b",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/6787b5a1c52145dfa8cb509c22f1a31b/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/6787b5a1c52145dfa8cb509c22f1a31b/packet-retransmits/base",
+        "event-type": "packet-retransmits",
+        "time-updated": 1534428869,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/6787b5a1c52145dfa8cb509c22f1a31b/packet-retransmits-subintervals/base",
+        "event-type": "packet-retransmits-subintervals",
+        "time-updated": 1534428869,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/6787b5a1c52145dfa8cb509c22f1a31b/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1534428869,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/6787b5a1c52145dfa8cb509c22f1a31b/throughput/base",
+        "event-type": "throughput",
+        "time-updated": 1534428869,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/6787b5a1c52145dfa8cb509c22f1a31b/throughput/averages/86400",
+            "summary-type": "average",
+            "summary-window": "86400",
+            "time-updated": 1534428869
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/6787b5a1c52145dfa8cb509c22f1a31b/throughput-subintervals/base",
+        "event-type": "throughput-subintervals",
+        "time-updated": 1534428869,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "128.55.199.18",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/iperf3",
+    "input-source": "146.83.188.9",
+    "input-destination": "perfsonar.nersc.gov",
+    "bw-parallel-streams": "1",
+    "ip-transport-protocol": "tcp",
+    "pscheduler-test-type": "throughput",
+    "time-duration": "29.0",
+    "uri": "/esmond/perfsonar/archive/6787b5a1c52145dfa8cb509c22f1a31b/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/6d530187911841e2bb4a28275a8ed923/",
+    "metadata-key": "6d530187911841e2bb4a28275a8ed923",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/6d530187911841e2bb4a28275a8ed923/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/6d530187911841e2bb4a28275a8ed923/packet-retransmits/base",
+        "event-type": "packet-retransmits",
+        "time-updated": 1534438953,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/6d530187911841e2bb4a28275a8ed923/packet-retransmits-subintervals/base",
+        "event-type": "packet-retransmits-subintervals",
+        "time-updated": 1534438953,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/6d530187911841e2bb4a28275a8ed923/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1534438953,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/6d530187911841e2bb4a28275a8ed923/throughput/base",
+        "event-type": "throughput",
+        "time-updated": 1534438953,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/6d530187911841e2bb4a28275a8ed923/throughput/averages/86400",
+            "summary-type": "average",
+            "summary-window": "86400",
+            "time-updated": 1534438953
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/6d530187911841e2bb4a28275a8ed923/throughput-subintervals/base",
+        "event-type": "throughput-subintervals",
+        "time-updated": 1534438953,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "200.17.29.243",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/iperf3",
+    "input-source": "146.83.188.9",
+    "input-destination": "ps-bw.sciencedmz.usp.br",
+    "bw-parallel-streams": "1",
+    "ip-transport-protocol": "tcp",
+    "pscheduler-test-type": "throughput",
+    "time-duration": "29.0",
+    "uri": "/esmond/perfsonar/archive/6d530187911841e2bb4a28275a8ed923/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/75f31bb7ee8b4bb584923a799eac3659/",
+    "metadata-key": "75f31bb7ee8b4bb584923a799eac3659",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/75f31bb7ee8b4bb584923a799eac3659/failures/base",
+        "event-type": "failures",
+        "time-updated": 1527244577,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/75f31bb7ee8b4bb584923a799eac3659/packet-retransmits/base",
+        "event-type": "packet-retransmits",
+        "time-updated": 1527618272,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/75f31bb7ee8b4bb584923a799eac3659/packet-retransmits-subintervals/base",
+        "event-type": "packet-retransmits-subintervals",
+        "time-updated": 1527618272,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/75f31bb7ee8b4bb584923a799eac3659/throughput/base",
+        "event-type": "throughput",
+        "time-updated": 1527618272,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/75f31bb7ee8b4bb584923a799eac3659/throughput/averages/86400",
+            "summary-type": "average",
+            "summary-window": "86400",
+            "time-updated": 1527618272
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/75f31bb7ee8b4bb584923a799eac3659/throughput-subintervals/base",
+        "event-type": "throughput-subintervals",
+        "time-updated": 1527618272,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "128.55.199.18",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/iperf3",
+    "input-source": "146.83.188.9",
+    "input-destination": "perfsonar.nersc.gov",
+    "bw-parallel-streams": "1",
+    "ip-transport-protocol": "tcp",
+    "pscheduler-test-type": "throughput",
+    "time-duration": "29.0",
+    "uri": "/esmond/perfsonar/archive/75f31bb7ee8b4bb584923a799eac3659/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/7a027f50e253425d80b46db885981118/",
+    "metadata-key": "7a027f50e253425d80b46db885981118",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/7a027f50e253425d80b46db885981118/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/7a027f50e253425d80b46db885981118/histogram-rtt/base",
+        "event-type": "histogram-rtt",
+        "time-updated": 1537053802,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/7a027f50e253425d80b46db885981118/histogram-rtt/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1537053802
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/7a027f50e253425d80b46db885981118/histogram-rtt/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1537053802
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/7a027f50e253425d80b46db885981118/histogram-rtt/statistics/0",
+            "summary-type": "statistics",
+            "summary-window": "0",
+            "time-updated": 1537053802
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/7a027f50e253425d80b46db885981118/histogram-rtt/statistics/3600",
+            "summary-type": "statistics",
+            "summary-window": "3600",
+            "time-updated": 1537053802
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/7a027f50e253425d80b46db885981118/histogram-rtt/statistics/86400",
+            "summary-type": "statistics",
+            "summary-window": "86400",
+            "time-updated": 1537053802
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/7a027f50e253425d80b46db885981118/histogram-ttl-reverse/base",
+        "event-type": "histogram-ttl-reverse",
+        "time-updated": 1537053802,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/7a027f50e253425d80b46db885981118/packet-count-lost-bidir/base",
+        "event-type": "packet-count-lost-bidir",
+        "time-updated": 1537053802,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/7a027f50e253425d80b46db885981118/packet-count-lost-bidir/aggregations/300",
+            "summary-type": "aggregation",
+            "summary-window": "300",
+            "time-updated": 1537053802
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/7a027f50e253425d80b46db885981118/packet-count-lost-bidir/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1537053802
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/7a027f50e253425d80b46db885981118/packet-count-lost-bidir/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1537053802
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/7a027f50e253425d80b46db885981118/packet-count-sent/base",
+        "event-type": "packet-count-sent",
+        "time-updated": 1537053802,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/7a027f50e253425d80b46db885981118/packet-count-sent/aggregations/300",
+            "summary-type": "aggregation",
+            "summary-window": "300",
+            "time-updated": 1537053802
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/7a027f50e253425d80b46db885981118/packet-count-sent/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1537053802
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/7a027f50e253425d80b46db885981118/packet-count-sent/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1537053802
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/7a027f50e253425d80b46db885981118/packet-duplicates-bidir/base",
+        "event-type": "packet-duplicates-bidir",
+        "time-updated": 1537053802,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/7a027f50e253425d80b46db885981118/packet-loss-rate-bidir/base",
+        "event-type": "packet-loss-rate-bidir",
+        "time-updated": 1537053802,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/7a027f50e253425d80b46db885981118/packet-loss-rate-bidir/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1537053802
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/7a027f50e253425d80b46db885981118/packet-loss-rate-bidir/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1537053802
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/7a027f50e253425d80b46db885981118/packet-reorders-bidir/base",
+        "event-type": "packet-reorders-bidir",
+        "time-updated": 1537053802,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/7a027f50e253425d80b46db885981118/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1537053802,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "198.129.254.22",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/ping",
+    "input-source": "146.83.188.9",
+    "input-destination": "198.129.254.22",
+    "ip-ttl": "255",
+    "pscheduler-reference-psconfig-created-by-user-agent": "psconfig-pscheduler-agent",
+    "pscheduler-reference-psconfig-created-by-uuid": "A58C3D20-9425-11E7-A1C8-A644737D27C9",
+    "pscheduler-test-type": "rtt",
+    "time-duration": "11.0",
+    "uri": "/esmond/perfsonar/archive/7a027f50e253425d80b46db885981118/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/7dd35a01365144df885ddbc4a7655314/",
+    "metadata-key": "7dd35a01365144df885ddbc4a7655314",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/7dd35a01365144df885ddbc4a7655314/failures/base",
+        "event-type": "failures",
+        "time-updated": 1530990877,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/7dd35a01365144df885ddbc4a7655314/packet-retransmits/base",
+        "event-type": "packet-retransmits",
+        "time-updated": 1533311750,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/7dd35a01365144df885ddbc4a7655314/packet-retransmits-subintervals/base",
+        "event-type": "packet-retransmits-subintervals",
+        "time-updated": 1533311750,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/7dd35a01365144df885ddbc4a7655314/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1533311750,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/7dd35a01365144df885ddbc4a7655314/throughput/base",
+        "event-type": "throughput",
+        "time-updated": 1533311750,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/7dd35a01365144df885ddbc4a7655314/throughput/averages/86400",
+            "summary-type": "average",
+            "summary-window": "86400",
+            "time-updated": 1533311750
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/7dd35a01365144df885ddbc4a7655314/throughput-subintervals/base",
+        "event-type": "throughput-subintervals",
+        "time-updated": 1533311750,
+        "summaries": []
+      }
+    ],
+    "source": "128.55.199.18",
+    "destination": "146.83.188.9",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/iperf3",
+    "input-source": "perfsonar.nersc.gov",
+    "input-destination": "146.83.188.9",
+    "bw-parallel-streams": "1",
+    "ip-transport-protocol": "tcp",
+    "pscheduler-test-type": "throughput",
+    "time-duration": "29.0",
+    "uri": "/esmond/perfsonar/archive/7dd35a01365144df885ddbc4a7655314/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/7f8e551532d948c4889b2dc265d2746a/",
+    "metadata-key": "7f8e551532d948c4889b2dc265d2746a",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/7f8e551532d948c4889b2dc265d2746a/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/7f8e551532d948c4889b2dc265d2746a/packet-trace/base",
+        "event-type": "packet-trace",
+        "time-updated": 1534458793,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/7f8e551532d948c4889b2dc265d2746a/path-mtu/base",
+        "event-type": "path-mtu",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/7f8e551532d948c4889b2dc265d2746a/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1534458793,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "198.129.254.22",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/traceroute",
+    "input-source": "146.83.188.9",
+    "input-destination": "198.129.254.22",
+    "pscheduler-test-type": "trace",
+    "time-duration": "8.0",
+    "uri": "/esmond/perfsonar/archive/7f8e551532d948c4889b2dc265d2746a/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/8abfaf1b1a764ebabfa6e6d8adeffd10/",
+    "metadata-key": "8abfaf1b1a764ebabfa6e6d8adeffd10",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/8abfaf1b1a764ebabfa6e6d8adeffd10/failures/base",
+        "event-type": "failures",
+        "time-updated": 1536095006,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/8abfaf1b1a764ebabfa6e6d8adeffd10/packet-trace/base",
+        "event-type": "packet-trace",
+        "time-updated": 1537083798,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/8abfaf1b1a764ebabfa6e6d8adeffd10/path-mtu/base",
+        "event-type": "path-mtu",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/8abfaf1b1a764ebabfa6e6d8adeffd10/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1537083798,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "198.129.254.22",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/traceroute",
+    "input-source": "146.83.188.9",
+    "input-destination": "198.129.254.22",
+    "pscheduler-reference-psconfig-created-by-user-agent": "psconfig-pscheduler-agent",
+    "pscheduler-reference-psconfig-created-by-uuid": "A58C3D20-9425-11E7-A1C8-A644737D27C9",
+    "pscheduler-test-type": "trace",
+    "time-duration": "8.0",
+    "uri": "/esmond/perfsonar/archive/8abfaf1b1a764ebabfa6e6d8adeffd10/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/91112ab8630e4e599964d7240be56de8/",
+    "metadata-key": "91112ab8630e4e599964d7240be56de8",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/91112ab8630e4e599964d7240be56de8/failures/base",
+        "event-type": "failures",
+        "time-updated": 1534347142,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/91112ab8630e4e599964d7240be56de8/packet-trace/base",
+        "event-type": "packet-trace",
+        "time-updated": 1534459154,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/91112ab8630e4e599964d7240be56de8/path-mtu/base",
+        "event-type": "path-mtu",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/91112ab8630e4e599964d7240be56de8/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1534459154,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "5.53.3.75",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/traceroute",
+    "input-source": "146.83.188.9",
+    "input-destination": "5.53.3.75",
+    "pscheduler-test-type": "trace",
+    "time-duration": "8.0",
+    "uri": "/esmond/perfsonar/archive/91112ab8630e4e599964d7240be56de8/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/92990ca6d627493983af272b23d88ba6/",
+    "metadata-key": "92990ca6d627493983af272b23d88ba6",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/92990ca6d627493983af272b23d88ba6/failures/base",
+        "event-type": "failures",
+        "time-updated": 1508162535,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/92990ca6d627493983af272b23d88ba6/packet-retransmits/base",
+        "event-type": "packet-retransmits",
+        "time-updated": 1508428188,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/92990ca6d627493983af272b23d88ba6/packet-retransmits-subintervals/base",
+        "event-type": "packet-retransmits-subintervals",
+        "time-updated": 1508428188,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/92990ca6d627493983af272b23d88ba6/throughput/base",
+        "event-type": "throughput",
+        "time-updated": 1508428188,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/92990ca6d627493983af272b23d88ba6/throughput/averages/86400",
+            "summary-type": "average",
+            "summary-window": "86400",
+            "time-updated": 1508428188
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/92990ca6d627493983af272b23d88ba6/throughput-subintervals/base",
+        "event-type": "throughput-subintervals",
+        "time-updated": 1508428188,
+        "summaries": []
+      }
+    ],
+    "source": "200.0.207.49",
+    "destination": "146.83.188.9",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/iperf3",
+    "input-source": "200.0.207.49",
+    "input-destination": "146.83.188.9",
+    "bw-parallel-streams": "1",
+    "ip-transport-protocol": "tcp",
+    "pscheduler-test-type": "throughput",
+    "time-duration": "29.0",
+    "uri": "/esmond/perfsonar/archive/92990ca6d627493983af272b23d88ba6/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/92c8cdd585f3446c8a93f3483d2ed97d/",
+    "metadata-key": "92c8cdd585f3446c8a93f3483d2ed97d",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/92c8cdd585f3446c8a93f3483d2ed97d/failures/base",
+        "event-type": "failures",
+        "time-updated": 1534414618,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/92c8cdd585f3446c8a93f3483d2ed97d/packet-retransmits/base",
+        "event-type": "packet-retransmits",
+        "time-updated": 1534445573,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/92c8cdd585f3446c8a93f3483d2ed97d/packet-retransmits-subintervals/base",
+        "event-type": "packet-retransmits-subintervals",
+        "time-updated": 1534445573,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/92c8cdd585f3446c8a93f3483d2ed97d/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1534445573,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/92c8cdd585f3446c8a93f3483d2ed97d/throughput/base",
+        "event-type": "throughput",
+        "time-updated": 1534445573,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/92c8cdd585f3446c8a93f3483d2ed97d/throughput/averages/86400",
+            "summary-type": "average",
+            "summary-window": "86400",
+            "time-updated": 1534445573
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/92c8cdd585f3446c8a93f3483d2ed97d/throughput-subintervals/base",
+        "event-type": "throughput-subintervals",
+        "time-updated": 1534445573,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "146.83.182.3",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/iperf3",
+    "input-source": "146.83.188.9",
+    "input-destination": "146.83.182.3",
+    "bw-parallel-streams": "1",
+    "ip-transport-protocol": "tcp",
+    "pscheduler-test-type": "throughput",
+    "time-duration": "19.0",
+    "uri": "/esmond/perfsonar/archive/92c8cdd585f3446c8a93f3483d2ed97d/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/95a199171bbd45feb3d79ee8062c0852/",
+    "metadata-key": "95a199171bbd45feb3d79ee8062c0852",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/95a199171bbd45feb3d79ee8062c0852/failures/base",
+        "event-type": "failures",
+        "time-updated": 1526472666,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/95a199171bbd45feb3d79ee8062c0852/packet-retransmits/base",
+        "event-type": "packet-retransmits",
+        "time-updated": 1527632017,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/95a199171bbd45feb3d79ee8062c0852/packet-retransmits-subintervals/base",
+        "event-type": "packet-retransmits-subintervals",
+        "time-updated": 1527632017,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/95a199171bbd45feb3d79ee8062c0852/throughput/base",
+        "event-type": "throughput",
+        "time-updated": 1527632017,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/95a199171bbd45feb3d79ee8062c0852/throughput/averages/86400",
+            "summary-type": "average",
+            "summary-window": "86400",
+            "time-updated": 1527632017
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/95a199171bbd45feb3d79ee8062c0852/throughput-subintervals/base",
+        "event-type": "throughput-subintervals",
+        "time-updated": 1527632017,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "200.17.29.243",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/iperf3",
+    "input-source": "146.83.188.9",
+    "input-destination": "ps-bw.sciencedmz.usp.br",
+    "bw-parallel-streams": "1",
+    "ip-transport-protocol": "tcp",
+    "pscheduler-test-type": "throughput",
+    "time-duration": "29.0",
+    "uri": "/esmond/perfsonar/archive/95a199171bbd45feb3d79ee8062c0852/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/9e496ee99b0044dfac014f053e23f26b/",
+    "metadata-key": "9e496ee99b0044dfac014f053e23f26b",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/9e496ee99b0044dfac014f053e23f26b/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/9e496ee99b0044dfac014f053e23f26b/packet-trace/base",
+        "event-type": "packet-trace",
+        "time-updated": 1537083798,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/9e496ee99b0044dfac014f053e23f26b/path-mtu/base",
+        "event-type": "path-mtu",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/9e496ee99b0044dfac014f053e23f26b/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1537083798,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "146.83.182.3",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/traceroute",
+    "input-source": "146.83.188.9",
+    "input-destination": "146.83.182.3",
+    "pscheduler-reference-psconfig-created-by-user-agent": "psconfig-pscheduler-agent",
+    "pscheduler-reference-psconfig-created-by-uuid": "A58C3D20-9425-11E7-A1C8-A644737D27C9",
+    "pscheduler-test-type": "trace",
+    "time-duration": "8.0",
+    "uri": "/esmond/perfsonar/archive/9e496ee99b0044dfac014f053e23f26b/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/a53fc84bb5f442b88ee4c1e93e5b6720/",
+    "metadata-key": "a53fc84bb5f442b88ee4c1e93e5b6720",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/a53fc84bb5f442b88ee4c1e93e5b6720/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/a53fc84bb5f442b88ee4c1e93e5b6720/packet-trace/base",
+        "event-type": "packet-trace",
+        "time-updated": 1534459028,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/a53fc84bb5f442b88ee4c1e93e5b6720/path-mtu/base",
+        "event-type": "path-mtu",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/a53fc84bb5f442b88ee4c1e93e5b6720/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1534459028,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "146.83.182.3",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/traceroute",
+    "input-source": "146.83.188.9",
+    "input-destination": "146.83.182.3",
+    "pscheduler-test-type": "trace",
+    "time-duration": "8.0",
+    "uri": "/esmond/perfsonar/archive/a53fc84bb5f442b88ee4c1e93e5b6720/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/a705c45498424ed88e56f9102b752212/",
+    "metadata-key": "a705c45498424ed88e56f9102b752212",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/a705c45498424ed88e56f9102b752212/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/a705c45498424ed88e56f9102b752212/histogram-rtt/base",
+        "event-type": "histogram-rtt",
+        "time-updated": 1525370898,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/a705c45498424ed88e56f9102b752212/histogram-rtt/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1525370898
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/a705c45498424ed88e56f9102b752212/histogram-rtt/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1525370898
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/a705c45498424ed88e56f9102b752212/histogram-rtt/statistics/0",
+            "summary-type": "statistics",
+            "summary-window": "0",
+            "time-updated": 1525370898
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/a705c45498424ed88e56f9102b752212/histogram-rtt/statistics/3600",
+            "summary-type": "statistics",
+            "summary-window": "3600",
+            "time-updated": 1525370898
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/a705c45498424ed88e56f9102b752212/histogram-rtt/statistics/86400",
+            "summary-type": "statistics",
+            "summary-window": "86400",
+            "time-updated": 1525370898
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/a705c45498424ed88e56f9102b752212/histogram-ttl-reverse/base",
+        "event-type": "histogram-ttl-reverse",
+        "time-updated": 1525370898,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/a705c45498424ed88e56f9102b752212/packet-count-lost-bidir/base",
+        "event-type": "packet-count-lost-bidir",
+        "time-updated": 1525370898,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/a705c45498424ed88e56f9102b752212/packet-count-lost-bidir/aggregations/300",
+            "summary-type": "aggregation",
+            "summary-window": "300",
+            "time-updated": 1525370898
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/a705c45498424ed88e56f9102b752212/packet-count-lost-bidir/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1525370898
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/a705c45498424ed88e56f9102b752212/packet-count-lost-bidir/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1525370898
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/a705c45498424ed88e56f9102b752212/packet-count-sent/base",
+        "event-type": "packet-count-sent",
+        "time-updated": 1525370898,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/a705c45498424ed88e56f9102b752212/packet-count-sent/aggregations/300",
+            "summary-type": "aggregation",
+            "summary-window": "300",
+            "time-updated": 1525370898
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/a705c45498424ed88e56f9102b752212/packet-count-sent/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1525370898
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/a705c45498424ed88e56f9102b752212/packet-count-sent/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1525370898
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/a705c45498424ed88e56f9102b752212/packet-duplicates-bidir/base",
+        "event-type": "packet-duplicates-bidir",
+        "time-updated": 1525370898,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/a705c45498424ed88e56f9102b752212/packet-loss-rate-bidir/base",
+        "event-type": "packet-loss-rate-bidir",
+        "time-updated": 1525370898,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/a705c45498424ed88e56f9102b752212/packet-loss-rate-bidir/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1525370898
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/a705c45498424ed88e56f9102b752212/packet-loss-rate-bidir/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1525370898
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/a705c45498424ed88e56f9102b752212/packet-reorders-bidir/base",
+        "event-type": "packet-reorders-bidir",
+        "time-updated": 1525370898,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "146.83.183.171",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/ping",
+    "input-source": "146.83.188.9",
+    "input-destination": "server1.reuna.cl",
+    "ip-packet-size": "1000",
+    "ip-ttl": "255",
+    "pscheduler-test-type": "rtt",
+    "sample-size": "10",
+    "time-duration": "16.0",
+    "time-probe-interval": "1.0",
+    "uri": "/esmond/perfsonar/archive/a705c45498424ed88e56f9102b752212/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/a88d38f235344387baf9b4d2276793b2/",
+    "metadata-key": "a88d38f235344387baf9b4d2276793b2",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/a88d38f235344387baf9b4d2276793b2/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/a88d38f235344387baf9b4d2276793b2/packet-trace/base",
+        "event-type": "packet-trace",
+        "time-updated": 1527632583,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/a88d38f235344387baf9b4d2276793b2/path-mtu/base",
+        "event-type": "path-mtu",
+        "time-updated": null,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "198.129.254.22",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/traceroute",
+    "input-source": "146.83.188.9",
+    "input-destination": "198.129.254.22",
+    "pscheduler-test-type": "trace",
+    "time-duration": "8.0",
+    "uri": "/esmond/perfsonar/archive/a88d38f235344387baf9b4d2276793b2/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/a9ab34e8061c49f4823392554f5115d4/",
+    "metadata-key": "a9ab34e8061c49f4823392554f5115d4",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/a9ab34e8061c49f4823392554f5115d4/failures/base",
+        "event-type": "failures",
+        "time-updated": 1527517933,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/a9ab34e8061c49f4823392554f5115d4/packet-trace/base",
+        "event-type": "packet-trace",
+        "time-updated": 1527632540,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/a9ab34e8061c49f4823392554f5115d4/path-mtu/base",
+        "event-type": "path-mtu",
+        "time-updated": null,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "159.226.224.54",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/traceroute",
+    "input-source": "146.83.188.9",
+    "input-destination": "159.226.224.54",
+    "ip-packet-size": "40",
+    "pscheduler-test-type": "trace",
+    "time-duration": "8.0",
+    "uri": "/esmond/perfsonar/archive/a9ab34e8061c49f4823392554f5115d4/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/ac97cb40794648b4a65440d6a6d9bb9f/",
+    "metadata-key": "ac97cb40794648b4a65440d6a6d9bb9f",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/ac97cb40794648b4a65440d6a6d9bb9f/failures/base",
+        "event-type": "failures",
+        "time-updated": 1526523443,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/ac97cb40794648b4a65440d6a6d9bb9f/packet-retransmits/base",
+        "event-type": "packet-retransmits",
+        "time-updated": 1526564276,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/ac97cb40794648b4a65440d6a6d9bb9f/packet-retransmits-subintervals/base",
+        "event-type": "packet-retransmits-subintervals",
+        "time-updated": 1526564276,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/ac97cb40794648b4a65440d6a6d9bb9f/throughput/base",
+        "event-type": "throughput",
+        "time-updated": 1526564276,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/ac97cb40794648b4a65440d6a6d9bb9f/throughput/averages/86400",
+            "summary-type": "average",
+            "summary-window": "86400",
+            "time-updated": 1526564276
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/ac97cb40794648b4a65440d6a6d9bb9f/throughput-subintervals/base",
+        "event-type": "throughput-subintervals",
+        "time-updated": 1526564276,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "200.0.207.49",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/iperf3",
+    "input-source": "146.83.188.9",
+    "input-destination": "200.0.207.49",
+    "bw-parallel-streams": "1",
+    "ip-transport-protocol": "tcp",
+    "pscheduler-test-type": "throughput",
+    "time-duration": "29.0",
+    "uri": "/esmond/perfsonar/archive/ac97cb40794648b4a65440d6a6d9bb9f/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/afe6cfff8aa84ed48a86a6a358afe1f8/",
+    "metadata-key": "afe6cfff8aa84ed48a86a6a358afe1f8",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/afe6cfff8aa84ed48a86a6a358afe1f8/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/afe6cfff8aa84ed48a86a6a358afe1f8/packet-trace/base",
+        "event-type": "packet-trace",
+        "time-updated": 1524690687,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/afe6cfff8aa84ed48a86a6a358afe1f8/path-mtu/base",
+        "event-type": "path-mtu",
+        "time-updated": null,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "146.83.239.38",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/traceroute",
+    "input-source": "146.83.188.9",
+    "input-destination": "ra-reuna.reuna.cl",
+    "pscheduler-test-type": "trace",
+    "time-duration": "8.0",
+    "uri": "/esmond/perfsonar/archive/afe6cfff8aa84ed48a86a6a358afe1f8/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/b4a052e89ddc412b94d8602f8607fab7/",
+    "metadata-key": "b4a052e89ddc412b94d8602f8607fab7",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/b4a052e89ddc412b94d8602f8607fab7/failures/base",
+        "event-type": "failures",
+        "time-updated": 1526720148,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/b4a052e89ddc412b94d8602f8607fab7/packet-retransmits/base",
+        "event-type": "packet-retransmits",
+        "time-updated": 1526741688,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/b4a052e89ddc412b94d8602f8607fab7/packet-retransmits-subintervals/base",
+        "event-type": "packet-retransmits-subintervals",
+        "time-updated": 1526741688,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/b4a052e89ddc412b94d8602f8607fab7/throughput/base",
+        "event-type": "throughput",
+        "time-updated": 1526741688,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/b4a052e89ddc412b94d8602f8607fab7/throughput/averages/86400",
+            "summary-type": "average",
+            "summary-window": "86400",
+            "time-updated": 1526741688
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/b4a052e89ddc412b94d8602f8607fab7/throughput-subintervals/base",
+        "event-type": "throughput-subintervals",
+        "time-updated": 1526741688,
+        "summaries": []
+      }
+    ],
+    "source": "200.17.29.243",
+    "destination": "146.83.188.9",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/bwctliperf3",
+    "input-source": "ps-bw.sciencedmz.usp.br",
+    "input-destination": "146.83.188.9",
+    "bw-parallel-streams": "1",
+    "ip-transport-protocol": "tcp",
+    "pscheduler-test-type": "throughput",
+    "time-duration": "81.0",
+    "uri": "/esmond/perfsonar/archive/b4a052e89ddc412b94d8602f8607fab7/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/bc0e68c88d2947c284f1723f6ba2e6ed/",
+    "metadata-key": "bc0e68c88d2947c284f1723f6ba2e6ed",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/bc0e68c88d2947c284f1723f6ba2e6ed/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/bc0e68c88d2947c284f1723f6ba2e6ed/histogram-rtt/base",
+        "event-type": "histogram-rtt",
+        "time-updated": 1505159221,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/bc0e68c88d2947c284f1723f6ba2e6ed/histogram-rtt/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1505159221
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/bc0e68c88d2947c284f1723f6ba2e6ed/histogram-rtt/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1505159221
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/bc0e68c88d2947c284f1723f6ba2e6ed/histogram-rtt/statistics/0",
+            "summary-type": "statistics",
+            "summary-window": "0",
+            "time-updated": 1505159221
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/bc0e68c88d2947c284f1723f6ba2e6ed/histogram-rtt/statistics/3600",
+            "summary-type": "statistics",
+            "summary-window": "3600",
+            "time-updated": 1505159221
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/bc0e68c88d2947c284f1723f6ba2e6ed/histogram-rtt/statistics/86400",
+            "summary-type": "statistics",
+            "summary-window": "86400",
+            "time-updated": 1505159221
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/bc0e68c88d2947c284f1723f6ba2e6ed/histogram-ttl-reverse/base",
+        "event-type": "histogram-ttl-reverse",
+        "time-updated": 1505159221,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/bc0e68c88d2947c284f1723f6ba2e6ed/packet-count-lost-bidir/base",
+        "event-type": "packet-count-lost-bidir",
+        "time-updated": 1505159221,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/bc0e68c88d2947c284f1723f6ba2e6ed/packet-count-lost-bidir/aggregations/300",
+            "summary-type": "aggregation",
+            "summary-window": "300",
+            "time-updated": 1505159221
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/bc0e68c88d2947c284f1723f6ba2e6ed/packet-count-lost-bidir/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1505159221
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/bc0e68c88d2947c284f1723f6ba2e6ed/packet-count-lost-bidir/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1505159221
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/bc0e68c88d2947c284f1723f6ba2e6ed/packet-count-sent/base",
+        "event-type": "packet-count-sent",
+        "time-updated": 1505159221,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/bc0e68c88d2947c284f1723f6ba2e6ed/packet-count-sent/aggregations/300",
+            "summary-type": "aggregation",
+            "summary-window": "300",
+            "time-updated": 1505159221
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/bc0e68c88d2947c284f1723f6ba2e6ed/packet-count-sent/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1505159221
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/bc0e68c88d2947c284f1723f6ba2e6ed/packet-count-sent/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1505159221
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/bc0e68c88d2947c284f1723f6ba2e6ed/packet-duplicates-bidir/base",
+        "event-type": "packet-duplicates-bidir",
+        "time-updated": 1505159221,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/bc0e68c88d2947c284f1723f6ba2e6ed/packet-loss-rate-bidir/base",
+        "event-type": "packet-loss-rate-bidir",
+        "time-updated": 1505159221,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/bc0e68c88d2947c284f1723f6ba2e6ed/packet-loss-rate-bidir/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1505159221
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/bc0e68c88d2947c284f1723f6ba2e6ed/packet-loss-rate-bidir/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1505159221
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/bc0e68c88d2947c284f1723f6ba2e6ed/packet-reorders-bidir/base",
+        "event-type": "packet-reorders-bidir",
+        "time-updated": 1505159221,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "146.83.239.38",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/ping",
+    "input-source": "146.83.188.9",
+    "input-destination": "ra-reuna.reuna.cl",
+    "ip-packet-size": "1000",
+    "ip-ttl": "255",
+    "pscheduler-test-type": "rtt",
+    "sample-size": "10",
+    "time-duration": "16.0",
+    "time-probe-interval": "1.0",
+    "uri": "/esmond/perfsonar/archive/bc0e68c88d2947c284f1723f6ba2e6ed/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/bce04a8e04e9482f8ac1413595802a85/",
+    "metadata-key": "bce04a8e04e9482f8ac1413595802a85",
+    "subject-type": "point-to-point",
+    "event-types": [],
+    "uri": "/esmond/perfsonar/archive/bce04a8e04e9482f8ac1413595802a85/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/c11e836c7f1340fbbfb77fff5c7dd97f/",
+    "metadata-key": "c11e836c7f1340fbbfb77fff5c7dd97f",
+    "subject-type": "point-to-point",
+    "event-types": [],
+    "uri": "/esmond/perfsonar/archive/c11e836c7f1340fbbfb77fff5c7dd97f/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/c573663550dc4a9899cd770011f41c7e/",
+    "metadata-key": "c573663550dc4a9899cd770011f41c7e",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/c573663550dc4a9899cd770011f41c7e/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/c573663550dc4a9899cd770011f41c7e/packet-retransmits/base",
+        "event-type": "packet-retransmits",
+        "time-updated": 1534460137,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/c573663550dc4a9899cd770011f41c7e/packet-retransmits-subintervals/base",
+        "event-type": "packet-retransmits-subintervals",
+        "time-updated": 1534460137,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/c573663550dc4a9899cd770011f41c7e/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1534460137,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/c573663550dc4a9899cd770011f41c7e/throughput/base",
+        "event-type": "throughput",
+        "time-updated": 1534460137,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/c573663550dc4a9899cd770011f41c7e/throughput/averages/86400",
+            "summary-type": "average",
+            "summary-window": "86400",
+            "time-updated": 1534460137
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/c573663550dc4a9899cd770011f41c7e/throughput-subintervals/base",
+        "event-type": "throughput-subintervals",
+        "time-updated": 1534460137,
+        "summaries": []
+      }
+    ],
+    "source": "200.17.29.243",
+    "destination": "146.83.188.9",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/iperf3",
+    "input-source": "ps-bw.sciencedmz.usp.br",
+    "input-destination": "146.83.188.9",
+    "ip-transport-protocol": "tcp",
+    "pscheduler-reference-psconfig-created-by-user-agent": "psconfig-pscheduler-agent",
+    "pscheduler-reference-psconfig-created-by-uuid": "A58C3D20-9425-11E7-A1C8-A644737D27C9",
+    "pscheduler-test-type": "throughput",
+    "time-duration": "29.0",
+    "uri": "/esmond/perfsonar/archive/c573663550dc4a9899cd770011f41c7e/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/c5db2d74698745f799dc7093e27ce7ab/",
+    "metadata-key": "c5db2d74698745f799dc7093e27ce7ab",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/c5db2d74698745f799dc7093e27ce7ab/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/c5db2d74698745f799dc7093e27ce7ab/packet-retransmits/base",
+        "event-type": "packet-retransmits",
+        "time-updated": 1536881442,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/c5db2d74698745f799dc7093e27ce7ab/packet-retransmits-subintervals/base",
+        "event-type": "packet-retransmits-subintervals",
+        "time-updated": 1536881442,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/c5db2d74698745f799dc7093e27ce7ab/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1536881442,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/c5db2d74698745f799dc7093e27ce7ab/throughput/base",
+        "event-type": "throughput",
+        "time-updated": 1536881442,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/c5db2d74698745f799dc7093e27ce7ab/throughput/averages/86400",
+            "summary-type": "average",
+            "summary-window": "86400",
+            "time-updated": 1536881442
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/c5db2d74698745f799dc7093e27ce7ab/throughput-subintervals/base",
+        "event-type": "throughput-subintervals",
+        "time-updated": 1536881442,
+        "summaries": []
+      }
+    ],
+    "source": "128.55.199.18",
+    "destination": "146.83.188.9",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/iperf3",
+    "input-source": "perfsonar.nersc.gov",
+    "input-destination": "146.83.188.9",
+    "ip-transport-protocol": "tcp",
+    "pscheduler-test-type": "throughput",
+    "time-duration": "29.0",
+    "uri": "/esmond/perfsonar/archive/c5db2d74698745f799dc7093e27ce7ab/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/c87578bede7d49299938ed173343e968/",
+    "metadata-key": "c87578bede7d49299938ed173343e968",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/c87578bede7d49299938ed173343e968/failures/base",
+        "event-type": "failures",
+        "time-updated": 1526560832,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/c87578bede7d49299938ed173343e968/histogram-rtt/base",
+        "event-type": "histogram-rtt",
+        "time-updated": 1527633006,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/c87578bede7d49299938ed173343e968/histogram-rtt/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1527633006
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/c87578bede7d49299938ed173343e968/histogram-rtt/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1527633006
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/c87578bede7d49299938ed173343e968/histogram-rtt/statistics/0",
+            "summary-type": "statistics",
+            "summary-window": "0",
+            "time-updated": 1527633006
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/c87578bede7d49299938ed173343e968/histogram-rtt/statistics/3600",
+            "summary-type": "statistics",
+            "summary-window": "3600",
+            "time-updated": 1527633006
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/c87578bede7d49299938ed173343e968/histogram-rtt/statistics/86400",
+            "summary-type": "statistics",
+            "summary-window": "86400",
+            "time-updated": 1527633006
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/c87578bede7d49299938ed173343e968/histogram-ttl-reverse/base",
+        "event-type": "histogram-ttl-reverse",
+        "time-updated": 1527633006,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/c87578bede7d49299938ed173343e968/packet-count-lost-bidir/base",
+        "event-type": "packet-count-lost-bidir",
+        "time-updated": 1527633006,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/c87578bede7d49299938ed173343e968/packet-count-lost-bidir/aggregations/300",
+            "summary-type": "aggregation",
+            "summary-window": "300",
+            "time-updated": 1527633006
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/c87578bede7d49299938ed173343e968/packet-count-lost-bidir/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1527633006
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/c87578bede7d49299938ed173343e968/packet-count-lost-bidir/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1527633006
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/c87578bede7d49299938ed173343e968/packet-count-sent/base",
+        "event-type": "packet-count-sent",
+        "time-updated": 1527633006,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/c87578bede7d49299938ed173343e968/packet-count-sent/aggregations/300",
+            "summary-type": "aggregation",
+            "summary-window": "300",
+            "time-updated": 1527633006
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/c87578bede7d49299938ed173343e968/packet-count-sent/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1527633006
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/c87578bede7d49299938ed173343e968/packet-count-sent/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1527633006
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/c87578bede7d49299938ed173343e968/packet-duplicates-bidir/base",
+        "event-type": "packet-duplicates-bidir",
+        "time-updated": 1527633006,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/c87578bede7d49299938ed173343e968/packet-loss-rate-bidir/base",
+        "event-type": "packet-loss-rate-bidir",
+        "time-updated": 1527633006,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/c87578bede7d49299938ed173343e968/packet-loss-rate-bidir/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1527633006
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/c87578bede7d49299938ed173343e968/packet-loss-rate-bidir/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1527633006
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/c87578bede7d49299938ed173343e968/packet-reorders-bidir/base",
+        "event-type": "packet-reorders-bidir",
+        "time-updated": 1527633006,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "5.53.3.75",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/ping",
+    "input-source": "146.83.188.9",
+    "input-destination": "5.53.3.75",
+    "ip-packet-size": "1000",
+    "ip-ttl": "255",
+    "pscheduler-test-type": "rtt",
+    "sample-size": "20",
+    "time-duration": "26.0",
+    "time-probe-interval": "1.0",
+    "uri": "/esmond/perfsonar/archive/c87578bede7d49299938ed173343e968/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/ca8e16c958784edf8355610a3b0d93ce/",
+    "metadata-key": "ca8e16c958784edf8355610a3b0d93ce",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/ca8e16c958784edf8355610a3b0d93ce/failures/base",
+        "event-type": "failures",
+        "time-updated": 1526534449,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/ca8e16c958784edf8355610a3b0d93ce/packet-trace/base",
+        "event-type": "packet-trace",
+        "time-updated": 1527632967,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/ca8e16c958784edf8355610a3b0d93ce/path-mtu/base",
+        "event-type": "path-mtu",
+        "time-updated": null,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "128.55.199.18",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/traceroute",
+    "input-source": "146.83.188.9",
+    "input-destination": "perfsonar.nersc.gov",
+    "pscheduler-test-type": "trace",
+    "time-duration": "8.0",
+    "uri": "/esmond/perfsonar/archive/ca8e16c958784edf8355610a3b0d93ce/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/cd8152e4964e4ac0bc04d5076ca27fa2/",
+    "metadata-key": "cd8152e4964e4ac0bc04d5076ca27fa2",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/cd8152e4964e4ac0bc04d5076ca27fa2/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/cd8152e4964e4ac0bc04d5076ca27fa2/packet-trace/base",
+        "event-type": "packet-trace",
+        "time-updated": 1525373602,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/cd8152e4964e4ac0bc04d5076ca27fa2/path-mtu/base",
+        "event-type": "path-mtu",
+        "time-updated": null,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "146.83.183.171",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/traceroute",
+    "input-source": "146.83.188.9",
+    "input-destination": "server1.reuna.cl",
+    "pscheduler-test-type": "trace",
+    "time-duration": "8.0",
+    "uri": "/esmond/perfsonar/archive/cd8152e4964e4ac0bc04d5076ca27fa2/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/ce94495f89034b56aa640609da27d84c/",
+    "metadata-key": "ce94495f89034b56aa640609da27d84c",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/ce94495f89034b56aa640609da27d84c/failures/base",
+        "event-type": "failures",
+        "time-updated": 1534414493,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/ce94495f89034b56aa640609da27d84c/packet-retransmits/base",
+        "event-type": "packet-retransmits",
+        "time-updated": 1534446327,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/ce94495f89034b56aa640609da27d84c/packet-retransmits-subintervals/base",
+        "event-type": "packet-retransmits-subintervals",
+        "time-updated": 1534446327,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/ce94495f89034b56aa640609da27d84c/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1534446327,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/ce94495f89034b56aa640609da27d84c/throughput/base",
+        "event-type": "throughput",
+        "time-updated": 1534446327,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/ce94495f89034b56aa640609da27d84c/throughput/averages/86400",
+            "summary-type": "average",
+            "summary-window": "86400",
+            "time-updated": 1534446327
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/ce94495f89034b56aa640609da27d84c/throughput-subintervals/base",
+        "event-type": "throughput-subintervals",
+        "time-updated": 1534446327,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.182.3",
+    "destination": "146.83.188.9",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/iperf3",
+    "input-source": "146.83.182.3",
+    "input-destination": "146.83.188.9",
+    "bw-parallel-streams": "1",
+    "ip-transport-protocol": "tcp",
+    "pscheduler-test-type": "throughput",
+    "time-duration": "19.0",
+    "uri": "/esmond/perfsonar/archive/ce94495f89034b56aa640609da27d84c/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/cf0e3f85b9de4488bbca92ee5c3b71d1/",
+    "metadata-key": "cf0e3f85b9de4488bbca92ee5c3b71d1",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/cf0e3f85b9de4488bbca92ee5c3b71d1/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/cf0e3f85b9de4488bbca92ee5c3b71d1/packet-retransmits/base",
+        "event-type": "packet-retransmits",
+        "time-updated": 1536449444,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/cf0e3f85b9de4488bbca92ee5c3b71d1/packet-retransmits-subintervals/base",
+        "event-type": "packet-retransmits-subintervals",
+        "time-updated": 1536449444,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/cf0e3f85b9de4488bbca92ee5c3b71d1/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1536449444,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/cf0e3f85b9de4488bbca92ee5c3b71d1/throughput/base",
+        "event-type": "throughput",
+        "time-updated": 1536449444,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/cf0e3f85b9de4488bbca92ee5c3b71d1/throughput/averages/86400",
+            "summary-type": "average",
+            "summary-window": "86400",
+            "time-updated": 1536449444
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/cf0e3f85b9de4488bbca92ee5c3b71d1/throughput-subintervals/base",
+        "event-type": "throughput-subintervals",
+        "time-updated": 1536449444,
+        "summaries": []
+      }
+    ],
+    "source": "128.55.199.18",
+    "destination": "146.83.188.9",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/bwctliperf3",
+    "input-source": "perfsonar.nersc.gov",
+    "input-destination": "146.83.188.9",
+    "ip-transport-protocol": "tcp",
+    "pscheduler-reference-psconfig-created-by-user-agent": "psconfig-pscheduler-agent",
+    "pscheduler-reference-psconfig-created-by-uuid": "A58C3D20-9425-11E7-A1C8-A644737D27C9",
+    "pscheduler-test-type": "throughput",
+    "time-duration": "81.0",
+    "uri": "/esmond/perfsonar/archive/cf0e3f85b9de4488bbca92ee5c3b71d1/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/d0508dc64dfa4649af8e6f04a6f2b3c0/",
+    "metadata-key": "d0508dc64dfa4649af8e6f04a6f2b3c0",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/d0508dc64dfa4649af8e6f04a6f2b3c0/failures/base",
+        "event-type": "failures",
+        "time-updated": 1526530350,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/d0508dc64dfa4649af8e6f04a6f2b3c0/histogram-rtt/base",
+        "event-type": "histogram-rtt",
+        "time-updated": 1527631640,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/d0508dc64dfa4649af8e6f04a6f2b3c0/histogram-rtt/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1527631640
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/d0508dc64dfa4649af8e6f04a6f2b3c0/histogram-rtt/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1527631640
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/d0508dc64dfa4649af8e6f04a6f2b3c0/histogram-rtt/statistics/0",
+            "summary-type": "statistics",
+            "summary-window": "0",
+            "time-updated": 1527631640
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/d0508dc64dfa4649af8e6f04a6f2b3c0/histogram-rtt/statistics/3600",
+            "summary-type": "statistics",
+            "summary-window": "3600",
+            "time-updated": 1527631640
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/d0508dc64dfa4649af8e6f04a6f2b3c0/histogram-rtt/statistics/86400",
+            "summary-type": "statistics",
+            "summary-window": "86400",
+            "time-updated": 1527631640
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/d0508dc64dfa4649af8e6f04a6f2b3c0/histogram-ttl-reverse/base",
+        "event-type": "histogram-ttl-reverse",
+        "time-updated": 1527631640,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/d0508dc64dfa4649af8e6f04a6f2b3c0/packet-count-lost-bidir/base",
+        "event-type": "packet-count-lost-bidir",
+        "time-updated": 1527631640,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/d0508dc64dfa4649af8e6f04a6f2b3c0/packet-count-lost-bidir/aggregations/300",
+            "summary-type": "aggregation",
+            "summary-window": "300",
+            "time-updated": 1527631640
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/d0508dc64dfa4649af8e6f04a6f2b3c0/packet-count-lost-bidir/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1527631640
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/d0508dc64dfa4649af8e6f04a6f2b3c0/packet-count-lost-bidir/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1527631640
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/d0508dc64dfa4649af8e6f04a6f2b3c0/packet-count-sent/base",
+        "event-type": "packet-count-sent",
+        "time-updated": 1527631640,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/d0508dc64dfa4649af8e6f04a6f2b3c0/packet-count-sent/aggregations/300",
+            "summary-type": "aggregation",
+            "summary-window": "300",
+            "time-updated": 1527631640
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/d0508dc64dfa4649af8e6f04a6f2b3c0/packet-count-sent/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1527631640
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/d0508dc64dfa4649af8e6f04a6f2b3c0/packet-count-sent/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1527631640
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/d0508dc64dfa4649af8e6f04a6f2b3c0/packet-duplicates-bidir/base",
+        "event-type": "packet-duplicates-bidir",
+        "time-updated": 1527631640,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/d0508dc64dfa4649af8e6f04a6f2b3c0/packet-loss-rate-bidir/base",
+        "event-type": "packet-loss-rate-bidir",
+        "time-updated": 1527631640,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/d0508dc64dfa4649af8e6f04a6f2b3c0/packet-loss-rate-bidir/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1527631640
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/d0508dc64dfa4649af8e6f04a6f2b3c0/packet-loss-rate-bidir/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1527631640
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/d0508dc64dfa4649af8e6f04a6f2b3c0/packet-reorders-bidir/base",
+        "event-type": "packet-reorders-bidir",
+        "time-updated": 1527631640,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "159.226.224.54",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/ping",
+    "input-source": "146.83.188.9",
+    "input-destination": "159.226.224.54",
+    "ip-packet-size": "1000",
+    "ip-ttl": "255",
+    "pscheduler-test-type": "rtt",
+    "sample-size": "20",
+    "time-duration": "26.0",
+    "time-probe-interval": "1.0",
+    "uri": "/esmond/perfsonar/archive/d0508dc64dfa4649af8e6f04a6f2b3c0/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/d0658362bd914ba4bc7523454c352840/",
+    "metadata-key": "d0658362bd914ba4bc7523454c352840",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/d0658362bd914ba4bc7523454c352840/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/d0658362bd914ba4bc7523454c352840/packet-retransmits/base",
+        "event-type": "packet-retransmits",
+        "time-updated": 1524749524,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/d0658362bd914ba4bc7523454c352840/packet-retransmits-subintervals/base",
+        "event-type": "packet-retransmits-subintervals",
+        "time-updated": 1524749524,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/d0658362bd914ba4bc7523454c352840/throughput/base",
+        "event-type": "throughput",
+        "time-updated": 1524749524,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/d0658362bd914ba4bc7523454c352840/throughput/averages/86400",
+            "summary-type": "average",
+            "summary-window": "86400",
+            "time-updated": 1524749524
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/d0658362bd914ba4bc7523454c352840/throughput-subintervals/base",
+        "event-type": "throughput-subintervals",
+        "time-updated": 1524749524,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "200.0.207.49",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/iperf3",
+    "input-source": "146.83.188.9",
+    "input-destination": "200.0.207.49",
+    "bw-parallel-streams": "1",
+    "ip-transport-protocol": "tcp",
+    "pscheduler-test-type": "throughput",
+    "time-duration": "19.0",
+    "uri": "/esmond/perfsonar/archive/d0658362bd914ba4bc7523454c352840/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/d347c21e00c34848b0251ea530971d92/",
+    "metadata-key": "d347c21e00c34848b0251ea530971d92",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/d347c21e00c34848b0251ea530971d92/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/d347c21e00c34848b0251ea530971d92/packet-trace/base",
+        "event-type": "packet-trace",
+        "time-updated": 1534459127,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/d347c21e00c34848b0251ea530971d92/path-mtu/base",
+        "event-type": "path-mtu",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/d347c21e00c34848b0251ea530971d92/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1534459127,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "200.17.29.243",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/traceroute",
+    "input-source": "146.83.188.9",
+    "input-destination": "ps-bw.sciencedmz.usp.br",
+    "pscheduler-test-type": "trace",
+    "time-duration": "8.0",
+    "uri": "/esmond/perfsonar/archive/d347c21e00c34848b0251ea530971d92/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/d6da567ab54443aaaee681cea19eb6bd/",
+    "metadata-key": "d6da567ab54443aaaee681cea19eb6bd",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/d6da567ab54443aaaee681cea19eb6bd/failures/base",
+        "event-type": "failures",
+        "time-updated": 1535080406,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/d6da567ab54443aaaee681cea19eb6bd/packet-trace/base",
+        "event-type": "packet-trace",
+        "time-updated": 1537083798,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/d6da567ab54443aaaee681cea19eb6bd/path-mtu/base",
+        "event-type": "path-mtu",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/d6da567ab54443aaaee681cea19eb6bd/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1537083798,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "128.55.199.18",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/traceroute",
+    "input-source": "146.83.188.9",
+    "input-destination": "perfsonar.nersc.gov",
+    "pscheduler-reference-psconfig-created-by-user-agent": "psconfig-pscheduler-agent",
+    "pscheduler-reference-psconfig-created-by-uuid": "A58C3D20-9425-11E7-A1C8-A644737D27C9",
+    "pscheduler-test-type": "trace",
+    "time-duration": "8.0",
+    "uri": "/esmond/perfsonar/archive/d6da567ab54443aaaee681cea19eb6bd/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/d9fc3826ae344870a469a41707e8dc08/",
+    "metadata-key": "d9fc3826ae344870a469a41707e8dc08",
+    "subject-type": "point-to-point",
+    "event-types": [],
+    "uri": "/esmond/perfsonar/archive/d9fc3826ae344870a469a41707e8dc08/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/ed89c44c9a444e618783c77b4c0b7f33/",
+    "metadata-key": "ed89c44c9a444e618783c77b4c0b7f33",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/ed89c44c9a444e618783c77b4c0b7f33/failures/base",
+        "event-type": "failures",
+        "time-updated": 1525605967,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/ed89c44c9a444e618783c77b4c0b7f33/packet-retransmits/base",
+        "event-type": "packet-retransmits",
+        "time-updated": 1525797725,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/ed89c44c9a444e618783c77b4c0b7f33/packet-retransmits-subintervals/base",
+        "event-type": "packet-retransmits-subintervals",
+        "time-updated": 1525797725,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/ed89c44c9a444e618783c77b4c0b7f33/throughput/base",
+        "event-type": "throughput",
+        "time-updated": 1525797725,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/ed89c44c9a444e618783c77b4c0b7f33/throughput/averages/86400",
+            "summary-type": "average",
+            "summary-window": "86400",
+            "time-updated": 1525797725
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/ed89c44c9a444e618783c77b4c0b7f33/throughput-subintervals/base",
+        "event-type": "throughput-subintervals",
+        "time-updated": 1525797725,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "138.59.12.112",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/iperf3",
+    "input-source": "146.83.188.9",
+    "input-destination": "138.59.12.112",
+    "bw-parallel-streams": "1",
+    "ip-transport-protocol": "tcp",
+    "pscheduler-test-type": "throughput",
+    "time-duration": "19.0",
+    "uri": "/esmond/perfsonar/archive/ed89c44c9a444e618783c77b4c0b7f33/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/f2cefe2f47314235a6a12879eb026682/",
+    "metadata-key": "f2cefe2f47314235a6a12879eb026682",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/f2cefe2f47314235a6a12879eb026682/failures/base",
+        "event-type": "failures",
+        "time-updated": 1532833942,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/f2cefe2f47314235a6a12879eb026682/packet-trace/base",
+        "event-type": "packet-trace",
+        "time-updated": 1534458817,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/f2cefe2f47314235a6a12879eb026682/path-mtu/base",
+        "event-type": "path-mtu",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/f2cefe2f47314235a6a12879eb026682/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1534458817,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "128.55.199.18",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/traceroute",
+    "input-source": "146.83.188.9",
+    "input-destination": "perfsonar.nersc.gov",
+    "pscheduler-test-type": "trace",
+    "time-duration": "8.0",
+    "uri": "/esmond/perfsonar/archive/f2cefe2f47314235a6a12879eb026682/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/f31c417b3f784df99dab5b10b5d3d6d3/",
+    "metadata-key": "f31c417b3f784df99dab5b10b5d3d6d3",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/f31c417b3f784df99dab5b10b5d3d6d3/failures/base",
+        "event-type": "failures",
+        "time-updated": 1532306051,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/f31c417b3f784df99dab5b10b5d3d6d3/histogram-rtt/base",
+        "event-type": "histogram-rtt",
+        "time-updated": 1534459074,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/f31c417b3f784df99dab5b10b5d3d6d3/histogram-rtt/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1534459074
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/f31c417b3f784df99dab5b10b5d3d6d3/histogram-rtt/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1534459074
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/f31c417b3f784df99dab5b10b5d3d6d3/histogram-rtt/statistics/0",
+            "summary-type": "statistics",
+            "summary-window": "0",
+            "time-updated": 1534459074
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/f31c417b3f784df99dab5b10b5d3d6d3/histogram-rtt/statistics/3600",
+            "summary-type": "statistics",
+            "summary-window": "3600",
+            "time-updated": 1534459074
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/f31c417b3f784df99dab5b10b5d3d6d3/histogram-rtt/statistics/86400",
+            "summary-type": "statistics",
+            "summary-window": "86400",
+            "time-updated": 1534459074
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/f31c417b3f784df99dab5b10b5d3d6d3/histogram-ttl-reverse/base",
+        "event-type": "histogram-ttl-reverse",
+        "time-updated": 1534459074,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/f31c417b3f784df99dab5b10b5d3d6d3/packet-count-lost-bidir/base",
+        "event-type": "packet-count-lost-bidir",
+        "time-updated": 1534459074,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/f31c417b3f784df99dab5b10b5d3d6d3/packet-count-lost-bidir/aggregations/300",
+            "summary-type": "aggregation",
+            "summary-window": "300",
+            "time-updated": 1534459074
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/f31c417b3f784df99dab5b10b5d3d6d3/packet-count-lost-bidir/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1534459074
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/f31c417b3f784df99dab5b10b5d3d6d3/packet-count-lost-bidir/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1534459074
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/f31c417b3f784df99dab5b10b5d3d6d3/packet-count-sent/base",
+        "event-type": "packet-count-sent",
+        "time-updated": 1534459074,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/f31c417b3f784df99dab5b10b5d3d6d3/packet-count-sent/aggregations/300",
+            "summary-type": "aggregation",
+            "summary-window": "300",
+            "time-updated": 1534459074
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/f31c417b3f784df99dab5b10b5d3d6d3/packet-count-sent/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1534459074
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/f31c417b3f784df99dab5b10b5d3d6d3/packet-count-sent/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1534459074
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/f31c417b3f784df99dab5b10b5d3d6d3/packet-duplicates-bidir/base",
+        "event-type": "packet-duplicates-bidir",
+        "time-updated": 1534459074,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/f31c417b3f784df99dab5b10b5d3d6d3/packet-loss-rate-bidir/base",
+        "event-type": "packet-loss-rate-bidir",
+        "time-updated": 1534459074,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/f31c417b3f784df99dab5b10b5d3d6d3/packet-loss-rate-bidir/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1534459074
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/f31c417b3f784df99dab5b10b5d3d6d3/packet-loss-rate-bidir/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1534459074
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/f31c417b3f784df99dab5b10b5d3d6d3/packet-reorders-bidir/base",
+        "event-type": "packet-reorders-bidir",
+        "time-updated": 1534459074,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/f31c417b3f784df99dab5b10b5d3d6d3/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1534459074,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "159.226.224.54",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/ping",
+    "input-source": "146.83.188.9",
+    "input-destination": "159.226.224.54",
+    "ip-packet-size": "1000",
+    "ip-ttl": "255",
+    "pscheduler-test-type": "rtt",
+    "sample-size": "20",
+    "time-duration": "26.0",
+    "time-probe-interval": "1.0",
+    "uri": "/esmond/perfsonar/archive/f31c417b3f784df99dab5b10b5d3d6d3/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/f6d604bbe7b54a73b741e39b83a68941/",
+    "metadata-key": "f6d604bbe7b54a73b741e39b83a68941",
+    "subject-type": "point-to-point",
+    "event-types": [],
+    "uri": "/esmond/perfsonar/archive/f6d604bbe7b54a73b741e39b83a68941/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/f890833c87434c31b09484bcc0c531b2/",
+    "metadata-key": "f890833c87434c31b09484bcc0c531b2",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/f890833c87434c31b09484bcc0c531b2/failures/base",
+        "event-type": "failures",
+        "time-updated": 1533153160,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/f890833c87434c31b09484bcc0c531b2/packet-retransmits/base",
+        "event-type": "packet-retransmits",
+        "time-updated": 1534439755,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/f890833c87434c31b09484bcc0c531b2/packet-retransmits-subintervals/base",
+        "event-type": "packet-retransmits-subintervals",
+        "time-updated": 1534439755,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/f890833c87434c31b09484bcc0c531b2/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1534439755,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/f890833c87434c31b09484bcc0c531b2/throughput/base",
+        "event-type": "throughput",
+        "time-updated": 1534439755,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/f890833c87434c31b09484bcc0c531b2/throughput/averages/86400",
+            "summary-type": "average",
+            "summary-window": "86400",
+            "time-updated": 1534439755
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/f890833c87434c31b09484bcc0c531b2/throughput-subintervals/base",
+        "event-type": "throughput-subintervals",
+        "time-updated": 1534439755,
+        "summaries": []
+      }
+    ],
+    "source": "200.17.29.243",
+    "destination": "146.83.188.9",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/iperf3",
+    "input-source": "ps-bw.sciencedmz.usp.br",
+    "input-destination": "146.83.188.9",
+    "bw-parallel-streams": "1",
+    "ip-transport-protocol": "tcp",
+    "pscheduler-test-type": "throughput",
+    "time-duration": "29.0",
+    "uri": "/esmond/perfsonar/archive/f890833c87434c31b09484bcc0c531b2/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/fc5b1c97d018420bbc1b73e664271173/",
+    "metadata-key": "fc5b1c97d018420bbc1b73e664271173",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/fc5b1c97d018420bbc1b73e664271173/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/fc5b1c97d018420bbc1b73e664271173/packet-trace/base",
+        "event-type": "packet-trace",
+        "time-updated": 1527632620,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/fc5b1c97d018420bbc1b73e664271173/path-mtu/base",
+        "event-type": "path-mtu",
+        "time-updated": null,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "146.83.182.3",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/traceroute",
+    "input-source": "146.83.188.9",
+    "input-destination": "146.83.182.3",
+    "pscheduler-test-type": "trace",
+    "time-duration": "8.0",
+    "uri": "/esmond/perfsonar/archive/fc5b1c97d018420bbc1b73e664271173/"
+  },
+  {
+    "url": "http://perfsonar.reuna.cl/esmond/perfsonar/archive/ffe0397ec5bd4279acdbfc05aa4e0d6f/",
+    "metadata-key": "ffe0397ec5bd4279acdbfc05aa4e0d6f",
+    "subject-type": "point-to-point",
+    "event-types": [
+      {
+        "base-uri": "/esmond/perfsonar/archive/ffe0397ec5bd4279acdbfc05aa4e0d6f/failures/base",
+        "event-type": "failures",
+        "time-updated": null,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/ffe0397ec5bd4279acdbfc05aa4e0d6f/histogram-rtt/base",
+        "event-type": "histogram-rtt",
+        "time-updated": 1537052017,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/ffe0397ec5bd4279acdbfc05aa4e0d6f/histogram-rtt/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1537052017
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/ffe0397ec5bd4279acdbfc05aa4e0d6f/histogram-rtt/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1537052017
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/ffe0397ec5bd4279acdbfc05aa4e0d6f/histogram-rtt/statistics/0",
+            "summary-type": "statistics",
+            "summary-window": "0",
+            "time-updated": 1537052017
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/ffe0397ec5bd4279acdbfc05aa4e0d6f/histogram-rtt/statistics/3600",
+            "summary-type": "statistics",
+            "summary-window": "3600",
+            "time-updated": 1537052017
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/ffe0397ec5bd4279acdbfc05aa4e0d6f/histogram-rtt/statistics/86400",
+            "summary-type": "statistics",
+            "summary-window": "86400",
+            "time-updated": 1537052017
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/ffe0397ec5bd4279acdbfc05aa4e0d6f/histogram-ttl-reverse/base",
+        "event-type": "histogram-ttl-reverse",
+        "time-updated": 1537052017,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/ffe0397ec5bd4279acdbfc05aa4e0d6f/packet-count-lost-bidir/base",
+        "event-type": "packet-count-lost-bidir",
+        "time-updated": 1537053817,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/ffe0397ec5bd4279acdbfc05aa4e0d6f/packet-count-lost-bidir/aggregations/300",
+            "summary-type": "aggregation",
+            "summary-window": "300",
+            "time-updated": 1537053817
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/ffe0397ec5bd4279acdbfc05aa4e0d6f/packet-count-lost-bidir/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1537053817
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/ffe0397ec5bd4279acdbfc05aa4e0d6f/packet-count-lost-bidir/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1537053817
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/ffe0397ec5bd4279acdbfc05aa4e0d6f/packet-count-sent/base",
+        "event-type": "packet-count-sent",
+        "time-updated": 1537052017,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/ffe0397ec5bd4279acdbfc05aa4e0d6f/packet-count-sent/aggregations/300",
+            "summary-type": "aggregation",
+            "summary-window": "300",
+            "time-updated": 1537052017
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/ffe0397ec5bd4279acdbfc05aa4e0d6f/packet-count-sent/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1537052017
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/ffe0397ec5bd4279acdbfc05aa4e0d6f/packet-count-sent/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1537052017
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/ffe0397ec5bd4279acdbfc05aa4e0d6f/packet-duplicates-bidir/base",
+        "event-type": "packet-duplicates-bidir",
+        "time-updated": 1537053817,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/ffe0397ec5bd4279acdbfc05aa4e0d6f/packet-loss-rate-bidir/base",
+        "event-type": "packet-loss-rate-bidir",
+        "time-updated": 1537052017,
+        "summaries": [
+          {
+            "uri": "/esmond/perfsonar/archive/ffe0397ec5bd4279acdbfc05aa4e0d6f/packet-loss-rate-bidir/aggregations/3600",
+            "summary-type": "aggregation",
+            "summary-window": "3600",
+            "time-updated": 1537052017
+          },
+          {
+            "uri": "/esmond/perfsonar/archive/ffe0397ec5bd4279acdbfc05aa4e0d6f/packet-loss-rate-bidir/aggregations/86400",
+            "summary-type": "aggregation",
+            "summary-window": "86400",
+            "time-updated": 1537052017
+          }
+        ]
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/ffe0397ec5bd4279acdbfc05aa4e0d6f/packet-reorders-bidir/base",
+        "event-type": "packet-reorders-bidir",
+        "time-updated": 1537053817,
+        "summaries": []
+      },
+      {
+        "base-uri": "/esmond/perfsonar/archive/ffe0397ec5bd4279acdbfc05aa4e0d6f/pscheduler-run-href/base",
+        "event-type": "pscheduler-run-href",
+        "time-updated": 1537052017,
+        "summaries": []
+      }
+    ],
+    "source": "146.83.188.9",
+    "destination": "5.53.3.75",
+    "measurement-agent": "146.83.188.9",
+    "tool-name": "pscheduler/ping",
+    "input-source": "146.83.188.9",
+    "input-destination": "5.53.3.75",
+    "ip-ttl": "255",
+    "pscheduler-reference-psconfig-created-by-user-agent": "psconfig-pscheduler-agent",
+    "pscheduler-reference-psconfig-created-by-uuid": "A58C3D20-9425-11E7-A1C8-A644737D27C9",
+    "pscheduler-test-type": "rtt",
+    "sample-size": "20",
+    "time-duration": "26.0",
+    "uri": "/esmond/perfsonar/archive/ffe0397ec5bd4279acdbfc05aa4e0d6f/"
+  }
+]

@@ -65,7 +65,6 @@ def writeOutToFile(outgoingData,currentDatetime,filenamePrefix):
         json.dump(outgoingData,z,indent=2)
 
 
-
 '''
 MAIN
 '''
@@ -97,17 +96,17 @@ data = json.loads(source)
 # print out to console
 #print(json.dumps(data, indent=2))
 
-for item in data:
-    # will print originating perfsonar node for the item
-    #print(item['input-destination'])
+# for item in data:
+#     # will print originating perfsonar node for the item
+#     print(item['input-destination'])
 
-    # will print the unique uri for the originating perfsonar node
-    print(item['metadata-key'])
+#     # will print the unique uri for the originating perfsonar node
+#     print(item['metadata-key'])
 
-    # print space seperator
-    print(' ')
-    print('-=-=-=-=-=-=-=-=-=-=-=-')
-    print(' ')
+#     # print space seperator
+#     print(' ')
+#     print('-=-=-=-=-=-=-=-=-=-=-=-')
+#     print(' ')
 
 
 # create and write out server data 
