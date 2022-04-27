@@ -7,7 +7,7 @@
 # https://docs.perfsonar.net/esmond_api_python.html
 # Python Filters: https://www.programiz.com/python-programming/methods/built-in/filter
 
-# Part 2:
+## Part 2:
 # This will load all the files from the remote server and then output the name, url and meta key
 # Remove unneeded fields in python: https://stackoverflow.com/questions/68374796/delete-unnecessary-elements-in-json
 # Create JSON from dictionary: https://pythonexamples.org/python-create-json/
@@ -15,7 +15,7 @@
 # add new keyvalue pairs to dictionary: https://www.geeksforgeeks.org/add-a-keyvalue-pair-to-dictionary-in-python/
 # remove everything after a string in python: https://www.adamsmith.haus/python/answers/how-to-remove-everything-after-a-character-in-a-string-in-python
 
-# Part 3:
+## Part 3:
 # encoder for json in python docs: https://docs.python.org/3/library/json.html
 # working with objects in python: https://www.youtube.com/watch?v=Uh2ebFW8OYM
 # graphing data in python: https://www.geeksforgeeks.org/graph-plotting-in-python-set-1/
@@ -23,12 +23,21 @@
 
 
 '''
-OVERVIEW OF PROGRAM FUNCTION:
-This will take in the remote server IP from the command line
-It will output a dictionary of the corresponding keys and the corresponding hostnames  (if they exist, it will check) as a JSON file to reference
-It will then go through all the tests and grab individual tests based on nodes, ouputting them to their own JSON files (with checks to see if they exist)
-
+   ____                       _               
+  / __ \                     (_)              
+ | |  | __   _____ _ ____   ___  _____      __
+ | |  | \ \ / / _ | '__\ \ / | |/ _ \ \ /\ / /
+ | |__| |\ V |  __| |   \ V /| |  __/\ V  V / 
+  \____/  \_/ \___|_|    \_/ |_|\___| \_/\_/  
+                                              
+    OF PROGRAM FUNCTION:                                            
 '''
+# This will take in the remote server IP from the command line
+# It will output a dictionary of the corresponding keys and the corresponding hostnames  (if they exist, it will check) as a JSON file to reference
+# It will then go through all the tests and grab individual tests based on nodes, ouputting them to their own JSON files (with checks to see if they exist)
+
+## USE PYTHON 3 TO RUN THIS PROGRAM!!! (Source: https://stackoverflow.com/questions/46016327/python-syntax-errors-with-python-anywhere )
+
 
 # ----------
 # Imports:
@@ -39,7 +48,7 @@ from textwrap import indent
 from urllib.request import urlopen
 import datetime
 import sys
-from msilib.schema import Directory
+# from msilib.schema import Directory
 import os
 
 
@@ -55,7 +64,7 @@ nameSourceIPDictionary = dict()
 
 
 # Current Server Source IP
-current_server_IP = '192.168.50.190'
+#current_server_IP = '192.168.50.190'
 
 ### Vars for specific tests ###
 # URI Throughput:           /esmond/perfsonar/archive/{meta_key}/throughput/base
@@ -85,7 +94,7 @@ test_data_URIs = {
 # Current Request URI (ex: '/esmond/perfsonar/archive/' or '/esmond/perfsonar/archive/?event-type=throughput' )
 #current_URI = f'{base_uri}{meta_key}/throughput/base'
 
-
+''''''
 
 # ----------
 # Functions:
@@ -103,7 +112,7 @@ def returnRemoteServer():
 
 # --- Function to Defang date time ---
 def defang_datetime():
-    current_datetime = f'_{datetime.datetime.now()}'
+    current_datetime = f"_{datetime.datetime.now()}"
 
     current_datetime = current_datetime.replace(":","_")
     current_datetime = current_datetime.replace(".","-")
@@ -168,6 +177,13 @@ FullJSONFilename = f"{remote_server_IP}_Full_Data___"
 # Prefix for the Dictionary JSON
 DictionaryJSONFilename = f'{remote_server_IP}_Host_Names_MetaData_Keys_'
 
+# --
+
+# make parent directory based on IP
+makeFolder(remote_server_IP)
+
+# making path to parent directory
+ParentDirectory = f'./{remote_server_IP}/'
 
 # ------------------------------------------------
 # example: 
@@ -253,12 +269,17 @@ writeOutToFile(nameSourceIPDictionary,use_this_datetime,DictionaryJSONFilename)
 
 ## make sure that the right key is getting selected
 
+# zero out count
+count = 0
 
 # Itterating through the dictionary to get all the data
 for metaDataKey in nameSourceIPDictionary:
 
+    # Incriment Count
+    count = count + 1
+
     # Make output folder name and create new directory to store json files
-    newDirectory = f"_{metaDataKey}_{use_this_datetime}"
+    newDirectory = f"{count}_{metaDataKey}_{use_this_datetime}"
     makeFolder(newDirectory)
 
     # Itterating through all the test for each individual node
@@ -272,15 +293,15 @@ for metaDataKey in nameSourceIPDictionary:
        
 
         # Current Prefix for this file
-        current_server_prefix = f'{test}_{metaDataKey}_'
+        current_server_prefix = f'{test}_{newDirectory}_'
 
 
         # load data from api
-        data = openApiUri(current_server_IP,current_URI)
+        data = openApiUri(remote_server_IP,current_URI)
 
 
         # write out to file - event types 
-        writeOutToFile(data,use_this_datetime,current_server_prefix,newDirectory)
+        writeOutToFile(data,use_this_datetime,current_server_prefix)
 
         # clear out uri
         current_URI = ''
