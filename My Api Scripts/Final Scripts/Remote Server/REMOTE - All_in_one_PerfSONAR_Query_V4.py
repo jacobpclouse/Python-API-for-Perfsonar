@@ -1,0 +1,345 @@
+# *** MAIN PERFSONAR REST API DOCUMENTATION: https://docs.perfsonar.net/esmond_api_rest.html ***
+# Perfsonar Python API Docs: https://docs.perfsonar.net/esmond_api_python.html
+# video this is based off of: https://www.youtube.com/watch?v=9N6a-VLBa2I
+
+## Part 1:
+# Beginner Python API Tutorial: https://www.dataquest.io/blog/python-api-tutorial/
+# Curl Command in Python: https://stackoverflow.com/questions/26000336/execute-curl-command-within-a-python-script
+# Python Filters: https://www.programiz.com/python-programming/methods/built-in/filter
+
+## Part 2:
+# This will load all the files from the remote server and then output the name, url and meta key
+# Remove unneeded fields in python: https://stackoverflow.com/questions/68374796/delete-unnecessary-elements-in-json
+# Create JSON from dictionary: https://pythonexamples.org/python-create-json/
+# how to skip an item if it is not in the json: https://stackoverflow.com/questions/62066527/python-skip-over-key-if-it-doesnt-exist-in-json-array
+# add new keyvalue pairs to dictionary: https://www.geeksforgeeks.org/add-a-keyvalue-pair-to-dictionary-in-python/
+# remove everything after a string in python: https://www.adamsmith.haus/python/answers/how-to-remove-everything-after-a-character-in-a-string-in-python
+
+## Part 3:
+# encoder for json in python docs: https://docs.python.org/3/library/json.html
+# working with objects in python: https://www.youtube.com/watch?v=Uh2ebFW8OYM
+# graphing data in python: https://www.geeksforgeeks.org/graph-plotting-in-python-set-1/
+# appending to file: https://www.geeksforgeeks.org/python-append-to-a-file/
+# timeout fix: https://stackoverflow.com/questions/36762283/skip-loop-if-a-function-is-taking-too-long
+# **MAIN timeout fix for requests: https://stackoverflow.com/questions/30507358/python-time-a-try-except
+'''
+   ____                       _               
+  / __ \                     (_)              
+ | |  | __   _____ _ ____   ___  _____      __
+ | |  | \ \ / / _ | '__\ \ / | |/ _ \ \ /\ / /
+ | |__| |\ V |  __| |   \ V /| |  __/\ V  V / 
+  \____/  \_/ \___|_|    \_/ |_|\___| \_/\_/  
+                                              
+    OF PROGRAM FUNCTION:                                            
+'''
+# This will take in the remote server IP from the command line
+# It will output a dictionary of the corresponding keys and the corresponding hostnames  (if they exist, it will check) as a JSON file to reference
+# It will then go through all the tests and grab individual tests based on nodes, ouputting them to their own JSON files (with checks to see if they exist)
+
+## USE PYTHON 3 TO RUN THIS PROGRAM!!! (Source: https://stackoverflow.com/questions/46016327/python-syntax-errors-with-python-anywhere )
+#                                        (also: https://realpython.com/invalid-syntax-python/)
+
+# ----------
+# Imports:
+# ----------
+
+import json
+from textwrap import indent
+from urllib.request import urlopen
+import datetime
+import sys
+# from msilib.schema import Directory
+import os
+import time
+import random
+from urllib.error import URLError
+
+# ----------
+# Variables:
+# ----------
+
+# count variable
+count = 0
+
+# empty dictionary to store source IP or sourcehostname
+nameSourceIPDictionary = dict()
+
+
+# Current Server Source IP - Grabbing this from the command line arguments
+
+### Vars for specific tests ###
+# URI Throughput:           /esmond/perfsonar/archive/{meta_key}/throughput/base
+# URI Delay/One-way Delay:  /esmond/perfsonar/archive/{meta_key}/histogram-rtt/base
+# URI OWDelay Base:         /esmond/perfsonar/archive/{meta_key}/histogram-owdelay/base
+# URI OWDelay Aggregation:  /esmond/perfsonar/archive/{meta_key}/histogram-owdelay/aggregations
+# URI OWDelay Statistics:   /esmond/perfsonar/archive/{meta_key}/histogram-owdelay/statistics/0
+# URI Packet Loss:          /esmond/perfsonar/archive/{meta_key}/packet-loss-rate/base
+# URI Packet Traces:        /esmond/perfsonar/archive/{meta_key}/packet-trace/base
+# URI Subinterval Data:     /esmond/perfsonar/archive/{meta_key}/packet-retransmits-subintervals/base
+
+# Base URI to put before meta Key var
+base_uri = '/esmond/perfsonar/archive/'
+
+# Dictionary of all the test key and uri pairs to look at
+test_data_URIs = {
+    'Throughput_All':'/throughput/base',
+    'Delay_All':'/histogram-rtt/base',
+    'OWDelay_Base_All':'/histogram-owdelay/base',
+#    'OWDelay_Aggregation_All':'/histogram-owdelay/aggregations',
+#    'OWDelay_Statistics_All':'/histogram-owdelay/statistics',
+    'Packet_Loss_All':'/packet-loss-rate/base',
+    'Packet_Traces_All':'/packet-trace/base',
+    'Subinterval_Data_All':'/packet-retransmits-subintervals/base'
+}
+
+# Current Request URI (ex: '/esmond/perfsonar/archive/' or '/esmond/perfsonar/archive/?event-type=throughput' )
+#current_URI = f'{base_uri}{meta_key}/throughput/base'
+
+
+
+# ----------
+# Functions:
+# ----------
+
+
+# importing Command line arguments - for IP and port numbers
+# https://cs.stanford.edu/people/nick/py/python-main.html
+
+#  --- Function to get server you want from command line --- 
+def returnRemoteServer():
+    remoteIP = sys.argv[1]
+    return remoteIP
+
+
+# --- Function to Defang date time ---
+def defang_datetime():
+    current_datetime = f"_{datetime.datetime.now()}"
+
+    current_datetime = current_datetime.replace(":","_")
+    current_datetime = current_datetime.replace(".","-")
+    current_datetime = current_datetime.replace(" ","_")
+    
+    return current_datetime
+
+
+#  --- Function to write out to file --- 
+def writeOutToFile(outgoingData,currentDatetime,filenamePrefix,parentDirectoryPath):
+    with open(f'./{parentDirectoryPath}/{filenamePrefix}{currentDatetime}.json', 'a') as z:
+        json.dump(outgoingData,z,indent=2)
+
+
+#  --- Function to make folder --- 
+# source: https://www.geeksforgeeks.org/create-a-directory-in-python/
+def makeFolder(directory):
+    
+    # Parent Directory path
+    parent_dir = "./"
+    
+    # Path
+    path = os.path.join(parent_dir, directory)
+    
+    # Create the directory
+    # 'GeeksForGeeks' in
+    # '/home / User / Documents'
+    os.mkdir(path)
+    print("Directory '% s' created" % directory)
+    print(" ")
+    
+    return directory
+
+
+#  --- Function to open URI and load data --- 
+# Built in timeout functon: https://stackoverflow.com/questions/30507358/python-time-a-try-except
+def openApiUri(sourced_server_IP,target_test_URI):
+
+    try:
+    # read data from local ip of perfsonar server REST API -> store into source variable
+        with urlopen(f"http://{sourced_server_IP}{target_test_URI}",timeout=10) as response:
+            outbound_source = response.read()
+
+        # take source data, load as json and move to data var
+        outbound_data = json.loads(outbound_source)
+
+    except:
+        # this is a general exception - however it is primarily triggered through 504 timout error
+        outbound_data = 'Timeout Error occured!'
+    
+    return outbound_data
+
+
+# --- Function to loop through and get back individual test results for a server ---
+def getTestResults(uri,key,jsonOfTests,dateTime,currentCount,directory,server):
+
+    # Itterating through all the test for each individual node
+    for test in jsonOfTests:
+
+        # Current Request URI (ex: '/esmond/perfsonar/archive/' or '/esmond/perfsonar/archive/?event-type=throughput' )
+        current_URI = f'{uri}{key}{jsonOfTests[test]}'   
+        print(current_URI)
+
+        # Formatting Dividers
+        print(" ")
+        print("-=-=-=-=-")
+        print(" ")
+
+        # Current Prefix for this file
+        current_server_prefix = f'{test}_{currentCount}_{key}_{dateTime}_'
+
+        # load data from api
+        data = openApiUri(server,current_URI)
+
+        # write out to file - event types 
+        writeOutToFile(data,use_this_datetime,current_server_prefix,directory)
+
+        # clear out uri
+        current_URI = ''
+
+
+# --- Function to print out my Logo ---
+def myLogo():
+    print("Created and Tested by: ")
+    print("   __                  _         ___ _                       ")
+    print("   \ \  __ _  ___ ___ | |__     / __\ | ___  _   _ ___  ___  ")
+    print("    \ \/ _` |/ __/ _ \| '_ \   / /  | |/ _ \| | | / __|/ _ \ ")
+    print(" /\_/ / (_| | (_| (_) | |_) | / /___| | (_) | |_| \__ \  __/ ")
+    print(" \___/ \__,_|\___\___/|_.__/  \____/|_|\___/ \__,_|___/\___| ")
+                                                            
+
+
+'''
+MAIN
+'''
+
+# Grab current date & time from function & store in variable
+use_this_datetime = defang_datetime()
+
+# grab remote server from command line
+remote_server_IP = returnRemoteServer()
+
+
+### PREFIXES: 
+
+# Current Prefix for this file (maybe prompt user to input custom perfix?)
+FullJSONFilename = f"{remote_server_IP}_Full_Data___"
+
+# Prefix for the Dictionary JSON
+DictionaryJSONFilename = f'{remote_server_IP}_Host_Names_MetaData_Keys_'
+
+# --
+# making path to parent directory
+ParentDirectory = f'{remote_server_IP}_{use_this_datetime}'
+
+# make parent directory based on IP
+makeFolder(ParentDirectory)
+
+
+# ------------------------------------------------
+# example: 
+# kv-core-ps1-v4.uran.net.ua
+# 212.111.192.61
+# https://kv-core-ps1-v4.uran.net.ua/esmond/perfsonar/archive/
+# https://212.111.192.61/esmond/perfsonar/archive/
+# ------------------------------------------------
+
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+
+### PART 1: Output Full API File to JSON
+
+# read data from local ip of perfsonar server REST API -> store into source variable
+with urlopen(f"http://{remote_server_IP}/esmond/perfsonar/archive/") as response:
+    source = response.read()
+
+# take source data, load as json and move to data var
+data = json.loads(source)
+
+# create and write out server data 
+writeOutToFile(data,use_this_datetime,FullJSONFilename,ParentDirectory)
+
+
+
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+
+### PART 2: Create a Dictionary of Metadata-keys as keys to Hostnames as values for test lookups later on
+
+# loop through full JSON and locate metadata-keys and hostnames
+for item in data:
+
+    # setting default values for key/value pairs (in case it doesn't exist in testing)
+    inputDestination = "null"
+    metadataKey = "null"
+
+    # checks to see if input destination is in item, will skip if not
+    if 'input-destination' in item:
+        # will print originating perfsonar node for the item
+        inputDestination = item['input-destination']
+        print(inputDestination)
+
+    # checks to see if metadata-key is in item, will skip if not
+    if 'metadata-key' in item:
+        # will print the unique uri for the originating perfsonar node
+        metadataKey = item['metadata-key']
+        print(metadataKey)
+
+    # print space seperator
+    print(' ')
+    print('-=-=-=-=-=-=-=-=-=-=-=-')
+    print(' ')
+
+
+    # Update dictionary (metadata-key is the key : input-destination is the value)
+    newAddition = {metadataKey : inputDestination}
+    nameSourceIPDictionary.update(newAddition)
+	
+	# Incriment Count
+    count = count + 1
+
+
+# print out dictionary
+print(nameSourceIPDictionary)
+
+# print out number of items in data
+print(f'There are {count} host(s) connected to the {remote_server_IP} node')
+
+
+# load dictionary into json
+writeOutToFile(nameSourceIPDictionary,use_this_datetime,DictionaryJSONFilename,ParentDirectory)
+
+
+
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+### PART 3: Getting all the tests for each node
+## make sure that the right key is getting selected
+
+# zero out count
+count = 0
+
+# Itterating through the dictionary to get all the data
+for metaDataKey in nameSourceIPDictionary:
+
+    # Incriment Count
+    count = count + 1
+
+    # Make output folder name and create new directory to store json files
+    newDirectory = f"{ParentDirectory}/{count}_{metaDataKey}_{use_this_datetime}"
+    makeFolder(newDirectory)
+
+
+    # Set starting time:
+    time_start = datetime.datetime.now()
+
+
+    # Grab results and store them locally
+    getTestResults(base_uri,metaDataKey,test_data_URIs,use_this_datetime,count,newDirectory,remote_server_IP)
+
+
+# End of Program:
+print(" ")
+print("Program has Completed!")
+print(" ")
+myLogo()
