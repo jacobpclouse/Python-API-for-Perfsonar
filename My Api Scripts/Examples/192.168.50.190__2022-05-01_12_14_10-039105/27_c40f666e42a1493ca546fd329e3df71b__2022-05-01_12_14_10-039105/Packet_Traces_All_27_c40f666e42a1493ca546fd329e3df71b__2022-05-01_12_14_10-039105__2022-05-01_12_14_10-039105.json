@@ -1,0 +1,287 @@
+[
+  {
+    "ts": 1648375840,
+    "val": [
+      {
+        "ttl": 1,
+        "query": 1,
+        "success": 1,
+        "ip": "192.168.50.1",
+        "hostname": "router.asus.com",
+        "rtt": 0.4
+      },
+      {
+        "ttl": 2,
+        "query": 1,
+        "success": 1,
+        "ip": "96.43.64.0",
+        "hostname": "lo0.bbr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.8
+      },
+      {
+        "ttl": 3,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.236",
+        "hostname": "be20-0.ncs0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.8
+      },
+      {
+        "ttl": 4,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.209",
+        "hostname": "be3-0.asr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.7
+      },
+      {
+        "ttl": 5,
+        "query": 1,
+        "success": 1,
+        "ip": "4.28.130.17",
+        "hostname": "6-2-2.ear3.NewYork1.Level3.net",
+        "as": {
+          "owner": "LEVEL3, US",
+          "number": 3356
+        },
+        "rtt": 5.8
+      },
+      {
+        "ttl": 6,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 7,
+        "query": 1,
+        "success": 1,
+        "ip": "62.67.19.6",
+        "hostname": "DANTE.ear4.Frankfurt1.Level3.net",
+        "as": {
+          "owner": "LEVEL3, US",
+          "number": 3356
+        },
+        "rtt": 201.1
+      },
+      {
+        "ttl": 8,
+        "query": 1,
+        "success": 1,
+        "ip": "185.147.24.228",
+        "hostname": "perfsonar.physics.science.az",
+        "as": {
+          "owner": "IIT, AZ",
+          "number": 202993
+        },
+        "rtt": 194.70000000000002
+      }
+    ]
+  },
+  {
+    "ts": 1649579204,
+    "val": [
+      {
+        "ttl": 1,
+        "query": 1,
+        "success": 1,
+        "ip": "192.168.50.1",
+        "hostname": "router.asus.com",
+        "rtt": 0.3
+      },
+      {
+        "ttl": 2,
+        "query": 1,
+        "success": 1,
+        "ip": "96.43.64.0",
+        "hostname": "lo0.bbr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.6
+      },
+      {
+        "ttl": 3,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.236",
+        "hostname": "be20-0.ncs0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.7
+      },
+      {
+        "ttl": 4,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.209",
+        "hostname": "be3-0.asr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.6
+      },
+      {
+        "ttl": 5,
+        "query": 1,
+        "success": 1,
+        "ip": "4.28.130.17",
+        "hostname": "6-2-2.ear3.NewYork1.Level3.net",
+        "as": {
+          "owner": "LEVEL3, US",
+          "number": 3356
+        },
+        "rtt": 5.8
+      },
+      {
+        "ttl": 6,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 7,
+        "query": 1,
+        "success": 1,
+        "ip": "62.67.19.6",
+        "hostname": "DANTE.ear4.Frankfurt1.Level3.net",
+        "as": {
+          "owner": "LEVEL3, US",
+          "number": 3356
+        },
+        "rtt": 188.5
+      },
+      {
+        "ttl": 8,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 9,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 10,
+        "query": 1,
+        "success": 1,
+        "ip": "185.147.24.228",
+        "hostname": "perfsonar.physics.science.az",
+        "as": {
+          "owner": "IIT, AZ",
+          "number": 202993
+        },
+        "rtt": 190.6
+      }
+    ]
+  },
+  {
+    "ts": 1650789660,
+    "val": [
+      {
+        "ttl": 1,
+        "query": 1,
+        "success": 1,
+        "ip": "192.168.50.1",
+        "hostname": "router.asus.com",
+        "rtt": 0.4
+      },
+      {
+        "ttl": 2,
+        "query": 1,
+        "success": 1,
+        "ip": "96.43.64.0",
+        "hostname": "lo0.bbr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.3
+      },
+      {
+        "ttl": 3,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.236",
+        "hostname": "be20-0.ncs0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.3
+      },
+      {
+        "ttl": 4,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.209",
+        "hostname": "be3-0.asr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.3
+      },
+      {
+        "ttl": 5,
+        "query": 1,
+        "success": 1,
+        "ip": "4.28.130.17",
+        "hostname": "6-2-2.ear3.NewYork1.Level3.net",
+        "as": {
+          "owner": "LEVEL3, US",
+          "number": 3356
+        },
+        "rtt": 5.8999999999999995
+      },
+      {
+        "ttl": 6,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 7,
+        "query": 1,
+        "success": 1,
+        "ip": "62.67.19.6",
+        "hostname": "DANTE.ear4.Frankfurt1.Level3.net",
+        "as": {
+          "owner": "LEVEL3, US",
+          "number": 3356
+        },
+        "rtt": 195.39999999999998
+      },
+      {
+        "ttl": 8,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 9,
+        "query": 1,
+        "success": 1,
+        "ip": "185.147.24.228",
+        "hostname": "perfsonar.physics.science.az",
+        "as": {
+          "owner": "IIT, AZ",
+          "number": 202993
+        },
+        "rtt": 190.4
+      }
+    ]
+  }
+]

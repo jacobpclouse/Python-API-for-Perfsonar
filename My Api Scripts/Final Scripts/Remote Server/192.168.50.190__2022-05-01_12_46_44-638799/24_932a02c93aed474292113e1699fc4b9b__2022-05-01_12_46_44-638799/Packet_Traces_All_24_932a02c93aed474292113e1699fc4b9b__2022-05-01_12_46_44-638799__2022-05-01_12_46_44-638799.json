@@ -1,0 +1,4024 @@
+[
+  {
+    "ts": 1648322153,
+    "val": [
+      {
+        "ttl": 1,
+        "query": 1,
+        "success": 1,
+        "ip": "192.168.50.1",
+        "hostname": "router.asus.com",
+        "rtt": 0.4
+      },
+      {
+        "ttl": 2,
+        "query": 1,
+        "success": 1,
+        "ip": "96.43.64.0",
+        "hostname": "lo0.bbr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.2
+      },
+      {
+        "ttl": 3,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.238",
+        "hostname": "be20-0.ncs1.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.3
+      },
+      {
+        "ttl": 4,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.216",
+        "hostname": "be1-0.ncs0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.3
+      },
+      {
+        "ttl": 5,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 6,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.40.62",
+        "hostname": "be2915.ccr41.jfk02.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.0
+      },
+      {
+        "ttl": 7,
+        "query": 1,
+        "success": 1,
+        "ip": "66.28.4.182",
+        "hostname": "be3495.ccr31.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.1000000000000005
+      },
+      {
+        "ttl": 8,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.10.218",
+        "hostname": "telecomitalia.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.6
+      },
+      {
+        "ttl": 9,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.167",
+        "hostname": "ae20.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 79.2
+      },
+      {
+        "ttl": 10,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.9",
+        "hostname": "wana.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 110.8
+      },
+      {
+        "ttl": 11,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 12,
+        "query": 1,
+        "success": 1,
+        "ip": "105.73.33.159",
+        "as": {
+          "owner": "MAROCCONNECT, MA",
+          "number": 36884
+        },
+        "rtt": 114.5
+      },
+      {
+        "ttl": 13,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 14,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 15,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 16,
+        "query": 1,
+        "success": 1,
+        "ip": "196.200.160.9",
+        "hostname": "ps.wan.noc.rabat.marwan.ma",
+        "as": {
+          "owner": "MARWAN-AS, MA",
+          "number": 30983
+        },
+        "rtt": 117.6
+      }
+    ]
+  },
+  {
+    "ts": 1648323049,
+    "val": [
+      {
+        "ttl": 1,
+        "query": 1,
+        "success": 1,
+        "ip": "192.168.50.1",
+        "hostname": "router.asus.com",
+        "rtt": 0.7
+      },
+      {
+        "ttl": 2,
+        "query": 1,
+        "success": 1,
+        "ip": "96.43.64.0",
+        "hostname": "lo0.bbr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.6
+      },
+      {
+        "ttl": 3,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.238",
+        "hostname": "be20-0.ncs1.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.6
+      },
+      {
+        "ttl": 4,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.216",
+        "hostname": "be1-0.ncs0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.7
+      },
+      {
+        "ttl": 5,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 6,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.40.62",
+        "hostname": "be2915.ccr41.jfk02.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.0
+      },
+      {
+        "ttl": 7,
+        "query": 1,
+        "success": 1,
+        "ip": "66.28.4.182",
+        "hostname": "be3495.ccr31.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.1000000000000005
+      },
+      {
+        "ttl": 8,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.10.218",
+        "hostname": "telecomitalia.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.6
+      },
+      {
+        "ttl": 9,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.167",
+        "hostname": "ae20.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 79.2
+      },
+      {
+        "ttl": 10,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.9",
+        "hostname": "wana.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 115.3
+      },
+      {
+        "ttl": 11,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 12,
+        "query": 1,
+        "success": 1,
+        "ip": "105.73.33.159",
+        "as": {
+          "owner": "MAROCCONNECT, MA",
+          "number": 36884
+        },
+        "rtt": 114.3
+      },
+      {
+        "ttl": 13,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 14,
+        "query": 1,
+        "success": 1,
+        "ip": "196.200.160.9",
+        "hostname": "ps.wan.noc.rabat.marwan.ma",
+        "as": {
+          "owner": "MARWAN-AS, MA",
+          "number": 30983
+        },
+        "rtt": 124.3
+      }
+    ]
+  },
+  {
+    "ts": 1648323565,
+    "val": [
+      {
+        "ttl": 1,
+        "query": 1,
+        "success": 1,
+        "ip": "192.168.50.1",
+        "hostname": "router.asus.com",
+        "rtt": 0.4
+      },
+      {
+        "ttl": 2,
+        "query": 1,
+        "success": 1,
+        "ip": "96.43.64.0",
+        "hostname": "lo0.bbr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.4
+      },
+      {
+        "ttl": 3,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.238",
+        "hostname": "be20-0.ncs1.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.4
+      },
+      {
+        "ttl": 4,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.216",
+        "hostname": "be1-0.ncs0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.3
+      },
+      {
+        "ttl": 5,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 6,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.40.62",
+        "hostname": "be2915.ccr41.jfk02.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 5.8999999999999995
+      },
+      {
+        "ttl": 7,
+        "query": 1,
+        "success": 1,
+        "ip": "66.28.4.182",
+        "hostname": "be3495.ccr31.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.0
+      },
+      {
+        "ttl": 8,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.10.218",
+        "hostname": "telecomitalia.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.7
+      },
+      {
+        "ttl": 9,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.153",
+        "hostname": "ae19.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 89.30000000000001
+      },
+      {
+        "ttl": 10,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.9",
+        "hostname": "wana.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 112.3
+      },
+      {
+        "ttl": 11,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 12,
+        "query": 1,
+        "success": 1,
+        "ip": "105.73.33.159",
+        "as": {
+          "owner": "MAROCCONNECT, MA",
+          "number": 36884
+        },
+        "rtt": 127.0
+      },
+      {
+        "ttl": 13,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 14,
+        "query": 1,
+        "success": 1,
+        "ip": "196.200.160.9",
+        "hostname": "ps.wan.noc.rabat.marwan.ma",
+        "as": {
+          "owner": "MARWAN-AS, MA",
+          "number": 30983
+        },
+        "rtt": 125.5
+      }
+    ]
+  },
+  {
+    "ts": 1648325031,
+    "val": [
+      {
+        "ttl": 1,
+        "query": 1,
+        "success": 1,
+        "ip": "192.168.50.1",
+        "hostname": "router.asus.com",
+        "rtt": 0.3
+      },
+      {
+        "ttl": 2,
+        "query": 1,
+        "success": 1,
+        "ip": "96.43.64.0",
+        "hostname": "lo0.bbr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.2
+      },
+      {
+        "ttl": 3,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.238",
+        "hostname": "be20-0.ncs1.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.4
+      },
+      {
+        "ttl": 4,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.216",
+        "hostname": "be1-0.ncs0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.3
+      },
+      {
+        "ttl": 5,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 6,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.40.62",
+        "hostname": "be2915.ccr41.jfk02.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 5.7
+      },
+      {
+        "ttl": 7,
+        "query": 1,
+        "success": 1,
+        "ip": "66.28.4.182",
+        "hostname": "be3495.ccr31.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.0
+      },
+      {
+        "ttl": 8,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.10.218",
+        "hostname": "telecomitalia.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.4
+      },
+      {
+        "ttl": 9,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.167",
+        "hostname": "ae20.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 79.39999999999999
+      },
+      {
+        "ttl": 10,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.9",
+        "hostname": "wana.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 119.0
+      },
+      {
+        "ttl": 11,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 12,
+        "query": 1,
+        "success": 1,
+        "ip": "105.73.33.159",
+        "as": {
+          "owner": "MAROCCONNECT, MA",
+          "number": 36884
+        },
+        "rtt": 114.2
+      },
+      {
+        "ttl": 13,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 14,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 15,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 16,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 17,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 18,
+        "query": 1,
+        "success": 1,
+        "ip": "196.200.160.9",
+        "hostname": "ps.wan.noc.rabat.marwan.ma",
+        "as": {
+          "owner": "MARWAN-AS, MA",
+          "number": 30983
+        },
+        "rtt": 120.3
+      }
+    ]
+  },
+  {
+    "ts": 1648325466,
+    "val": [
+      {
+        "ttl": 1,
+        "query": 1,
+        "success": 1,
+        "ip": "192.168.50.1",
+        "hostname": "router.asus.com",
+        "rtt": 0.5
+      },
+      {
+        "ttl": 2,
+        "query": 1,
+        "success": 1,
+        "ip": "96.43.64.0",
+        "hostname": "lo0.bbr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.5
+      },
+      {
+        "ttl": 3,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.238",
+        "hostname": "be20-0.ncs1.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 4.1000000000000005
+      },
+      {
+        "ttl": 4,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.216",
+        "hostname": "be1-0.ncs0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 4.1000000000000005
+      },
+      {
+        "ttl": 5,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 6,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.40.62",
+        "hostname": "be2915.ccr41.jfk02.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 5.7
+      },
+      {
+        "ttl": 7,
+        "query": 1,
+        "success": 1,
+        "ip": "66.28.4.182",
+        "hostname": "be3495.ccr31.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.1000000000000005
+      },
+      {
+        "ttl": 8,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.10.218",
+        "hostname": "telecomitalia.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 7.1000000000000005
+      },
+      {
+        "ttl": 9,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.167",
+        "hostname": "ae20.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 78.89999999999999
+      },
+      {
+        "ttl": 10,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.9",
+        "hostname": "wana.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 112.0
+      },
+      {
+        "ttl": 11,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 12,
+        "query": 1,
+        "success": 1,
+        "ip": "105.73.33.159",
+        "as": {
+          "owner": "MAROCCONNECT, MA",
+          "number": 36884
+        },
+        "rtt": 123.2
+      },
+      {
+        "ttl": 13,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 14,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 15,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 16,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 17,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 18,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 19,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 20,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 21,
+        "query": 1,
+        "success": 1,
+        "ip": "196.200.160.9",
+        "hostname": "ps.wan.noc.rabat.marwan.ma",
+        "as": {
+          "owner": "MARWAN-AS, MA",
+          "number": 30983
+        },
+        "rtt": 119.9
+      }
+    ]
+  },
+  {
+    "ts": 1648325987,
+    "val": [
+      {
+        "ttl": 1,
+        "query": 1,
+        "success": 1,
+        "ip": "192.168.50.1",
+        "hostname": "router.asus.com",
+        "rtt": 0.4
+      },
+      {
+        "ttl": 2,
+        "query": 1,
+        "success": 1,
+        "ip": "96.43.64.0",
+        "hostname": "lo0.bbr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.7
+      },
+      {
+        "ttl": 3,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.238",
+        "hostname": "be20-0.ncs1.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.7
+      },
+      {
+        "ttl": 4,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.216",
+        "hostname": "be1-0.ncs0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.6
+      },
+      {
+        "ttl": 5,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 6,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.40.62",
+        "hostname": "be2915.ccr41.jfk02.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 5.8999999999999995
+      },
+      {
+        "ttl": 7,
+        "query": 1,
+        "success": 1,
+        "ip": "66.28.4.182",
+        "hostname": "be3495.ccr31.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.2
+      },
+      {
+        "ttl": 8,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.10.218",
+        "hostname": "telecomitalia.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.8
+      },
+      {
+        "ttl": 9,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.167",
+        "hostname": "ae20.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 78.89999999999999
+      },
+      {
+        "ttl": 10,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.9",
+        "hostname": "wana.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 115.6
+      },
+      {
+        "ttl": 11,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 12,
+        "query": 1,
+        "success": 1,
+        "ip": "105.73.33.159",
+        "as": {
+          "owner": "MAROCCONNECT, MA",
+          "number": 36884
+        },
+        "rtt": 127.1
+      },
+      {
+        "ttl": 13,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 14,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 15,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 16,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 17,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 18,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 19,
+        "query": 1,
+        "success": 1,
+        "ip": "196.200.160.9",
+        "hostname": "ps.wan.noc.rabat.marwan.ma",
+        "as": {
+          "owner": "MARWAN-AS, MA",
+          "number": 30983
+        },
+        "rtt": 116.9
+      }
+    ]
+  },
+  {
+    "ts": 1648326662,
+    "val": [
+      {
+        "ttl": 1,
+        "query": 1,
+        "success": 1,
+        "ip": "192.168.50.1",
+        "hostname": "router.asus.com",
+        "rtt": 0.4
+      },
+      {
+        "ttl": 2,
+        "query": 1,
+        "success": 1,
+        "ip": "96.43.64.0",
+        "hostname": "lo0.bbr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.5
+      },
+      {
+        "ttl": 3,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.238",
+        "hostname": "be20-0.ncs1.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.6
+      },
+      {
+        "ttl": 4,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.216",
+        "hostname": "be1-0.ncs0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.5
+      },
+      {
+        "ttl": 5,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 6,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.40.62",
+        "hostname": "be2915.ccr41.jfk02.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.1000000000000005
+      },
+      {
+        "ttl": 7,
+        "query": 1,
+        "success": 1,
+        "ip": "66.28.4.182",
+        "hostname": "be3495.ccr31.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.1000000000000005
+      },
+      {
+        "ttl": 8,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.10.218",
+        "hostname": "telecomitalia.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.6
+      },
+      {
+        "ttl": 9,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.167",
+        "hostname": "ae20.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 80.5
+      },
+      {
+        "ttl": 10,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.9",
+        "hostname": "wana.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 111.4
+      },
+      {
+        "ttl": 11,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 12,
+        "query": 1,
+        "success": 1,
+        "ip": "105.73.33.159",
+        "as": {
+          "owner": "MAROCCONNECT, MA",
+          "number": 36884
+        },
+        "rtt": 113.3
+      },
+      {
+        "ttl": 13,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 14,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 15,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 16,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 17,
+        "query": 1,
+        "success": 1,
+        "ip": "196.200.160.9",
+        "hostname": "ps.wan.noc.rabat.marwan.ma",
+        "as": {
+          "owner": "MARWAN-AS, MA",
+          "number": 30983
+        },
+        "rtt": 117.9
+      }
+    ]
+  },
+  {
+    "ts": 1648327483,
+    "val": [
+      {
+        "ttl": 1,
+        "query": 1,
+        "success": 1,
+        "ip": "192.168.50.1",
+        "hostname": "router.asus.com",
+        "rtt": 0.4
+      },
+      {
+        "ttl": 2,
+        "query": 1,
+        "success": 1,
+        "ip": "96.43.64.0",
+        "hostname": "lo0.bbr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.7
+      },
+      {
+        "ttl": 3,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.238",
+        "hostname": "be20-0.ncs1.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.6
+      },
+      {
+        "ttl": 4,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.216",
+        "hostname": "be1-0.ncs0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.6
+      },
+      {
+        "ttl": 5,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 6,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.40.62",
+        "hostname": "be2915.ccr41.jfk02.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 5.7
+      },
+      {
+        "ttl": 7,
+        "query": 1,
+        "success": 1,
+        "ip": "66.28.4.182",
+        "hostname": "be3495.ccr31.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 5.8999999999999995
+      },
+      {
+        "ttl": 8,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.10.218",
+        "hostname": "telecomitalia.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 9.9
+      },
+      {
+        "ttl": 9,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.153",
+        "hostname": "ae19.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 95.3
+      },
+      {
+        "ttl": 10,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.9",
+        "hostname": "wana.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 114.9
+      },
+      {
+        "ttl": 11,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 12,
+        "query": 1,
+        "success": 1,
+        "ip": "105.73.33.159",
+        "as": {
+          "owner": "MAROCCONNECT, MA",
+          "number": 36884
+        },
+        "rtt": 114.3
+      },
+      {
+        "ttl": 13,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 14,
+        "query": 1,
+        "success": 1,
+        "ip": "196.200.160.9",
+        "hostname": "ps.wan.noc.rabat.marwan.ma",
+        "as": {
+          "owner": "MARWAN-AS, MA",
+          "number": 30983
+        },
+        "rtt": 116.2
+      }
+    ]
+  },
+  {
+    "ts": 1648327807,
+    "val": [
+      {
+        "ttl": 1,
+        "query": 1,
+        "success": 1,
+        "ip": "192.168.50.1",
+        "hostname": "router.asus.com",
+        "rtt": 0.3
+      },
+      {
+        "ttl": 2,
+        "query": 1,
+        "success": 1,
+        "ip": "96.43.64.0",
+        "hostname": "lo0.bbr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 5.7
+      },
+      {
+        "ttl": 3,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.238",
+        "hostname": "be20-0.ncs1.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 6.4
+      },
+      {
+        "ttl": 4,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.216",
+        "hostname": "be1-0.ncs0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 6.4
+      },
+      {
+        "ttl": 5,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 6,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.40.62",
+        "hostname": "be2915.ccr41.jfk02.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.4
+      },
+      {
+        "ttl": 7,
+        "query": 1,
+        "success": 1,
+        "ip": "66.28.4.182",
+        "hostname": "be3495.ccr31.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.4
+      },
+      {
+        "ttl": 8,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.10.218",
+        "hostname": "telecomitalia.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.8999999999999995
+      },
+      {
+        "ttl": 9,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.153",
+        "hostname": "ae19.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 94.39999999999999
+      },
+      {
+        "ttl": 10,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.9",
+        "hostname": "wana.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 116.0
+      },
+      {
+        "ttl": 11,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 12,
+        "query": 1,
+        "success": 1,
+        "ip": "105.73.33.159",
+        "as": {
+          "owner": "MAROCCONNECT, MA",
+          "number": 36884
+        },
+        "rtt": 118.1
+      },
+      {
+        "ttl": 13,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 14,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 15,
+        "query": 1,
+        "success": 1,
+        "ip": "196.200.160.9",
+        "hostname": "ps.wan.noc.rabat.marwan.ma",
+        "as": {
+          "owner": "MARWAN-AS, MA",
+          "number": 30983
+        },
+        "rtt": 122.1
+      }
+    ]
+  },
+  {
+    "ts": 1648328434,
+    "val": [
+      {
+        "ttl": 1,
+        "query": 1,
+        "success": 1,
+        "ip": "192.168.50.1",
+        "hostname": "router.asus.com",
+        "rtt": 0.7
+      },
+      {
+        "ttl": 2,
+        "query": 1,
+        "success": 1,
+        "ip": "96.43.64.0",
+        "hostname": "lo0.bbr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 5.7
+      },
+      {
+        "ttl": 3,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.238",
+        "hostname": "be20-0.ncs1.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 5.7
+      },
+      {
+        "ttl": 4,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.216",
+        "hostname": "be1-0.ncs0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 5.7
+      },
+      {
+        "ttl": 5,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 6,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.40.62",
+        "hostname": "be2915.ccr41.jfk02.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.8999999999999995
+      },
+      {
+        "ttl": 7,
+        "query": 1,
+        "success": 1,
+        "ip": "66.28.4.182",
+        "hostname": "be3495.ccr31.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 7.0
+      },
+      {
+        "ttl": 8,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.10.218",
+        "hostname": "telecomitalia.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 33.9
+      },
+      {
+        "ttl": 9,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.153",
+        "hostname": "ae19.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 99.2
+      },
+      {
+        "ttl": 10,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.9",
+        "hostname": "wana.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 112.69999999999999
+      },
+      {
+        "ttl": 11,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 12,
+        "query": 1,
+        "success": 1,
+        "ip": "105.73.33.159",
+        "as": {
+          "owner": "MAROCCONNECT, MA",
+          "number": 36884
+        },
+        "rtt": 122.7
+      },
+      {
+        "ttl": 13,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 14,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 15,
+        "query": 1,
+        "success": 1,
+        "ip": "196.200.160.9",
+        "hostname": "ps.wan.noc.rabat.marwan.ma",
+        "as": {
+          "owner": "MARWAN-AS, MA",
+          "number": 30983
+        },
+        "rtt": 120.3
+      }
+    ]
+  },
+  {
+    "ts": 1648329074,
+    "val": [
+      {
+        "ttl": 1,
+        "query": 1,
+        "success": 1,
+        "ip": "192.168.50.1",
+        "hostname": "router.asus.com",
+        "rtt": 0.8
+      },
+      {
+        "ttl": 2,
+        "query": 1,
+        "success": 1,
+        "ip": "96.43.64.0",
+        "hostname": "lo0.bbr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 4.1000000000000005
+      },
+      {
+        "ttl": 3,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.238",
+        "hostname": "be20-0.ncs1.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 4.2
+      },
+      {
+        "ttl": 4,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.216",
+        "hostname": "be1-0.ncs0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 4.2
+      },
+      {
+        "ttl": 5,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 6,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.40.62",
+        "hostname": "be2915.ccr41.jfk02.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 8.8
+      },
+      {
+        "ttl": 7,
+        "query": 1,
+        "success": 1,
+        "ip": "66.28.4.182",
+        "hostname": "be3495.ccr31.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 9.799999999999999
+      },
+      {
+        "ttl": 8,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.10.218",
+        "hostname": "telecomitalia.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 27.7
+      },
+      {
+        "ttl": 9,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.153",
+        "hostname": "ae19.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 87.4
+      },
+      {
+        "ttl": 10,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.9",
+        "hostname": "wana.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 121.2
+      },
+      {
+        "ttl": 11,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 12,
+        "query": 1,
+        "success": 1,
+        "ip": "105.73.33.159",
+        "as": {
+          "owner": "MAROCCONNECT, MA",
+          "number": 36884
+        },
+        "rtt": 114.7
+      },
+      {
+        "ttl": 13,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 14,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 15,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 16,
+        "query": 1,
+        "success": 1,
+        "ip": "196.200.160.9",
+        "hostname": "ps.wan.noc.rabat.marwan.ma",
+        "as": {
+          "owner": "MARWAN-AS, MA",
+          "number": 30983
+        },
+        "rtt": 118.0
+      }
+    ]
+  },
+  {
+    "ts": 1648329786,
+    "val": [
+      {
+        "ttl": 1,
+        "query": 1,
+        "success": 1,
+        "ip": "192.168.50.1",
+        "hostname": "router.asus.com",
+        "rtt": 0.4
+      },
+      {
+        "ttl": 2,
+        "query": 1,
+        "success": 1,
+        "ip": "96.43.64.0",
+        "hostname": "lo0.bbr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.4
+      },
+      {
+        "ttl": 3,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.238",
+        "hostname": "be20-0.ncs1.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.5
+      },
+      {
+        "ttl": 4,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.216",
+        "hostname": "be1-0.ncs0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.4
+      },
+      {
+        "ttl": 5,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 6,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.40.62",
+        "hostname": "be2915.ccr41.jfk02.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 5.7
+      },
+      {
+        "ttl": 7,
+        "query": 1,
+        "success": 1,
+        "ip": "66.28.4.182",
+        "hostname": "be3495.ccr31.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.1000000000000005
+      },
+      {
+        "ttl": 8,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.10.218",
+        "hostname": "telecomitalia.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.6
+      },
+      {
+        "ttl": 9,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.167",
+        "hostname": "ae20.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 79.3
+      },
+      {
+        "ttl": 10,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.9",
+        "hostname": "wana.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 114.8
+      },
+      {
+        "ttl": 11,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 12,
+        "query": 1,
+        "success": 1,
+        "ip": "105.73.33.159",
+        "as": {
+          "owner": "MAROCCONNECT, MA",
+          "number": 36884
+        },
+        "rtt": 117.8
+      },
+      {
+        "ttl": 13,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 14,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 15,
+        "query": 1,
+        "success": 1,
+        "ip": "196.200.160.9",
+        "hostname": "ps.wan.noc.rabat.marwan.ma",
+        "as": {
+          "owner": "MARWAN-AS, MA",
+          "number": 30983
+        },
+        "rtt": 116.3
+      }
+    ]
+  },
+  {
+    "ts": 1648330319,
+    "val": [
+      {
+        "ttl": 1,
+        "query": 1,
+        "success": 1,
+        "ip": "192.168.50.1",
+        "hostname": "router.asus.com",
+        "rtt": 0.4
+      },
+      {
+        "ttl": 2,
+        "query": 1,
+        "success": 1,
+        "ip": "96.43.64.0",
+        "hostname": "lo0.bbr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.3
+      },
+      {
+        "ttl": 3,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.238",
+        "hostname": "be20-0.ncs1.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.3
+      },
+      {
+        "ttl": 4,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.216",
+        "hostname": "be1-0.ncs0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.5
+      },
+      {
+        "ttl": 5,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 6,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.40.62",
+        "hostname": "be2915.ccr41.jfk02.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.3
+      },
+      {
+        "ttl": 7,
+        "query": 1,
+        "success": 1,
+        "ip": "66.28.4.182",
+        "hostname": "be3495.ccr31.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.1000000000000005
+      },
+      {
+        "ttl": 8,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.10.218",
+        "hostname": "telecomitalia.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 7.0
+      },
+      {
+        "ttl": 9,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.167",
+        "hostname": "ae20.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 78.60000000000001
+      },
+      {
+        "ttl": 10,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.9",
+        "hostname": "wana.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 120.1
+      },
+      {
+        "ttl": 11,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 12,
+        "query": 1,
+        "success": 1,
+        "ip": "105.73.33.159",
+        "as": {
+          "owner": "MAROCCONNECT, MA",
+          "number": 36884
+        },
+        "rtt": 114.0
+      },
+      {
+        "ttl": 13,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 14,
+        "query": 1,
+        "success": 1,
+        "ip": "196.200.160.9",
+        "hostname": "ps.wan.noc.rabat.marwan.ma",
+        "as": {
+          "owner": "MARWAN-AS, MA",
+          "number": 30983
+        },
+        "rtt": 125.6
+      }
+    ]
+  },
+  {
+    "ts": 1648330681,
+    "val": [
+      {
+        "ttl": 1,
+        "query": 1,
+        "success": 1,
+        "ip": "192.168.50.1",
+        "hostname": "router.asus.com",
+        "rtt": 0.4
+      },
+      {
+        "ttl": 2,
+        "query": 1,
+        "success": 1,
+        "ip": "96.43.64.0",
+        "hostname": "lo0.bbr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 4.6
+      },
+      {
+        "ttl": 3,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.238",
+        "hostname": "be20-0.ncs1.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 4.6
+      },
+      {
+        "ttl": 4,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.216",
+        "hostname": "be1-0.ncs0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 4.5
+      },
+      {
+        "ttl": 5,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 6,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.40.62",
+        "hostname": "be2915.ccr41.jfk02.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 5.7
+      },
+      {
+        "ttl": 7,
+        "query": 1,
+        "success": 1,
+        "ip": "66.28.4.182",
+        "hostname": "be3495.ccr31.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.2
+      },
+      {
+        "ttl": 8,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.10.218",
+        "hostname": "telecomitalia.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 7.1000000000000005
+      },
+      {
+        "ttl": 9,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.167",
+        "hostname": "ae20.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 79.69999999999999
+      },
+      {
+        "ttl": 10,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.9",
+        "hostname": "wana.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 121.2
+      },
+      {
+        "ttl": 11,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 12,
+        "query": 1,
+        "success": 1,
+        "ip": "105.73.33.159",
+        "as": {
+          "owner": "MAROCCONNECT, MA",
+          "number": 36884
+        },
+        "rtt": 114.3
+      },
+      {
+        "ttl": 13,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 14,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 15,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 16,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 17,
+        "query": 1,
+        "success": 1,
+        "ip": "196.200.160.9",
+        "hostname": "ps.wan.noc.rabat.marwan.ma",
+        "as": {
+          "owner": "MARWAN-AS, MA",
+          "number": 30983
+        },
+        "rtt": 117.1
+      }
+    ]
+  },
+  {
+    "ts": 1648331226,
+    "val": [
+      {
+        "ttl": 1,
+        "query": 1,
+        "success": 1,
+        "ip": "192.168.50.1",
+        "hostname": "router.asus.com",
+        "rtt": 0.4
+      },
+      {
+        "ttl": 2,
+        "query": 1,
+        "success": 1,
+        "ip": "96.43.64.0",
+        "hostname": "lo0.bbr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.3
+      },
+      {
+        "ttl": 3,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.238",
+        "hostname": "be20-0.ncs1.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.4
+      },
+      {
+        "ttl": 4,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.216",
+        "hostname": "be1-0.ncs0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.3
+      },
+      {
+        "ttl": 5,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 6,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.40.62",
+        "hostname": "be2915.ccr41.jfk02.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.0
+      },
+      {
+        "ttl": 7,
+        "query": 1,
+        "success": 1,
+        "ip": "66.28.4.182",
+        "hostname": "be3495.ccr31.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.2
+      },
+      {
+        "ttl": 8,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.10.218",
+        "hostname": "telecomitalia.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.7
+      },
+      {
+        "ttl": 9,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.153",
+        "hostname": "ae19.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 89.0
+      },
+      {
+        "ttl": 10,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.9",
+        "hostname": "wana.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 124.2
+      },
+      {
+        "ttl": 11,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 12,
+        "query": 1,
+        "success": 1,
+        "ip": "105.73.33.159",
+        "as": {
+          "owner": "MAROCCONNECT, MA",
+          "number": 36884
+        },
+        "rtt": 123.60000000000001
+      },
+      {
+        "ttl": 13,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 14,
+        "query": 1,
+        "success": 1,
+        "ip": "196.200.160.9",
+        "hostname": "ps.wan.noc.rabat.marwan.ma",
+        "as": {
+          "owner": "MARWAN-AS, MA",
+          "number": 30983
+        },
+        "rtt": 116.7
+      }
+    ]
+  },
+  {
+    "ts": 1648331777,
+    "val": [
+      {
+        "ttl": 1,
+        "query": 1,
+        "success": 1,
+        "ip": "192.168.50.1",
+        "hostname": "router.asus.com",
+        "rtt": 0.4
+      },
+      {
+        "ttl": 2,
+        "query": 1,
+        "success": 1,
+        "ip": "96.43.64.0",
+        "hostname": "lo0.bbr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.4
+      },
+      {
+        "ttl": 3,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.238",
+        "hostname": "be20-0.ncs1.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.4
+      },
+      {
+        "ttl": 4,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.216",
+        "hostname": "be1-0.ncs0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.3
+      },
+      {
+        "ttl": 5,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 6,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.40.62",
+        "hostname": "be2915.ccr41.jfk02.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 5.8999999999999995
+      },
+      {
+        "ttl": 7,
+        "query": 1,
+        "success": 1,
+        "ip": "66.28.4.182",
+        "hostname": "be3495.ccr31.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 5.8
+      },
+      {
+        "ttl": 8,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.10.218",
+        "hostname": "telecomitalia.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.4
+      },
+      {
+        "ttl": 9,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.167",
+        "hostname": "ae20.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 78.7
+      },
+      {
+        "ttl": 10,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.9",
+        "hostname": "wana.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 119.7
+      },
+      {
+        "ttl": 11,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 12,
+        "query": 1,
+        "success": 1,
+        "ip": "105.73.33.159",
+        "as": {
+          "owner": "MAROCCONNECT, MA",
+          "number": 36884
+        },
+        "rtt": 126.7
+      },
+      {
+        "ttl": 13,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 14,
+        "query": 1,
+        "success": 1,
+        "ip": "196.200.160.9",
+        "hostname": "ps.wan.noc.rabat.marwan.ma",
+        "as": {
+          "owner": "MARWAN-AS, MA",
+          "number": 30983
+        },
+        "rtt": 117.5
+      }
+    ]
+  },
+  {
+    "ts": 1648332514,
+    "val": [
+      {
+        "ttl": 1,
+        "query": 1,
+        "success": 1,
+        "ip": "192.168.50.1",
+        "hostname": "router.asus.com",
+        "rtt": 0.4
+      },
+      {
+        "ttl": 2,
+        "query": 1,
+        "success": 1,
+        "ip": "96.43.64.0",
+        "hostname": "lo0.bbr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 4.6
+      },
+      {
+        "ttl": 3,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.238",
+        "hostname": "be20-0.ncs1.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 4.6
+      },
+      {
+        "ttl": 4,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.216",
+        "hostname": "be1-0.ncs0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 4.5
+      },
+      {
+        "ttl": 5,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 6,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.40.62",
+        "hostname": "be2915.ccr41.jfk02.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.3
+      },
+      {
+        "ttl": 7,
+        "query": 1,
+        "success": 1,
+        "ip": "66.28.4.182",
+        "hostname": "be3495.ccr31.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.4
+      },
+      {
+        "ttl": 8,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.10.218",
+        "hostname": "telecomitalia.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.8999999999999995
+      },
+      {
+        "ttl": 9,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.167",
+        "hostname": "ae20.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 83.0
+      },
+      {
+        "ttl": 10,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.9",
+        "hostname": "wana.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 123.8
+      },
+      {
+        "ttl": 11,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 12,
+        "query": 1,
+        "success": 1,
+        "ip": "105.73.33.159",
+        "as": {
+          "owner": "MAROCCONNECT, MA",
+          "number": 36884
+        },
+        "rtt": 113.9
+      },
+      {
+        "ttl": 13,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 14,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 15,
+        "query": 1,
+        "success": 1,
+        "ip": "196.200.160.9",
+        "hostname": "ps.wan.noc.rabat.marwan.ma",
+        "as": {
+          "owner": "MARWAN-AS, MA",
+          "number": 30983
+        },
+        "rtt": 116.5
+      }
+    ]
+  },
+  {
+    "ts": 1648334839,
+    "val": [
+      {
+        "ttl": 1,
+        "query": 1,
+        "success": 1,
+        "ip": "192.168.50.1",
+        "hostname": "router.asus.com",
+        "rtt": 0.3
+      },
+      {
+        "ttl": 2,
+        "query": 1,
+        "success": 1,
+        "ip": "96.43.64.0",
+        "hostname": "lo0.bbr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.5
+      },
+      {
+        "ttl": 3,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.238",
+        "hostname": "be20-0.ncs1.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.7
+      },
+      {
+        "ttl": 4,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.216",
+        "hostname": "be1-0.ncs0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.7
+      },
+      {
+        "ttl": 5,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 6,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.40.62",
+        "hostname": "be2915.ccr41.jfk02.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 5.7
+      },
+      {
+        "ttl": 7,
+        "query": 1,
+        "success": 1,
+        "ip": "66.28.4.182",
+        "hostname": "be3495.ccr31.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.0
+      },
+      {
+        "ttl": 8,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.10.218",
+        "hostname": "telecomitalia.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.5
+      },
+      {
+        "ttl": 9,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.167",
+        "hostname": "ae20.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 79.60000000000001
+      },
+      {
+        "ttl": 10,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.9",
+        "hostname": "wana.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 111.5
+      },
+      {
+        "ttl": 11,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 12,
+        "query": 1,
+        "success": 1,
+        "ip": "105.73.33.159",
+        "as": {
+          "owner": "MAROCCONNECT, MA",
+          "number": 36884
+        },
+        "rtt": 123.60000000000001
+      },
+      {
+        "ttl": 13,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 14,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 15,
+        "query": 1,
+        "success": 1,
+        "ip": "196.200.160.9",
+        "hostname": "ps.wan.noc.rabat.marwan.ma",
+        "as": {
+          "owner": "MARWAN-AS, MA",
+          "number": 30983
+        },
+        "rtt": 117.1
+      }
+    ]
+  },
+  {
+    "ts": 1648335481,
+    "val": [
+      {
+        "ttl": 1,
+        "query": 1,
+        "success": 1,
+        "ip": "192.168.50.1",
+        "hostname": "router.asus.com",
+        "rtt": 0.4
+      },
+      {
+        "ttl": 2,
+        "query": 1,
+        "success": 1,
+        "ip": "96.43.64.0",
+        "hostname": "lo0.bbr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.1
+      },
+      {
+        "ttl": 3,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.238",
+        "hostname": "be20-0.ncs1.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.6
+      },
+      {
+        "ttl": 4,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.216",
+        "hostname": "be1-0.ncs0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.6
+      },
+      {
+        "ttl": 5,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 6,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.40.62",
+        "hostname": "be2915.ccr41.jfk02.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.0
+      },
+      {
+        "ttl": 7,
+        "query": 1,
+        "success": 1,
+        "ip": "66.28.4.182",
+        "hostname": "be3495.ccr31.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.2
+      },
+      {
+        "ttl": 8,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.10.218",
+        "hostname": "telecomitalia.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 9.9
+      },
+      {
+        "ttl": 9,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.153",
+        "hostname": "ae19.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 89.0
+      },
+      {
+        "ttl": 10,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.9",
+        "hostname": "wana.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 110.60000000000001
+      },
+      {
+        "ttl": 11,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 12,
+        "query": 1,
+        "success": 1,
+        "ip": "105.73.33.159",
+        "as": {
+          "owner": "MAROCCONNECT, MA",
+          "number": 36884
+        },
+        "rtt": 126.0
+      },
+      {
+        "ttl": 13,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 14,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 15,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 16,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 17,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 18,
+        "query": 1,
+        "success": 1,
+        "ip": "196.200.160.9",
+        "hostname": "ps.wan.noc.rabat.marwan.ma",
+        "as": {
+          "owner": "MARWAN-AS, MA",
+          "number": 30983
+        },
+        "rtt": 117.8
+      }
+    ]
+  },
+  {
+    "ts": 1648336395,
+    "val": [
+      {
+        "ttl": 1,
+        "query": 1,
+        "success": 1,
+        "ip": "192.168.50.1",
+        "hostname": "router.asus.com",
+        "rtt": 0.4
+      },
+      {
+        "ttl": 2,
+        "query": 1,
+        "success": 1,
+        "ip": "96.43.64.0",
+        "hostname": "lo0.bbr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.9
+      },
+      {
+        "ttl": 3,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.238",
+        "hostname": "be20-0.ncs1.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.9
+      },
+      {
+        "ttl": 4,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.216",
+        "hostname": "be1-0.ncs0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.8
+      },
+      {
+        "ttl": 5,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 6,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.40.62",
+        "hostname": "be2915.ccr41.jfk02.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 5.8999999999999995
+      },
+      {
+        "ttl": 7,
+        "query": 1,
+        "success": 1,
+        "ip": "66.28.4.182",
+        "hostname": "be3495.ccr31.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.1000000000000005
+      },
+      {
+        "ttl": 8,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.10.218",
+        "hostname": "telecomitalia.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.6
+      },
+      {
+        "ttl": 9,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.153",
+        "hostname": "ae19.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 86.2
+      },
+      {
+        "ttl": 10,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.9",
+        "hostname": "wana.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 112.0
+      },
+      {
+        "ttl": 11,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 12,
+        "query": 1,
+        "success": 1,
+        "ip": "105.73.33.159",
+        "as": {
+          "owner": "MAROCCONNECT, MA",
+          "number": 36884
+        },
+        "rtt": 117.9
+      },
+      {
+        "ttl": 13,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 14,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 15,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 16,
+        "query": 1,
+        "success": 1,
+        "ip": "196.200.160.9",
+        "hostname": "ps.wan.noc.rabat.marwan.ma",
+        "as": {
+          "owner": "MARWAN-AS, MA",
+          "number": 30983
+        },
+        "rtt": 118.0
+      }
+    ]
+  },
+  {
+    "ts": 1648336855,
+    "val": [
+      {
+        "ttl": 1,
+        "query": 1,
+        "success": 1,
+        "ip": "192.168.50.1",
+        "hostname": "router.asus.com",
+        "rtt": 0.4
+      },
+      {
+        "ttl": 2,
+        "query": 1,
+        "success": 1,
+        "ip": "96.43.64.0",
+        "hostname": "lo0.bbr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.4
+      },
+      {
+        "ttl": 3,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.238",
+        "hostname": "be20-0.ncs1.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.3
+      },
+      {
+        "ttl": 4,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.216",
+        "hostname": "be1-0.ncs0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.3
+      },
+      {
+        "ttl": 5,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 6,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.40.62",
+        "hostname": "be2915.ccr41.jfk02.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 5.6
+      },
+      {
+        "ttl": 7,
+        "query": 1,
+        "success": 1,
+        "ip": "66.28.4.182",
+        "hostname": "be3495.ccr31.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 5.6
+      },
+      {
+        "ttl": 8,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.10.218",
+        "hostname": "telecomitalia.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 10.9
+      },
+      {
+        "ttl": 9,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.153",
+        "hostname": "ae19.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 87.5
+      },
+      {
+        "ttl": 10,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.9",
+        "hostname": "wana.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 120.89999999999999
+      },
+      {
+        "ttl": 11,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 12,
+        "query": 1,
+        "success": 1,
+        "ip": "105.73.33.159",
+        "as": {
+          "owner": "MAROCCONNECT, MA",
+          "number": 36884
+        },
+        "rtt": 113.3
+      },
+      {
+        "ttl": 13,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 14,
+        "query": 1,
+        "success": 1,
+        "ip": "196.200.160.9",
+        "hostname": "ps.wan.noc.rabat.marwan.ma",
+        "as": {
+          "owner": "MARWAN-AS, MA",
+          "number": 30983
+        },
+        "rtt": 118.1
+      }
+    ]
+  },
+  {
+    "ts": 1648337244,
+    "val": [
+      {
+        "ttl": 1,
+        "query": 1,
+        "success": 1,
+        "ip": "192.168.50.1",
+        "hostname": "router.asus.com",
+        "rtt": 0.4
+      },
+      {
+        "ttl": 2,
+        "query": 1,
+        "success": 1,
+        "ip": "96.43.64.0",
+        "hostname": "lo0.bbr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.4
+      },
+      {
+        "ttl": 3,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.238",
+        "hostname": "be20-0.ncs1.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.3
+      },
+      {
+        "ttl": 4,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.216",
+        "hostname": "be1-0.ncs0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.4
+      },
+      {
+        "ttl": 5,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 6,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.40.62",
+        "hostname": "be2915.ccr41.jfk02.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 5.8999999999999995
+      },
+      {
+        "ttl": 7,
+        "query": 1,
+        "success": 1,
+        "ip": "66.28.4.182",
+        "hostname": "be3495.ccr31.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.2
+      },
+      {
+        "ttl": 8,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.10.218",
+        "hostname": "telecomitalia.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.7
+      },
+      {
+        "ttl": 9,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.167",
+        "hostname": "ae20.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 82.8
+      },
+      {
+        "ttl": 10,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.9",
+        "hostname": "wana.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 115.1
+      },
+      {
+        "ttl": 11,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 12,
+        "query": 1,
+        "success": 1,
+        "ip": "105.73.33.159",
+        "as": {
+          "owner": "MAROCCONNECT, MA",
+          "number": 36884
+        },
+        "rtt": 117.7
+      },
+      {
+        "ttl": 13,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 14,
+        "query": 1,
+        "success": 1,
+        "ip": "196.200.160.9",
+        "hostname": "ps.wan.noc.rabat.marwan.ma",
+        "as": {
+          "owner": "MARWAN-AS, MA",
+          "number": 30983
+        },
+        "rtt": 120.39999999999999
+      }
+    ]
+  },
+  {
+    "ts": 1648337956,
+    "val": [
+      {
+        "ttl": 1,
+        "query": 1,
+        "success": 1,
+        "ip": "192.168.50.1",
+        "hostname": "router.asus.com",
+        "rtt": 0.4
+      },
+      {
+        "ttl": 2,
+        "query": 1,
+        "success": 1,
+        "ip": "96.43.64.0",
+        "hostname": "lo0.bbr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.9
+      },
+      {
+        "ttl": 3,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.238",
+        "hostname": "be20-0.ncs1.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 4.0
+      },
+      {
+        "ttl": 4,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.216",
+        "hostname": "be1-0.ncs0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.9
+      },
+      {
+        "ttl": 5,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 6,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.40.62",
+        "hostname": "be2915.ccr41.jfk02.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.4
+      },
+      {
+        "ttl": 7,
+        "query": 1,
+        "success": 1,
+        "ip": "66.28.4.182",
+        "hostname": "be3495.ccr31.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.4
+      },
+      {
+        "ttl": 8,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.10.218",
+        "hostname": "telecomitalia.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.8999999999999995
+      },
+      {
+        "ttl": 9,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.153",
+        "hostname": "ae19.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 91.5
+      },
+      {
+        "ttl": 10,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.9",
+        "hostname": "wana.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 123.7
+      },
+      {
+        "ttl": 11,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 12,
+        "query": 1,
+        "success": 1,
+        "ip": "105.73.33.159",
+        "as": {
+          "owner": "MAROCCONNECT, MA",
+          "number": 36884
+        },
+        "rtt": 114.0
+      },
+      {
+        "ttl": 13,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 14,
+        "query": 1,
+        "success": 1,
+        "ip": "196.200.160.9",
+        "hostname": "ps.wan.noc.rabat.marwan.ma",
+        "as": {
+          "owner": "MARWAN-AS, MA",
+          "number": 30983
+        },
+        "rtt": 118.4
+      }
+    ]
+  },
+  {
+    "ts": 1648338569,
+    "val": [
+      {
+        "ttl": 1,
+        "query": 1,
+        "success": 1,
+        "ip": "192.168.50.1",
+        "hostname": "router.asus.com",
+        "rtt": 0.7
+      },
+      {
+        "ttl": 2,
+        "query": 1,
+        "success": 1,
+        "ip": "96.43.64.0",
+        "hostname": "lo0.bbr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 5.2
+      },
+      {
+        "ttl": 3,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.238",
+        "hostname": "be20-0.ncs1.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 5.2
+      },
+      {
+        "ttl": 4,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.216",
+        "hostname": "be1-0.ncs0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 5.1000000000000005
+      },
+      {
+        "ttl": 5,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 6,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.40.62",
+        "hostname": "be2915.ccr41.jfk02.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 7.1000000000000005
+      },
+      {
+        "ttl": 7,
+        "query": 1,
+        "success": 1,
+        "ip": "66.28.4.182",
+        "hostname": "be3495.ccr31.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 7.4
+      },
+      {
+        "ttl": 8,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.10.218",
+        "hostname": "telecomitalia.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 7.4
+      },
+      {
+        "ttl": 9,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.167",
+        "hostname": "ae20.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 79.2
+      },
+      {
+        "ttl": 10,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.9",
+        "hostname": "wana.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 123.5
+      },
+      {
+        "ttl": 11,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 12,
+        "query": 1,
+        "success": 1,
+        "ip": "105.73.33.159",
+        "as": {
+          "owner": "MAROCCONNECT, MA",
+          "number": 36884
+        },
+        "rtt": 123.89999999999999
+      },
+      {
+        "ttl": 13,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 14,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 15,
+        "query": 1,
+        "success": 1,
+        "ip": "196.200.160.9",
+        "hostname": "ps.wan.noc.rabat.marwan.ma",
+        "as": {
+          "owner": "MARWAN-AS, MA",
+          "number": 30983
+        },
+        "rtt": 117.6
+      }
+    ]
+  },
+  {
+    "ts": 1648339140,
+    "val": [
+      {
+        "ttl": 1,
+        "query": 1,
+        "success": 1,
+        "ip": "192.168.50.1",
+        "hostname": "router.asus.com",
+        "rtt": 0.4
+      },
+      {
+        "ttl": 2,
+        "query": 1,
+        "success": 1,
+        "ip": "96.43.64.0",
+        "hostname": "lo0.bbr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.9
+      },
+      {
+        "ttl": 3,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.238",
+        "hostname": "be20-0.ncs1.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.9
+      },
+      {
+        "ttl": 4,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.216",
+        "hostname": "be1-0.ncs0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.8
+      },
+      {
+        "ttl": 5,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 6,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.40.62",
+        "hostname": "be2915.ccr41.jfk02.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 17.7
+      },
+      {
+        "ttl": 7,
+        "query": 1,
+        "success": 1,
+        "ip": "66.28.4.182",
+        "hostname": "be3495.ccr31.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.4
+      },
+      {
+        "ttl": 8,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.10.218",
+        "hostname": "telecomitalia.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 7.4
+      },
+      {
+        "ttl": 9,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.153",
+        "hostname": "ae19.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 89.1
+      },
+      {
+        "ttl": 10,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.9",
+        "hostname": "wana.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 121.2
+      },
+      {
+        "ttl": 11,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 12,
+        "query": 1,
+        "success": 1,
+        "ip": "105.73.33.159",
+        "as": {
+          "owner": "MAROCCONNECT, MA",
+          "number": 36884
+        },
+        "rtt": 114.6
+      },
+      {
+        "ttl": 13,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 14,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 15,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 16,
+        "query": 1,
+        "success": 1,
+        "ip": "196.200.160.9",
+        "hostname": "ps.wan.noc.rabat.marwan.ma",
+        "as": {
+          "owner": "MARWAN-AS, MA",
+          "number": 30983
+        },
+        "rtt": 117.1
+      }
+    ]
+  },
+  {
+    "ts": 1648339784,
+    "val": [
+      {
+        "ttl": 1,
+        "query": 1,
+        "success": 1,
+        "ip": "192.168.50.1",
+        "hostname": "router.asus.com",
+        "rtt": 0.4
+      },
+      {
+        "ttl": 2,
+        "query": 1,
+        "success": 1,
+        "ip": "96.43.64.0",
+        "hostname": "lo0.bbr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.3
+      },
+      {
+        "ttl": 3,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.238",
+        "hostname": "be20-0.ncs1.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.5
+      },
+      {
+        "ttl": 4,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.216",
+        "hostname": "be1-0.ncs0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.3
+      },
+      {
+        "ttl": 5,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 6,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.40.62",
+        "hostname": "be2915.ccr41.jfk02.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.0
+      },
+      {
+        "ttl": 7,
+        "query": 1,
+        "success": 1,
+        "ip": "66.28.4.182",
+        "hostname": "be3495.ccr31.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.1000000000000005
+      },
+      {
+        "ttl": 8,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.10.218",
+        "hostname": "telecomitalia.jfk10.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.8999999999999995
+      },
+      {
+        "ttl": 9,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.167",
+        "hostname": "ae20.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 78.39999999999999
+      },
+      {
+        "ttl": 10,
+        "query": 1,
+        "success": 1,
+        "ip": "213.144.168.9",
+        "hostname": "wana.parigi52.par.seabone.net",
+        "as": {
+          "owner": "SEABONE-NET TELECOM ITALIA SPARKLE S.p.A., IT",
+          "number": 6762
+        },
+        "rtt": 119.2
+      },
+      {
+        "ttl": 11,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 12,
+        "query": 1,
+        "success": 1,
+        "ip": "105.73.33.159",
+        "as": {
+          "owner": "MAROCCONNECT, MA",
+          "number": 36884
+        },
+        "rtt": 114.4
+      },
+      {
+        "ttl": 13,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 14,
+        "query": 1,
+        "success": 1,
+        "ip": "196.200.160.9",
+        "hostname": "ps.wan.noc.rabat.marwan.ma",
+        "as": {
+          "owner": "MARWAN-AS, MA",
+          "number": 30983
+        },
+        "rtt": 124.89999999999999
+      }
+    ]
+  }
+]

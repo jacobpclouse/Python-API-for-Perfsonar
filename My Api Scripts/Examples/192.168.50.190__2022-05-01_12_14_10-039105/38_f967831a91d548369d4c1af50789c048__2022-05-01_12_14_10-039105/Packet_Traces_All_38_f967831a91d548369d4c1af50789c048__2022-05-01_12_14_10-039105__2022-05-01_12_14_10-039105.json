@@ -1,0 +1,1521 @@
+[
+  {
+    "ts": 1648322226,
+    "val": [
+      {
+        "ttl": 1,
+        "query": 1,
+        "success": 1,
+        "ip": "192.168.50.1",
+        "hostname": "router.asus.com",
+        "rtt": 0.3
+      },
+      {
+        "ttl": 2,
+        "query": 1,
+        "success": 1,
+        "ip": "96.43.64.0",
+        "hostname": "lo0.bbr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.4
+      },
+      {
+        "ttl": 3,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.238",
+        "hostname": "be20-0.ncs1.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.4
+      },
+      {
+        "ttl": 4,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.216",
+        "hostname": "be1-0.ncs0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.3
+      },
+      {
+        "ttl": 5,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 6,
+        "query": 1,
+        "success": 1,
+        "ip": "66.28.4.238",
+        "hostname": "be3599.ccr31.bos01.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.7
+      },
+      {
+        "ttl": 7,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.82.33",
+        "hostname": "be2099.ccr41.lon13.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 68.6
+      },
+      {
+        "ttl": 8,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.56.94",
+        "hostname": "be12194.ccr41.ams03.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 75.39999999999999
+      },
+      {
+        "ttl": 9,
+        "query": 1,
+        "success": 1,
+        "ip": "130.117.0.122",
+        "hostname": "be2813.ccr41.fra03.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 81.8
+      },
+      {
+        "ttl": 10,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.36.54",
+        "hostname": "be2959.ccr21.muc03.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 88.2
+      },
+      {
+        "ttl": 11,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.58.6",
+        "hostname": "be2974.ccr51.vie01.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 93.60000000000001
+      },
+      {
+        "ttl": 12,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.59.85",
+        "hostname": "be2988.ccr21.bts01.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 95.4
+      },
+      {
+        "ttl": 13,
+        "query": 1,
+        "success": 1,
+        "ip": "130.117.3.138",
+        "hostname": "be3261.ccr31.bud01.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 96.9
+      },
+      {
+        "ttl": 14,
+        "query": 1,
+        "success": 1,
+        "ip": "130.117.1.14",
+        "hostname": "be2246.rcr51.b020664-1.bud01.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 98.10000000000001
+      },
+      {
+        "ttl": 15,
+        "query": 1,
+        "success": 1,
+        "ip": "149.6.182.114",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 102.6
+      },
+      {
+        "ttl": 16,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 17,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 18,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 19,
+        "query": 1,
+        "success": 1,
+        "ip": "62.40.98.99",
+        "hostname": "ae3.rt2.kie.ua.geant.net",
+        "as": {
+          "owner": "GEANT The GEANT IP Service, NL",
+          "number": 20965
+        },
+        "rtt": 130.3
+      },
+      {
+        "ttl": 20,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 21,
+        "query": 1,
+        "success": 1,
+        "ip": "212.111.192.61",
+        "hostname": "kv-core-ps1-v4.uran.net.ua",
+        "as": {
+          "owner": "URAN Kiev, Ukraine, UA",
+          "number": 12687
+        },
+        "rtt": 130.6
+      }
+    ]
+  },
+  {
+    "ts": 1648323285,
+    "val": [
+      {
+        "ttl": 1,
+        "query": 1,
+        "success": 1,
+        "ip": "192.168.50.1",
+        "hostname": "router.asus.com",
+        "rtt": 0.4
+      },
+      {
+        "ttl": 2,
+        "query": 1,
+        "success": 1,
+        "ip": "96.43.64.0",
+        "hostname": "lo0.bbr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.8
+      },
+      {
+        "ttl": 3,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.238",
+        "hostname": "be20-0.ncs1.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.8
+      },
+      {
+        "ttl": 4,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.216",
+        "hostname": "be1-0.ncs0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.7
+      },
+      {
+        "ttl": 5,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 6,
+        "query": 1,
+        "success": 1,
+        "ip": "66.28.4.238",
+        "hostname": "be3599.ccr31.bos01.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.8999999999999995
+      },
+      {
+        "ttl": 7,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.82.33",
+        "hostname": "be2099.ccr41.lon13.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 69.1
+      },
+      {
+        "ttl": 8,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.56.94",
+        "hostname": "be12194.ccr41.ams03.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 76.0
+      },
+      {
+        "ttl": 9,
+        "query": 1,
+        "success": 1,
+        "ip": "130.117.0.122",
+        "hostname": "be2813.ccr41.fra03.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 82.69999999999999
+      },
+      {
+        "ttl": 10,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.36.54",
+        "hostname": "be2959.ccr21.muc03.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 87.7
+      },
+      {
+        "ttl": 11,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.58.6",
+        "hostname": "be2974.ccr51.vie01.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 93.7
+      },
+      {
+        "ttl": 12,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.59.85",
+        "hostname": "be2988.ccr21.bts01.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 94.60000000000001
+      },
+      {
+        "ttl": 13,
+        "query": 1,
+        "success": 1,
+        "ip": "130.117.3.138",
+        "hostname": "be3261.ccr31.bud01.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 96.9
+      },
+      {
+        "ttl": 14,
+        "query": 1,
+        "success": 1,
+        "ip": "130.117.1.14",
+        "hostname": "be2246.rcr51.b020664-1.bud01.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 98.3
+      },
+      {
+        "ttl": 15,
+        "query": 1,
+        "success": 1,
+        "ip": "149.6.182.114",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 103.5
+      },
+      {
+        "ttl": 16,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 17,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 18,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 19,
+        "query": 1,
+        "success": 1,
+        "ip": "62.40.98.99",
+        "hostname": "ae3.rt2.kie.ua.geant.net",
+        "as": {
+          "owner": "GEANT The GEANT IP Service, NL",
+          "number": 20965
+        },
+        "rtt": 131.0
+      },
+      {
+        "ttl": 20,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 21,
+        "query": 1,
+        "success": 1,
+        "ip": "212.111.192.61",
+        "hostname": "kv-core-ps1-v4.uran.net.ua",
+        "as": {
+          "owner": "URAN Kiev, Ukraine, UA",
+          "number": 12687
+        },
+        "rtt": 131.6
+      }
+    ]
+  },
+  {
+    "ts": 1648323607,
+    "val": [
+      {
+        "ttl": 1,
+        "query": 1,
+        "success": 1,
+        "ip": "192.168.50.1",
+        "hostname": "router.asus.com",
+        "rtt": 0.4
+      },
+      {
+        "ttl": 2,
+        "query": 1,
+        "success": 1,
+        "ip": "96.43.64.0",
+        "hostname": "lo0.bbr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.4
+      },
+      {
+        "ttl": 3,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.238",
+        "hostname": "be20-0.ncs1.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.4
+      },
+      {
+        "ttl": 4,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.216",
+        "hostname": "be1-0.ncs0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.3
+      },
+      {
+        "ttl": 5,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 6,
+        "query": 1,
+        "success": 1,
+        "ip": "66.28.4.238",
+        "hostname": "be3599.ccr31.bos01.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.5
+      },
+      {
+        "ttl": 7,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.82.33",
+        "hostname": "be2099.ccr41.lon13.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 68.5
+      },
+      {
+        "ttl": 8,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.56.94",
+        "hostname": "be12194.ccr41.ams03.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 76.30000000000001
+      },
+      {
+        "ttl": 9,
+        "query": 1,
+        "success": 1,
+        "ip": "130.117.0.122",
+        "hostname": "be2813.ccr41.fra03.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 82.69999999999999
+      },
+      {
+        "ttl": 10,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.36.54",
+        "hostname": "be2959.ccr21.muc03.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 88.0
+      },
+      {
+        "ttl": 11,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.58.6",
+        "hostname": "be2974.ccr51.vie01.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 94.0
+      },
+      {
+        "ttl": 12,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.59.85",
+        "hostname": "be2988.ccr21.bts01.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 94.60000000000001
+      },
+      {
+        "ttl": 13,
+        "query": 1,
+        "success": 1,
+        "ip": "130.117.3.138",
+        "hostname": "be3261.ccr31.bud01.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 97.8
+      },
+      {
+        "ttl": 14,
+        "query": 1,
+        "success": 1,
+        "ip": "130.117.1.14",
+        "hostname": "be2246.rcr51.b020664-1.bud01.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 97.5
+      },
+      {
+        "ttl": 15,
+        "query": 1,
+        "success": 1,
+        "ip": "149.6.182.114",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 103.7
+      },
+      {
+        "ttl": 16,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 17,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 18,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 19,
+        "query": 1,
+        "success": 1,
+        "ip": "62.40.98.99",
+        "hostname": "ae3.rt2.kie.ua.geant.net",
+        "as": {
+          "owner": "GEANT The GEANT IP Service, NL",
+          "number": 20965
+        },
+        "rtt": 131.89999999999998
+      },
+      {
+        "ttl": 20,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 21,
+        "query": 1,
+        "success": 1,
+        "ip": "212.111.192.61",
+        "hostname": "kv-core-ps1-v4.uran.net.ua",
+        "as": {
+          "owner": "URAN Kiev, Ukraine, UA",
+          "number": 12687
+        },
+        "rtt": 131.1
+      }
+    ]
+  },
+  {
+    "ts": 1648325815,
+    "val": [
+      {
+        "ttl": 1,
+        "query": 1,
+        "success": 1,
+        "ip": "192.168.50.1",
+        "hostname": "router.asus.com",
+        "rtt": 0.3
+      },
+      {
+        "ttl": 2,
+        "query": 1,
+        "success": 1,
+        "ip": "96.43.64.0",
+        "hostname": "lo0.bbr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.7
+      },
+      {
+        "ttl": 3,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.238",
+        "hostname": "be20-0.ncs1.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.7
+      },
+      {
+        "ttl": 4,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.216",
+        "hostname": "be1-0.ncs0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.6
+      },
+      {
+        "ttl": 5,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 6,
+        "query": 1,
+        "success": 1,
+        "ip": "66.28.4.238",
+        "hostname": "be3599.ccr31.bos01.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.7
+      },
+      {
+        "ttl": 7,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.82.33",
+        "hostname": "be2099.ccr41.lon13.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 68.8
+      },
+      {
+        "ttl": 8,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.56.94",
+        "hostname": "be12194.ccr41.ams03.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 75.5
+      },
+      {
+        "ttl": 9,
+        "query": 1,
+        "success": 1,
+        "ip": "130.117.0.122",
+        "hostname": "be2813.ccr41.fra03.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 82.10000000000001
+      },
+      {
+        "ttl": 10,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.36.54",
+        "hostname": "be2959.ccr21.muc03.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 87.8
+      },
+      {
+        "ttl": 11,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.58.6",
+        "hostname": "be2974.ccr51.vie01.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 93.5
+      },
+      {
+        "ttl": 12,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.59.85",
+        "hostname": "be2988.ccr21.bts01.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 95.2
+      },
+      {
+        "ttl": 13,
+        "query": 1,
+        "success": 1,
+        "ip": "130.117.3.138",
+        "hostname": "be3261.ccr31.bud01.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 97.10000000000001
+      },
+      {
+        "ttl": 14,
+        "query": 1,
+        "success": 1,
+        "ip": "130.117.1.14",
+        "hostname": "be2246.rcr51.b020664-1.bud01.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 97.19999999999999
+      },
+      {
+        "ttl": 15,
+        "query": 1,
+        "success": 1,
+        "ip": "149.6.182.114",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 103.0
+      },
+      {
+        "ttl": 16,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 17,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 18,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 19,
+        "query": 1,
+        "success": 1,
+        "ip": "62.40.98.99",
+        "hostname": "ae3.rt2.kie.ua.geant.net",
+        "as": {
+          "owner": "GEANT The GEANT IP Service, NL",
+          "number": 20965
+        },
+        "rtt": 130.3
+      },
+      {
+        "ttl": 20,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 21,
+        "query": 1,
+        "success": 1,
+        "ip": "212.111.192.61",
+        "hostname": "kv-core-ps1-v4.uran.net.ua",
+        "as": {
+          "owner": "URAN Kiev, Ukraine, UA",
+          "number": 12687
+        },
+        "rtt": 130.1
+      }
+    ]
+  },
+  {
+    "ts": 1648326147,
+    "val": [
+      {
+        "ttl": 1,
+        "query": 1,
+        "success": 1,
+        "ip": "192.168.50.1",
+        "hostname": "router.asus.com",
+        "rtt": 0.3
+      },
+      {
+        "ttl": 2,
+        "query": 1,
+        "success": 1,
+        "ip": "96.43.64.0",
+        "hostname": "lo0.bbr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.4
+      },
+      {
+        "ttl": 3,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.238",
+        "hostname": "be20-0.ncs1.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.3
+      },
+      {
+        "ttl": 4,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.216",
+        "hostname": "be1-0.ncs0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.3
+      },
+      {
+        "ttl": 5,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 6,
+        "query": 1,
+        "success": 1,
+        "ip": "66.28.4.238",
+        "hostname": "be3599.ccr31.bos01.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.7
+      },
+      {
+        "ttl": 7,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.82.33",
+        "hostname": "be2099.ccr41.lon13.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 68.7
+      },
+      {
+        "ttl": 8,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.56.94",
+        "hostname": "be12194.ccr41.ams03.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 75.6
+      },
+      {
+        "ttl": 9,
+        "query": 1,
+        "success": 1,
+        "ip": "130.117.0.122",
+        "hostname": "be2813.ccr41.fra03.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 83.3
+      },
+      {
+        "ttl": 10,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.36.54",
+        "hostname": "be2959.ccr21.muc03.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 88.0
+      },
+      {
+        "ttl": 11,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.58.6",
+        "hostname": "be2974.ccr51.vie01.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 93.89999999999999
+      },
+      {
+        "ttl": 12,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.59.85",
+        "hostname": "be2988.ccr21.bts01.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 95.3
+      },
+      {
+        "ttl": 13,
+        "query": 1,
+        "success": 1,
+        "ip": "130.117.3.138",
+        "hostname": "be3261.ccr31.bud01.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 97.3
+      },
+      {
+        "ttl": 14,
+        "query": 1,
+        "success": 1,
+        "ip": "130.117.1.14",
+        "hostname": "be2246.rcr51.b020664-1.bud01.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 97.19999999999999
+      },
+      {
+        "ttl": 15,
+        "query": 1,
+        "success": 1,
+        "ip": "149.6.182.114",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 103.7
+      },
+      {
+        "ttl": 16,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 17,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 18,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 19,
+        "query": 1,
+        "success": 1,
+        "ip": "62.40.98.99",
+        "hostname": "ae3.rt2.kie.ua.geant.net",
+        "as": {
+          "owner": "GEANT The GEANT IP Service, NL",
+          "number": 20965
+        },
+        "rtt": 130.5
+      },
+      {
+        "ttl": 20,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 21,
+        "query": 1,
+        "success": 1,
+        "ip": "212.111.192.61",
+        "hostname": "kv-core-ps1-v4.uran.net.ua",
+        "as": {
+          "owner": "URAN Kiev, Ukraine, UA",
+          "number": 12687
+        },
+        "rtt": 131.0
+      }
+    ]
+  },
+  {
+    "ts": 1648326876,
+    "val": [
+      {
+        "ttl": 1,
+        "query": 1,
+        "success": 1,
+        "ip": "192.168.50.1",
+        "hostname": "router.asus.com",
+        "rtt": 0.3
+      },
+      {
+        "ttl": 2,
+        "query": 1,
+        "success": 1,
+        "ip": "96.43.64.0",
+        "hostname": "lo0.bbr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.5
+      },
+      {
+        "ttl": 3,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.238",
+        "hostname": "be20-0.ncs1.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.5
+      },
+      {
+        "ttl": 4,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.216",
+        "hostname": "be1-0.ncs0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.4
+      },
+      {
+        "ttl": 5,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 6,
+        "query": 1,
+        "success": 1,
+        "ip": "66.28.4.238",
+        "hostname": "be3599.ccr31.bos01.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 6.8999999999999995
+      },
+      {
+        "ttl": 7,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.82.33",
+        "hostname": "be2099.ccr41.lon13.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 68.5
+      },
+      {
+        "ttl": 8,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.56.94",
+        "hostname": "be12194.ccr41.ams03.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 75.6
+      },
+      {
+        "ttl": 9,
+        "query": 1,
+        "success": 1,
+        "ip": "130.117.0.122",
+        "hostname": "be2813.ccr41.fra03.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 82.10000000000001
+      },
+      {
+        "ttl": 10,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.36.54",
+        "hostname": "be2959.ccr21.muc03.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 87.8
+      },
+      {
+        "ttl": 11,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.58.6",
+        "hostname": "be2974.ccr51.vie01.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 94.2
+      },
+      {
+        "ttl": 12,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.59.85",
+        "hostname": "be2988.ccr21.bts01.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 94.8
+      },
+      {
+        "ttl": 13,
+        "query": 1,
+        "success": 1,
+        "ip": "130.117.3.138",
+        "hostname": "be3261.ccr31.bud01.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 97.19999999999999
+      },
+      {
+        "ttl": 14,
+        "query": 1,
+        "success": 1,
+        "ip": "130.117.1.14",
+        "hostname": "be2246.rcr51.b020664-1.bud01.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 97.60000000000001
+      },
+      {
+        "ttl": 15,
+        "query": 1,
+        "success": 1,
+        "ip": "149.6.182.114",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 103.2
+      },
+      {
+        "ttl": 16,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 17,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 18,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 19,
+        "query": 1,
+        "success": 1,
+        "ip": "62.40.98.99",
+        "hostname": "ae3.rt2.kie.ua.geant.net",
+        "as": {
+          "owner": "GEANT The GEANT IP Service, NL",
+          "number": 20965
+        },
+        "rtt": 130.0
+      },
+      {
+        "ttl": 20,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 21,
+        "query": 1,
+        "success": 1,
+        "ip": "212.111.192.61",
+        "hostname": "kv-core-ps1-v4.uran.net.ua",
+        "as": {
+          "owner": "URAN Kiev, Ukraine, UA",
+          "number": 12687
+        },
+        "rtt": 129.89999999999998
+      }
+    ]
+  },
+  {
+    "ts": 1648327059,
+    "val": [
+      {
+        "ttl": 1,
+        "query": 1,
+        "success": 1,
+        "ip": "192.168.50.1",
+        "hostname": "router.asus.com",
+        "rtt": 0.3
+      },
+      {
+        "ttl": 2,
+        "query": 1,
+        "success": 1,
+        "ip": "96.43.64.0",
+        "hostname": "lo0.bbr0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 3.7
+      },
+      {
+        "ttl": 3,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.238",
+        "hostname": "be20-0.ncs1.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 6.2
+      },
+      {
+        "ttl": 4,
+        "query": 1,
+        "success": 1,
+        "ip": "64.246.129.216",
+        "hostname": "be1-0.ncs0.alb1.inoc.net",
+        "as": {
+          "owner": "INOC, US",
+          "number": 22302
+        },
+        "rtt": 6.2
+      },
+      {
+        "ttl": 5,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 6,
+        "query": 1,
+        "success": 1,
+        "ip": "66.28.4.238",
+        "hostname": "be3599.ccr31.bos01.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 8.200000000000001
+      },
+      {
+        "ttl": 7,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.82.33",
+        "hostname": "be2099.ccr41.lon13.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 68.4
+      },
+      {
+        "ttl": 8,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.56.94",
+        "hostname": "be12194.ccr41.ams03.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 75.30000000000001
+      },
+      {
+        "ttl": 9,
+        "query": 1,
+        "success": 1,
+        "ip": "130.117.0.122",
+        "hostname": "be2813.ccr41.fra03.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 82.19999999999999
+      },
+      {
+        "ttl": 10,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.36.54",
+        "hostname": "be2959.ccr21.muc03.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 88.2
+      },
+      {
+        "ttl": 11,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.58.6",
+        "hostname": "be2974.ccr51.vie01.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 93.5
+      },
+      {
+        "ttl": 12,
+        "query": 1,
+        "success": 1,
+        "ip": "154.54.59.85",
+        "hostname": "be2988.ccr21.bts01.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 95.5
+      },
+      {
+        "ttl": 13,
+        "query": 1,
+        "success": 1,
+        "ip": "130.117.3.138",
+        "hostname": "be3261.ccr31.bud01.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 107.5
+      },
+      {
+        "ttl": 14,
+        "query": 1,
+        "success": 1,
+        "ip": "130.117.1.14",
+        "hostname": "be2246.rcr51.b020664-1.bud01.atlas.cogentco.com",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 97.60000000000001
+      },
+      {
+        "ttl": 15,
+        "query": 1,
+        "success": 1,
+        "ip": "149.6.182.114",
+        "as": {
+          "owner": "COGENT-174, US",
+          "number": 174
+        },
+        "rtt": 102.8
+      },
+      {
+        "ttl": 16,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 17,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 18,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 19,
+        "query": 1,
+        "success": 1,
+        "ip": "62.40.98.99",
+        "hostname": "ae3.rt2.kie.ua.geant.net",
+        "as": {
+          "owner": "GEANT The GEANT IP Service, NL",
+          "number": 20965
+        },
+        "rtt": 131.89999999999998
+      },
+      {
+        "ttl": 20,
+        "query": 1,
+        "success": 1
+      },
+      {
+        "ttl": 21,
+        "query": 1,
+        "success": 1,
+        "ip": "212.111.192.61",
+        "hostname": "kv-core-ps1-v4.uran.net.ua",
+        "as": {
+          "owner": "URAN Kiev, Ukraine, UA",
+          "number": 12687
+        },
+        "rtt": 132.3
+      }
+    ]
+  }
+]
