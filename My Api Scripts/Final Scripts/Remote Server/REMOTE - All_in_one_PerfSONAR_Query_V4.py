@@ -248,7 +248,8 @@ makeFolder(ParentDirectory)
 ### PART 1: Output Full API File to JSON
 
 # read data from local ip of perfsonar server REST API -> store into source variable
-with urlopen(f"http://{remote_server_IP}/esmond/perfsonar/archive/") as response:
+#with urlopen(f"http://{remote_server_IP}/esmond/perfsonar/archive/") as response:
+with urlopen(f"http://{remote_server_IP}{base_uri}") as response:
     source = response.read()
 
 # take source data, load as json and move to data var
