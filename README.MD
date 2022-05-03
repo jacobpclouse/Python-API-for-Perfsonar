@@ -1,7 +1,8 @@
-Welcome to my PerfSONAR Project!
+## Welcome to my PerfSONAR Project!
+Here is a video explaining my program: https://youtu.be/PLyXcgRJn0Q
 
 ---- 
-Tests I want to gather:
+**Tests I want to gather:**
 - Querying Throughput
 - Querying Delay/One-way Delay
 - Querying Packet Loss
@@ -11,6 +12,6 @@ Tests I want to gather:
 Start with these, see what you get back and try to graph it!
 
 
-Published Graphs:
+**Published Graphs:**
 Throughput:
     - perfsonar.physics.science.az (all time) : https://exploratory.io/viz/eqI2qAu6da/AZ-Line-Graph-of-ALL-Throughput-Measurements-as-of-4-18-22-xNz6aiF5lp
