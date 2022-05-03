@@ -2,7 +2,7 @@
 ## by Jacob Clouse
 
 
-#### A. Preliminary Information
+### A. Preliminary Information
 
 
 Complete the following before going on to Step B.
@@ -16,7 +16,7 @@ this link: http://docs.perfsonar.net/install_options.html
 
 —
 
-#### B. Setting Up Your Server
+### B. Setting Up Your Server
 
 
 You need to setup a Centos server in order to have access to the toolkit.
@@ -41,7 +41,7 @@ Once you are done installing the image:
     - Open up the web browser and enter in the IP address that you found previously. This should bring you to the PerfSonar web dashboard.
 
 
-#### C. Setting Up Tests
+### C. Setting Up Tests
 
 To configure the testing nodes you want to test against, go to the Perfsonar web dashboard.
 - Select ‘Private Dashboard’ in the top right hand corner.
@@ -72,7 +72,7 @@ You can run multiple types of tests, but make sure:
 - Your server is powerful enough to handle it (i.e., Do not try to run 35 tests on a Core 2 Duo from 2007).
 
 
-#### D. Gathering Data
+### D. Gathering Data
 
 
 When your tests have been running for a good length of time, you can gather the data they have been collecting.
@@ -103,7 +103,7 @@ You can access the data with a few languages (i.e., JavaScript with the FetchAPI
 Utilizing this method, you should be able to grab data from your own server and store it as a JSON file. You can also substitute the IP of your server with the IP of another node to query it for data.
 
 
-#### E. Visualizing Data:
+### E. Visualizing Data:
 
 
 Once you have the data, use Exploratory to create graphs of the data.
@@ -120,7 +120,7 @@ Sign up for a free account with your UAlbany email address.
 - After you publish, it will give you a URL to access your graph, but you have to be logged in to view it. You can also save data in the URL as a picture. 
 
 
-#### F. Conclusion
+### F. Conclusion
 
 
 PerfSonar enables you to gather, organize and display all of the data that you need. However, keep in mind PerfSonar has both strengths and weaknesses:
