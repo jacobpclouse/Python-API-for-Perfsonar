@@ -1,5 +1,5 @@
 # How to Setup and Use PerfSonar
-## by Jacob Clouse
+**by Jacob Clouse**
 
 
 ### A. Preliminary Information
