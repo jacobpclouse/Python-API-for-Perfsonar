@@ -1,6 +1,11 @@
 ## Welcome to my PerfSONAR Project!
 Here is a video explaining my program: https://youtu.be/PLyXcgRJn0Q
 
+Note: 
+- For the program itself, go to: ./My Api Scripts/REMOTE - All_in_one_PerfSONAR_Query_V4.py
+- To see my development process and program layout, go to: ./My Api Scripts/Documentation
+- To see older versions of my program and example output files, go to: ./My Api Scripts/Examples & Previous Drafts
+
 ---- 
 **Tests I want to gather:**
 - Querying Throughput
